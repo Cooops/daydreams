@@ -15,5 +15,6 @@ const envSchema = z.object({
     DRY_RUN: z
         .preprocess((val) => val === "1" || val === "true", z.boolean())
         .default(true),
+    KAMIGOTCHI_PRIVATE_KEY: z.string(),
 });
 export const env = envSchema.parse(process.env);

@@ -1,0 +1,1428 @@
+[
+    {
+        "ObjectType": "ITEM",
+        "name": "MUSU",
+        "description": "Kamigotchi kurrency",
+        "image": "/assets/musu-slczJZOc.png",
+        "entity": 206,
+        "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+        "index": 1,
+        "type": "MISC",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Kamigotchi World Passport",
+        "description": "",
+        "image": "/assets/kamigotchi_world_passport-DRRFfTEA.png",
+        "entity": 207,
+        "id": "0xf91ec5c47296810fc9be9bf0a2d5acb4cf9679b76f396f5eb260fcb670063d56",
+        "index": 3,
+        "type": "NFT",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Gacha Ticket",
+        "description": "Redeemable for one Kami. You should take this to the vending machine… ",
+        "image": "/assets/gacha_ticket-H11offUK.png",
+        "entity": 205,
+        "id": "0x620c842b1dbd64dfc188ebb39a56375fe2898fc8a41eb27b41a5c526371d8513",
+        "index": 2,
+        "type": "MISC",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Glass Jar",
+        "description": "A somehow-unbroken jar of clear glass. ",
+        "image": "/assets/glass_jar-CNRLc1tL.png",
+        "entity": 208,
+        "id": "0xb996340a52482fc7d1b78327a2547f851c14552cc9292df95ab29fd5d72d9ed9",
+        "index": 106,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Plastic Bottle",
+        "description": "Can be reprocessed into valuable raw Microplastics. ",
+        "image": "/assets/plastic_bottle-CKkck4el.png",
+        "entity": 209,
+        "id": "0x692f5f074250b213782d70705ba3fd5b041ade3be3256b6957eb6e8dc1ab81b6",
+        "index": 103,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Stone",
+        "description": "It’s just a stone. Can be used to get Stone. ",
+        "image": "/assets/stone-CBZBpiUe.png",
+        "entity": 210,
+        "id": "0x2b547d504b6752b241a7eebd4ff8bcec87d1d170408ad972e6bf0212c036b344",
+        "index": 102,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Wooden Stick",
+        "description": "Wood in its unprocessed form. Grows on trees. ",
+        "image": "/assets/wooden_stick-DHQk-wp_.png",
+        "entity": 211,
+        "id": "0xca89fb1028fd25072ff386b23b4545ab5a6ffc81184211bf54127282694aa249",
+        "index": 101,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Pine Pollen",
+        "description": "Apparently some people think this is very good for you. There’s some sort of Trapezoid on the label. ",
+        "image": "/assets/pine_pollen-BQGLHzA5.png",
+        "entity": 212,
+        "id": "0x40f9a796638abd4256f4c15cacdae6db163126d7ddc48e55d10935e97b9d3b19",
+        "index": 107,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Scrap Metal",
+        "description": "A small chunk of scrap metal. Maybe useful if processed.",
+        "image": "/assets/scrap_metal-fNOZtOZh.png",
+        "entity": 214,
+        "id": "0x439163ef5dd7be5080f2d8e3a1f7570908c9db0ade867d934c91a3bbd03ed0a9",
+        "index": 105,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Pine Cone",
+        "description": "It’s a pine cone. \n\nSlightly sacred. ",
+        "image": "/assets/pine_cone-D_dV-__v.png",
+        "entity": 213,
+        "id": "0xbbbd4cd0c29048e5ba57752770974bc5e09fd316a6762cbb2fd44037648006d1",
+        "index": 104,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Red Amber Crystal",
+        "description": "A crystal of pure red amber, formed deep in the forest.",
+        "image": "/assets/red_amber_crystal-DjsAuGtI.png",
+        "entity": 215,
+        "id": "0xf5e7d9559d1a60a1b70c5184ca7ac86756760cea4e87c9d5747c2c7c669c90b0",
+        "index": 108,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Black Poppy",
+        "description": "You can’t tell whether it’s a very dark purple or actually black. A rare flower. ",
+        "image": "/assets/black_poppy-Bik41gpg.png",
+        "entity": 216,
+        "id": "0x833c4008da25f9a0c104fac923d81f5c70fc1bbacd761b00fbf0c460b78b01d9",
+        "index": 109,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Daffodil",
+        "description": "A reflection of fallen Narcissus… Has its own uses and applications. ",
+        "image": "/assets/daffodil-dk_K5XCN.png",
+        "entity": 217,
+        "id": "0xc707d464c7dbe14bab4a0f64b879a4e8545a16c53ee918e6813abbfca65e0174",
+        "index": 110,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Screwdriver",
+        "description": "For driving screws. May be of practical use….",
+        "image": "/assets/screwdriver-BOuOWPPi.png",
+        "entity": 384376,
+        "id": "0x7d98aba26865ddbcfbd59f6983702c0ae86a827f53e89c604dd5fa71c1c8be4a",
+        "index": 201,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Microplastics",
+        "description": "",
+        "image": "/assets/microplastics-gLom2Ldk.png",
+        "entity": 433172,
+        "id": "0x442d677db350c3b41ecd3ba45db3af217df9f0859fa95890b59356b96a8563e6",
+        "index": 112,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Essence of Daffodil",
+        "description": "",
+        "image": "/assets/essence_of_daffodil-BThAm3Fi.png",
+        "entity": 433173,
+        "id": "0x4ffdc59bc230418bc3c3660389883d9f8381e5601a7a4f689bb23bfc8d1548c1",
+        "index": 113,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Shredded Mint",
+        "description": "",
+        "image": "/assets/shredded_mint-YbzbXc3t.png",
+        "entity": 433174,
+        "id": "0xc9d84d664a31fa5b892910930b3f1113c4b345abe654f913cccd668233b7f025",
+        "index": 114,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Black Poppy Extract",
+        "description": "",
+        "image": "/assets/black_poppy_extract-CvADbKV7.png",
+        "entity": 433175,
+        "id": "0xbf9c0092df3e7aa1c97a5eee909dc5b7fe609f3fcead76dac2c306444513aac0",
+        "index": 115,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Mint",
+        "description": "A herb with many applications. Not often found here….",
+        "image": "/assets/mint-X004KtlA.png",
+        "entity": 483508,
+        "id": "0x67d2d8e6f954f10d5146400190fa200189c5a62388fe1e68f7b38fd4747bd48d",
+        "index": 111,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Candle",
+        "description": "A half-melted candle, somehow still burning. Perhaps this has some special use.…",
+        "image": "/assets/candle-Da0YG1yS.png",
+        "entity": 551935,
+        "id": "0x64d65269297b63f95ed079cb43cd7c7aa6bf09543c7be7bb0f7047b706c9e8eb",
+        "index": 116,
+        "type": "MATERIAL",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Holy Dust",
+        "description": "This sacred dust can be used to rename Kamigotchi… At the proper place.",
+        "image": "/assets/holy_dust-DqNrNjDm.png",
+        "entity": 384378,
+        "id": "0x24692263f65ccc799670ee8e84574fe3b6a8b154becd965b8a66bc5715ed561f",
+        "index": 11011,
+        "type": "CONSUMABLE",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x9df738dc1b56bc63b9a97a85db540295efdc923006537c624d46afc4f0572083",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "STATE",
+                        "index": 1
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x5b72b90bd293cb8b5f8cd0e4b6cb771dabe3ac0d595abef41475bdd6ed5f9ba2",
+                    "type": "FLAG_NOT_NAMEABLE",
+                    "index": 0,
+                    "value": 0
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Gaokerena Mochi",
+        "description": "A glossy purple mochi. It's filled with a green and fibrous root paste confection made with milk. Permanently adds +10 to a Kamigotchi’s Health. ",
+        "image": "/assets/gaokerena_mochi-B_OJ1ohR.png",
+        "entity": 384379,
+        "id": "0x04be42b0f8924a6ac65ad4c0ff3e1d81277b8739a64c84db3fc453c9c458b553",
+        "index": 11110,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x9f26b665f677dd90d84c7baf0f663696fc41734b58b5f4d90a92d71a87a8a3c4",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xf25415a99628f8006c7efacaa651eca245c881f9b89576f12d17825447aa3e76",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 3.4028236692093846e+39,
+                    "stat": {
+                        "base": 0,
+                        "shift": 10,
+                        "boost": 0,
+                        "sync": 0,
+                        "rate": 0,
+                        "total": 10
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Sunset Apple Mochi",
+        "description": "A deep red and orange mochi. It's filled with a golden apple jam that has a warm, heavenly flavor. Permanently adds +1 to a Kamigotchi’s Power.",
+        "image": "/assets/sunset_apple_mochi-3nEw1hgk.png",
+        "entity": 384383,
+        "id": "0x91a0d48e65b2b4e8db4e258194bb031bc2e61dd44bdc1e78ca39874b92402dae",
+        "index": 11120,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xea393915bca6c1c3124457efb0921b2087fe8fbb37a8ec54a634d9bd65dc7750",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x605f39f35a42dc9bd83ff8887913aef7e66d6cad82f24e2fd87b695993de4da5",
+                    "type": "STAT",
+                    "index": 3,
+                    "value": 3.402823669209385e+38,
+                    "stat": {
+                        "base": 0,
+                        "shift": 1,
+                        "boost": 0,
+                        "sync": 0,
+                        "rate": 0,
+                        "total": 1
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Kami Mochi",
+        "description": "A deep blue mochi with a butterfly stamp. It's filled with soft, white curds that resemble a fresh cheese. Permanently adds +1 to a Kamigotchi’s Violence. ",
+        "image": "/assets/kami_mochi-Bp99w4bO.png",
+        "entity": 384385,
+        "id": "0x2beaf2123225c731c9dea33b37034ef43c8b5a75b9d276b595e21ab079bcbcf5",
+        "index": 11130,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x80d79aba04554a06115d4948c4164b31847ccf4f88941b728011d50fbb2c6ae8",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xfb6a155e9e9452029305fb712db973121044163a15191cce289c13e8e8028787",
+                    "type": "STAT",
+                    "index": 6,
+                    "value": 3.402823669209385e+38,
+                    "stat": {
+                        "base": 0,
+                        "shift": 1,
+                        "boost": 0,
+                        "sync": 0,
+                        "rate": 0,
+                        "total": 1
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Mana Mochi",
+        "description": "A sky blue mochi. It's filled with small white grains that burst with a honey-sweet flavor. Permanently adds +1 to a Kamigotchi’s Harmony.",
+        "image": "/assets/mana_mochi-CSek5vW2.png",
+        "entity": 384386,
+        "id": "0x4055bae76f6fc251c907d0b3a68077cebd03d41cd08bee98e694552a505ba439",
+        "index": 11140,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x45e7382f00a0e03d99a3e34d0c403b7abf72c6e6334f66c32ef331bfea1ecd8d",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x2bc49343f9bc6fe0fb83d001848ed7d8f1710934dc42ea370fe8e230866ea007",
+                    "type": "STAT",
+                    "index": 2,
+                    "value": 3.402823669209385e+38,
+                    "stat": {
+                        "base": 0,
+                        "shift": 1,
+                        "boost": 0,
+                        "sync": 0,
+                        "rate": 0,
+                        "total": 1
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "XP Candy (Small)",
+        "description": "Feed this to a Kamigotchi to give them a little bit of experience. ",
+        "image": "/assets/xp_candy_small-Bd9lKNHU.png",
+        "entity": 384387,
+        "id": "0xcd632838306134154ce5c9a65e0f9760f48a40191b0656fde4c74744e0eb49b4",
+        "index": 11201,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xbf25f5e1c7ab6946da5de13424a2fb3e05389e9f0ccb8e6a3df8d5bb425da7fd",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x17f391e9ee678f4f78cf19a259f93fd838013dd86a03ba4bd5857f7c5910d726",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 5,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 5,
+                        "rate": 0,
+                        "total": 0
+                    }
+                },
+                {
+                    "id": "0x8544257c0c263b3c3a350569b99261972e8ce4d13ae4575b4b36e6c1c5463336",
+                    "type": "XP",
+                    "index": 0,
+                    "value": 25
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "XP Candy (Medium)",
+        "description": "Provides a decent amount of XP when fed to a Kami. ",
+        "image": "/assets/xp_candy_medium-BtFEBrPW.png",
+        "entity": 384388,
+        "id": "0x824652ff657fb705c5ec2814ede3aa546da1227bc25c2b25bb205941a62163a8",
+        "index": 11202,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x35c46ee1352f5454d24a631023f50ffc73f3c1575b7a1acf5089b2d74de7597e",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xa272039ec6f47961a129932cdc35c150b650f5230727046939dc11d2102ada93",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 10,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 10,
+                        "rate": 0,
+                        "total": 0
+                    }
+                },
+                {
+                    "id": "0x4b7a038eec6b1be7b1a81092315f04675e4b1c5fedc390c085e4eb5a488a9817",
+                    "type": "XP",
+                    "index": 0,
+                    "value": 100
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "XP Candy (Large)",
+        "description": "This gives a lot of XP when fed to a Kamigotchi. ",
+        "image": "/assets/xp_candy_large-DGVY6KAl.png",
+        "entity": 384392,
+        "id": "0x743e1185cd1d0394d1367dc76d3bdd338711c5f5b35a98678bf1ae2affce5dfd",
+        "index": 11203,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xa04d901cc28221a0d1035153be1f8df85ee6200933eb6c01b34decd76b0a943e",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xfb768163500e44760fc2d858462e2dd8048e443bc3b5ec1d4611a4da77c61cbe",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 20,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 20,
+                        "rate": 0,
+                        "total": 0
+                    }
+                },
+                {
+                    "id": "0xb710a4ac0187064b98007cdf6291a107f8614fdfe26d2f0f704e72e2974ada5f",
+                    "type": "XP",
+                    "index": 0,
+                    "value": 200
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "XP Candy (Huge)",
+        "description": "This is far larger than any XP Candy you’ve seen before. Gives a huge amount of XP when fed to a Kamigotchi.",
+        "image": "/assets/xp_candy_huge-BYS6KpKt.png",
+        "entity": 384395,
+        "id": "0xab949263cd9d3784abb4d10cedb488b5704b885dcf39084fde198e5eee3f551f",
+        "index": 11204,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x9a8b40e1c11518feeae025c91f45263104490cc7ba81cb97dfbbbdf4f55cec5c",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xc2095f28a0b28305a472e9f21798df0bc1b7a75c98433ee39e15f85d2b4b3267",
+                    "type": "XP",
+                    "index": 0,
+                    "value": 1000
+                },
+                {
+                    "id": "0x01b203e999ce5c7495f67512de710555ce9844bde77f5e999b108e5b5febb7cb",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 50,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 50,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Maple-Flavor Ghost Gum",
+        "description": "The most basic form of food available in this world - restores 25 Health to a Kamigotchi. ",
+        "image": "/assets/maple_flavor_ghost_gum-CycYvTSK.png",
+        "entity": 384396,
+        "id": "0x824861684f1bbe34f1636827633375241f678966a34964a18b3118c30a489891",
+        "index": 11301,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x597a30828d786ae44503e44a92d142c70e44ea4416bf3e9245d7086b9cd49876",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x952ffe522ec4a40bfa49d170037b5b3735a72eb52837b8544a96157eb4f6f272",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 25,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 25,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Cheeseburger",
+        "description": "These burgers, still in their original wrapping, are occasionally found in the scrapyard. Apparently Kamigotchi love them. ",
+        "image": "/assets/cheeseburger-C6cCb3Kk.png",
+        "entity": 384397,
+        "id": "0x62a295affb055ce2a0f1c778a4a195610f1e44e00cf2fd84dd1744c0633eb9e2",
+        "index": 11302,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xa70cd404b2468ab9085238a3ed68101de32423327d95f80e4e47f80baa35ed5b",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xbffdc8adde9fbee5af329e71b858eb7ccffd1621cb2ec73aaf791f937429e5bf",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 50,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 50,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Pom-Pom Fruit Candy",
+        "description": "These fruit candies contain a huge amount of energy. Restores 50 Health to a Kamigotchi.",
+        "image": "/assets/pom_pom_fruit_candy-D3XzlrJQ.png",
+        "entity": 384398,
+        "id": "0x100ecae96a2f12ef895a220da551c2fe4d4fa6d5db017ed812921276253f9dea",
+        "index": 11303,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x4c29053b73a69b9b05dc599fe848b2c1dfa5073e38f8eb5e46c10812d08d3791",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x0d9d5d75ea805352ab14317834895e9d2504bd181fd1915168917e9dd5f82f43",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 50,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 50,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Gakki Cookie Sticks",
+        "description": "Heavy duty rations by a Kami’s standards.. Restores 100 Health to a Kamigotchi.",
+        "image": "/assets/gakki_cookie_sticks-CqG9XY4x.png",
+        "entity": 384399,
+        "id": "0x6595cc074c966ae3b4a0581d9fea30e44fdae703b84c66bae5afa7870ba4ad0c",
+        "index": 11304,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xf847f0a2f78d30e2eb7342b4717e1da77e18f06e09d94a4defeccd379cb4def0",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xada7ea8b7d77c75fcaac0c565fe8319dd0bfa097653691eee00cbd7ccd29344c",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 100,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 100,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Gingerbread Cookie",
+        "description": "A gingerbread cookie... feed this to a Kamigotchi for some extra experience.",
+        "image": "/assets/gingerbread_cookie-Bi66MmDn.png",
+        "entity": 551936,
+        "id": "0x75f2bfb81733540f8d097d68fe4d26f8fd2941b87b6f606db4ffaf6dbdd28abc",
+        "index": 11305,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x872c0c72e4e4043cafcf5b6233c98f900a283988a126ae8fdbd66cb6f0e2418b",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x6b600f2a1d0d79adc334a109c2d497dd294d130cb0a49199a23cdd7b73e4abfa",
+                    "type": "XP",
+                    "index": 0,
+                    "value": 1000
+                },
+                {
+                    "id": "0xcc6fc3ece3888c7e7a5595242603990817b77c64752a1de09bc78da9dc9e07c8",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 25,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 25,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Resin",
+        "description": "Sticky, with a refreshing taste. Could be used to make Amber or in other forms of crafting…",
+        "image": "/assets/resin-ByEoL55K.png",
+        "entity": 384400,
+        "id": "0x9068ccb6ef6cf9b9857755cee01839428919ea3b092488d7acb674adef0158d3",
+        "index": 11311,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x646cc41df81767c338cb3ea796d46b75017c8deb4f6d143cde26a64f3d2a075c",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x14099cbbd8a4528dc2c38ae8f688f860e5234287f4d41f7f69cc87612f511111",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 35,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 35,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Giftbox",
+        "description": "The lowest tier of giftbox. You can get XP candies, cheeseburgers, and even a few rare item drops from this! ",
+        "image": "/assets/agency_giftbox-CvwZFDAM.png",
+        "entity": 384401,
+        "id": "0xc57451609dc631d60708e40d73dfdbbbcd539d455a42a80a342c4f64db01eba8",
+        "index": 21001,
+        "type": "LOOTBOX",
+        "for": "ACCOUNT",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x53284c17f876c6f73cfbdae4fca3a89514e8cd7f90e2e3acd391d25e782a2cc1",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            11201,
+                            11302,
+                            11202,
+                            11201,
+                            11204,
+                            111,
+                            103,
+                            201
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x08",
+                            "0x07",
+                            "0x06",
+                            "0x03",
+                            "0x03",
+                            "0x02"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Scroll of Shop Teleportation",
+        "description": "Instantly transports the user to Mina’s Shop. Fully insured. ",
+        "image": "/assets/scroll_of_shop_teleportation-BfexjEs6.png",
+        "entity": 384402,
+        "id": "0x32dededbb121fbfd754ffbe31b836fa47d355fcccafd50427776ce5eb5f3c415",
+        "index": 21100,
+        "type": "CONSUMABLE",
+        "for": "ACCOUNT",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x6a2c98c45943a8d6a5b553be629ed6023c3e0d85a868046dd1805f96819eea71",
+                    "type": "ROOM",
+                    "index": 13,
+                    "value": 0
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Ice Cream",
+        "description": "Restorative ice-cream. Food for you, personally. Restores a little bit of your stamina.",
+        "image": "/assets/ice_cream-d35MKud0.png",
+        "entity": 646929,
+        "id": "0x3568b351caa19594dd4d98082dbdf50a06351c88b5b5212a7db9eee482c71a43",
+        "index": 21201,
+        "type": "FOOD",
+        "for": "ACCOUNT",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xa054fd8692ce9bca1b178c07a504d0ecf5118eb8d0c039c6588983d85fd0a7c3",
+                    "type": "STAT",
+                    "index": 5,
+                    "value": 20,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 20,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Better Ice Cream",
+        "description": "A slightly larger and higher-quality ice-cream. What is this made of? Restores a medium amount of stamina. ",
+        "image": "/assets/better_ice_cream-DaSGiSBj.png",
+        "entity": 646931,
+        "id": "0xaa7063daebc91a1e35a085d47ce3548e5002fd7bcabf36a80b2b1c183a1aad1c",
+        "index": 21202,
+        "type": "FOOD",
+        "for": "ACCOUNT",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x5ecc44ba62fc15fa566a178013bff844d60de987942f42c656021557d9751079",
+                    "type": "STAT",
+                    "index": 5,
+                    "value": 40,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 40,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Best Ice Cream",
+        "description": "A huge, lavishly decorated ice-cream. It doesn’t seem to be melting at all… Restores a lot of stamina. ",
+        "image": "/assets/best_ice_cream-Ck1og6u3.png",
+        "entity": 646934,
+        "id": "0x72acae2abb0daedfacdb275e1bf8098cb4cf1acdadd52590fafd9565d62f9acd",
+        "index": 21203,
+        "type": "FOOD",
+        "for": "ACCOUNT",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xe08fee163d31ef11c6980a2d762112c522122733ae3fa29bdc4b501bb97fe04e",
+                    "type": "STAT",
+                    "index": 5,
+                    "value": 80,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 80,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Spice Grinder",
+        "description": "Can be used to break down ingredients.",
+        "image": "/assets/spice_grinder-z-7UdZ9p.png",
+        "entity": 690859,
+        "id": "0xfd8e15b275571fd12788a3b2304a23d9bcb34ac1b94671b77ff1effdcc376702",
+        "index": 23100,
+        "type": "MISC",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Portable Burner",
+        "description": "Can be used to make Potions at a riverside. ",
+        "image": "/assets/portable_burner-Z1x5rA8o.png",
+        "entity": 690860,
+        "id": "0x0491d1cc16addb2a70ff4a2fb27c44d18ea5832c709e2aa4035ad0e8bd6d96e4",
+        "index": 23101,
+        "type": "MISC",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Astrolabe Disk",
+        "description": "Some sort of golden disk. Purpose: completely unknown. \n\nYou feel like you should hold on to it. ",
+        "image": "/assets/astrolabe_disk-f0wlElUv.png",
+        "entity": 690861,
+        "id": "0xf045de3d2e4152f8b9279753c8376e377a36ab9c91a2b999003939677d83f179",
+        "index": 100001,
+        "type": "KEY ITEM",
+        "requirements": {
+            "use": []
+        },
+        "effects": {
+            "use": []
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Red Gakki Ribbon",
+        "description": "Capable of raising a Kamigotchi from the dead. \n\nThese ribbons are greatly prized…. ",
+        "image": "/assets/red_gakki_ribbon-DrUCQWL7.png",
+        "entity": 384377,
+        "id": "0xc82a29fb5e6a4b4bd06689e9cfb9ed40cfd0655c9cd38cb60560873521a1d8ac",
+        "index": 11001,
+        "type": "REVIVE",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xce480f4d521ab763cd8ca12503a684c004d14fcf2c0d848e276994c4a4b4f20c",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "STATE",
+                        "index": 3
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xf429870998103ecca3bac92f628a0fd74633055c6c705d44aa3524ab9547862d",
+                    "type": "STATE",
+                    "index": 1,
+                    "value": 0
+                },
+                {
+                    "id": "0x6b85ed6a5ede40e5843da0d5dbc06e54ac02daace55eb4bcaa6fb90ac4d76d05",
+                    "type": "STAT",
+                    "index": 1,
+                    "value": 10,
+                    "stat": {
+                        "base": 0,
+                        "shift": 0,
+                        "boost": 0,
+                        "sync": 10,
+                        "rate": 0,
+                        "total": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "XP Potion",
+        "description": "Give to a Kami to increase their XP by 1000.",
+        "image": "/assets/xp_potion-DehnJ19j.png",
+        "entity": 433740,
+        "id": "0x4392964b4eba809f95d165629d0935a94b92f4620c940991cad5e64fa5001c57",
+        "index": 11401,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x2b52b479a1eacae3cdae19d19b06f61169713e8808d2aa543003a321d9faebb0",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xcfd2b8b73a67105f1bbf6487a14c69230a2bb6612f86382e0e27f370f904e75c",
+                    "type": "ITEM",
+                    "index": 103,
+                    "value": 1
+                },
+                {
+                    "id": "0xf41c29dc75dfb9707dfe3cbb722d135685fd1e5b9ebaa89f32e433e19b4f7453",
+                    "type": "XP",
+                    "index": 0,
+                    "value": 1000
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Greater XP Potion",
+        "description": "Give to a Kami to increase their XP by 15000.",
+        "image": "/assets/greater_xp_potion-DFFoh4aZ.png",
+        "entity": 433997,
+        "id": "0xc3a99764a949eadf02b1a90fdda1a532309fe9fef8cd4cc28ba0d1f4dc79dcfd",
+        "index": 11402,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x9ccc6b521c8404d22a6b15ea993f7bb53be89255de76ed6d49f2338ba74156af",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xa7fe95442bc06ab2edaf2736655f40deea94293430adc429baaabe4b561eefd0",
+                    "type": "ITEM",
+                    "index": 106,
+                    "value": 1
+                },
+                {
+                    "id": "0xd561715cd9346cabeea7a4fba42f7b434cf02a1c6eecce2fb0ff3c795ebb3215",
+                    "type": "XP",
+                    "index": 0,
+                    "value": 15000
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Respec Potion",
+        "description": "Give to a Kami to reset their skill points. ",
+        "image": "/assets/respec_potion-BMCb-0y9.png",
+        "entity": 483509,
+        "id": "0xd4f40f6c03f56e2eefdf2137eff396a90b7cf88e2f20e30597ba562df04cd573",
+        "index": 11403,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x2e34bf7fe53b8c43a4cd7abf1a41b37350822bab61240f5a0359f65784d0b18e",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x7ccd6a7afd189158902bee8e02a9e2639558a56e5316676ce5aa66367b7344ce",
+                    "type": "FLAG_CAN_RESET_SKILLS",
+                    "index": 0,
+                    "value": 1
+                },
+                {
+                    "id": "0x911ca87ebca275094a7d937053bc3222dcf54c18350bf3084a78ae5c9e7e01e3",
+                    "type": "ITEM",
+                    "index": 103,
+                    "value": 1
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Grace Potion",
+        "description": "Give to a Kami to decrease loss of health during the next Harvest by 25%. ",
+        "image": "/assets/grace_potion-B24R-t2q.png",
+        "entity": 484054,
+        "id": "0x228d181dbc14049ba9e85a25512d333c8e213f4ad6c792d9edaf864cbeb5e215",
+        "index": 11404,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xc2a50131a7701ceabb6346e639cd9c218e19e3aaef3cf5f30b34aa960a356953",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0xbbcdacdd3a2b463bf800f7b1923733abf4505c8638c6b43d2e70fcc771edd8c2",
+                    "type": "BONUS",
+                    "index": 1,
+                    "value": 0
+                },
+                {
+                    "id": "0x59780de4bc3e983c33d54b5a129b3d226868bfb2acaa4c8106ebe74423ab8b29",
+                    "type": "ITEM",
+                    "index": 103,
+                    "value": 1
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Bless Potion",
+        "description": "Give to a Kami to increase the MUSU gained from the next Harvest by 25%.",
+        "image": "/assets/bless_potion-B3OaU20e.png",
+        "entity": 484055,
+        "id": "0xeb0cf90e957ce514e456dabbd36a317cd16d15c667fb34457b7625934a84fe1b",
+        "index": 11405,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0xcf9cfffbb27abac39de2f44f1564a7b8472c0bb23a70930835ebfa3410fb80f7",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x29561ef687f0924342f8149c078ed0a237f17741f819e19523ab116a3fd3a726",
+                    "type": "BONUS",
+                    "index": 1,
+                    "value": 0
+                },
+                {
+                    "id": "0xab267bc2d2c8678465fdd6573f7099ff0d61a6aa705b41e5476f4e926ee46da1",
+                    "type": "ITEM",
+                    "index": 103,
+                    "value": 1
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "ITEM",
+        "name": "Mistletoe",
+        "description": "Sacred, at this time of year..... can be used on Kami to Bless them!",
+        "image": "/assets/mistletoe-wqPfDpME.png",
+        "entity": 551937,
+        "id": "0x4d65404c7ce18d4d26ea4d78773339365d13f9d8a82aa4df390c054da619b383",
+        "index": 11406,
+        "type": "FOOD",
+        "for": "KAMI",
+        "requirements": {
+            "use": [
+                {
+                    "id": "0x92090b927c5fae9b030fd1827d77354e621bee15ec8e2f75dc01d0653033b285",
+                    "logic": "BOOL_IS",
+                    "target": {
+                        "type": "KAMI_CAN_EAT"
+                    }
+                }
+            ]
+        },
+        "effects": {
+            "use": [
+                {
+                    "id": "0x785afb251c3934ae4eb8371b632f37c8bd773a8ead2c7ce74340b0f63361427c",
+                    "type": "BONUS",
+                    "index": 1,
+                    "value": 0
+                }
+            ]
+        }
+    }
+]

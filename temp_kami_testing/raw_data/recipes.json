@@ -1,0 +1,502 @@
+[
+    {
+        "id": "0xb68fa8d45d117d7a06d778c80676f96cf63af80568b35202ffc85efd7dc23f93",
+        "index": 1,
+        "entity": 658103,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Plastic Bottle",
+                    "description": "Can be reprocessed into valuable raw Microplastics. ",
+                    "image": "/assets/plastic_bottle-CKkck4el.png"
+                },
+                "index": 103,
+                "amount": 1
+            },
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Pine Pollen",
+                    "description": "Apparently some people think this is very good for you. There’s some sort of Trapezoid on the label. ",
+                    "image": "/assets/pine_pollen-BQGLHzA5.png"
+                },
+                "index": 107,
+                "amount": 250
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "XP Potion",
+                    "description": "Give to a Kami to increase their XP by 1000.",
+                    "image": "/assets/xp_potion-DehnJ19j.png"
+                },
+                "index": 11401,
+                "amount": 1
+            }
+        ],
+        "experience": 50,
+        "cost": {
+            "stamina": 20
+        },
+        "requirements": [
+            {
+                "id": "0xb229d72e77ac5fa8c740ec08cdac6a8ad492e6480d416c1bf9aeb8a3527ab983",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23101,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x8ea5282fd09c9d1fea26ce6c57f40daed092938a10531d22f2a84454b8560fd7",
+        "index": 2,
+        "entity": 658108,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Glass Jar",
+                    "description": "A somehow-unbroken jar of clear glass. ",
+                    "image": "/assets/glass_jar-CNRLc1tL.png"
+                },
+                "index": 106,
+                "amount": 1
+            },
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Pine Pollen",
+                    "description": "Apparently some people think this is very good for you. There’s some sort of Trapezoid on the label. ",
+                    "image": "/assets/pine_pollen-BQGLHzA5.png"
+                },
+                "index": 107,
+                "amount": 2500
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Greater XP Potion",
+                    "description": "Give to a Kami to increase their XP by 15000.",
+                    "image": "/assets/greater_xp_potion-DFFoh4aZ.png"
+                },
+                "index": 11402,
+                "amount": 1
+            }
+        ],
+        "experience": 1000,
+        "cost": {
+            "stamina": 50
+        },
+        "requirements": [
+            {
+                "id": "0x9d3132859ae397cf8dbf557ce9a7c4e23d9388b096714f09ed41e8fb108f403c",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23101,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x32d4857c1d333f244fe122dbca065d57bdb5eaf6a4a0e32fcf2db9b89fcdb97d",
+        "index": 3,
+        "entity": 658114,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Plastic Bottle",
+                    "description": "Can be reprocessed into valuable raw Microplastics. ",
+                    "image": "/assets/plastic_bottle-CKkck4el.png"
+                },
+                "index": 103,
+                "amount": 1
+            },
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Shredded Mint",
+                    "description": "",
+                    "image": "/assets/shredded_mint-YbzbXc3t.png"
+                },
+                "index": 114,
+                "amount": 500
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Respec Potion",
+                    "description": "Give to a Kami to reset their skill points. ",
+                    "image": "/assets/respec_potion-BMCb-0y9.png"
+                },
+                "index": 11403,
+                "amount": 1
+            }
+        ],
+        "experience": 200,
+        "cost": {
+            "stamina": 50
+        },
+        "requirements": [
+            {
+                "id": "0x5f1493b4f27059007f8d3b2a130a9fcf4ea9b29e08dc719a0f77c8bfa542a2b1",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23101,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x5d70b93f136f434d1b465b6fc08f297a02f380df80464cdfba99d21a7aaebd11",
+        "index": 4,
+        "entity": 658122,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Plastic Bottle",
+                    "description": "Can be reprocessed into valuable raw Microplastics. ",
+                    "image": "/assets/plastic_bottle-CKkck4el.png"
+                },
+                "index": 103,
+                "amount": 1
+            },
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Essence of Daffodil",
+                    "description": "",
+                    "image": "/assets/essence_of_daffodil-BThAm3Fi.png"
+                },
+                "index": 113,
+                "amount": 100
+            },
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Black Poppy Extract",
+                    "description": "",
+                    "image": "/assets/black_poppy_extract-CvADbKV7.png"
+                },
+                "index": 115,
+                "amount": 50
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Grace Potion",
+                    "description": "Give to a Kami to decrease loss of health during the next Harvest by 25%. ",
+                    "image": "/assets/grace_potion-B24R-t2q.png"
+                },
+                "index": 11404,
+                "amount": 1
+            }
+        ],
+        "experience": 150,
+        "cost": {
+            "stamina": 25
+        },
+        "requirements": [
+            {
+                "id": "0xd50ddb386e17d6b5c8fdfafc0597aa8f1cd3ba570a44bb8d021d6b1127251817",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23101,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x26f84d8bbf3aee128eb68774c20f9d2db17ca0d12065796d49d96a7ee2ef0f12",
+        "index": 5,
+        "entity": 658124,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Plastic Bottle",
+                    "description": "Can be reprocessed into valuable raw Microplastics. ",
+                    "image": "/assets/plastic_bottle-CKkck4el.png"
+                },
+                "index": 103,
+                "amount": 1
+            },
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Essence of Daffodil",
+                    "description": "",
+                    "image": "/assets/essence_of_daffodil-BThAm3Fi.png"
+                },
+                "index": 113,
+                "amount": 100
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Bless Potion",
+                    "description": "Give to a Kami to increase the MUSU gained from the next Harvest by 25%.",
+                    "image": "/assets/bless_potion-B3OaU20e.png"
+                },
+                "index": 11405,
+                "amount": 1
+            }
+        ],
+        "experience": 50,
+        "cost": {
+            "stamina": 15
+        },
+        "requirements": [
+            {
+                "id": "0xc290da1bff3e625a3e408714124b64186c88be8377be0708b7871f2bf26b6493",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23101,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x71bbd843f1074045e9715186880bd3f5d3e6d446123aa22fcf01b6d040febdde",
+        "index": 6,
+        "entity": 658130,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Pine Cone",
+                    "description": "It’s a pine cone. \n\nSlightly sacred. ",
+                    "image": "/assets/pine_cone-D_dV-__v.png"
+                },
+                "index": 104,
+                "amount": 1
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Pine Pollen",
+                    "description": "Apparently some people think this is very good for you. There’s some sort of Trapezoid on the label. ",
+                    "image": "/assets/pine_pollen-BQGLHzA5.png"
+                },
+                "index": 107,
+                "amount": 500
+            }
+        ],
+        "experience": 25,
+        "cost": {
+            "stamina": 10
+        },
+        "requirements": [
+            {
+                "id": "0x6efc7edd7bacef22b991640ca04bfe170f294755d31a0f98031064d671f98e10",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23100,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x403ef9dbe7bf03632721051a084f11b0e3356c3b25e5d26dfe8bd6fc4352d296",
+        "index": 7,
+        "entity": 658133,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Plastic Bottle",
+                    "description": "Can be reprocessed into valuable raw Microplastics. ",
+                    "image": "/assets/plastic_bottle-CKkck4el.png"
+                },
+                "index": 103,
+                "amount": 1
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Microplastics",
+                    "description": "",
+                    "image": "/assets/microplastics-gLom2Ldk.png"
+                },
+                "index": 112,
+                "amount": 500
+            }
+        ],
+        "experience": 100,
+        "cost": {
+            "stamina": 30
+        },
+        "requirements": [
+            {
+                "id": "0x1f7e95d20ab97e739a13050b198a0363ad784c0183d27f64e479809a16228be6",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23100,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0xca045fd1dd708ba0744260fbe56f17970a50ea327b909b56595a43511ca304bb",
+        "index": 8,
+        "entity": 658137,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Daffodil",
+                    "description": "A reflection of fallen Narcissus… Has its own uses and applications. ",
+                    "image": "/assets/daffodil-dk_K5XCN.png"
+                },
+                "index": 110,
+                "amount": 1
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Essence of Daffodil",
+                    "description": "",
+                    "image": "/assets/essence_of_daffodil-BThAm3Fi.png"
+                },
+                "index": 113,
+                "amount": 500
+            }
+        ],
+        "experience": 25,
+        "cost": {
+            "stamina": 10
+        },
+        "requirements": [
+            {
+                "id": "0xdfc29d7bbe358050d99aedfbbc2de5282178e9a4aded383cb23139d0afc1a13d",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23100,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x294e85f09786ec197713a63dd7f08c72fc6250c736d07d5da1293a308229cc9a",
+        "index": 9,
+        "entity": 658144,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Mint",
+                    "description": "A herb with many applications. Not often found here….",
+                    "image": "/assets/mint-X004KtlA.png"
+                },
+                "index": 111,
+                "amount": 1
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Shredded Mint",
+                    "description": "",
+                    "image": "/assets/shredded_mint-YbzbXc3t.png"
+                },
+                "index": 114,
+                "amount": 500
+            }
+        ],
+        "experience": 100,
+        "cost": {
+            "stamina": 20
+        },
+        "requirements": [
+            {
+                "id": "0x9086536ffad04a6a324ae8fb4f621d47b7f58316b54ce60e10d738786d33fb58",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23100,
+                    "value": "0x01"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x1d2cce47a421b1c3a8f6963c251e5b28f76541136e2d77ff3c7442314b5abf54",
+        "index": 10,
+        "entity": 658150,
+        "inputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Black Poppy",
+                    "description": "You can’t tell whether it’s a very dark purple or actually black. A rare flower. ",
+                    "image": "/assets/black_poppy-Bik41gpg.png"
+                },
+                "index": 109,
+                "amount": 1
+            }
+        ],
+        "outputs": [
+            {
+                "item": {
+                    "ObjectType": "ITEM",
+                    "name": "Black Poppy Extract",
+                    "description": "",
+                    "image": "/assets/black_poppy_extract-CvADbKV7.png"
+                },
+                "index": 115,
+                "amount": 500
+            }
+        ],
+        "experience": 250,
+        "cost": {
+            "stamina": 20
+        },
+        "requirements": [
+            {
+                "id": "0x575fb3835c460d70bad2dff66e1d1f24f18c85f5f9658d20568b8bfa327b7213",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 23100,
+                    "value": "0x01"
+                }
+            }
+        ]
+    }
+]

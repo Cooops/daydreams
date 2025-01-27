@@ -1,0 +1,1922 @@
+[
+    {
+        "ObjectType": "SKILL",
+        "id": "0x1da160f97b15b47c957a84b6aa94d146846561f574fbc821c119424d124bfee0",
+        "index": 112,
+        "name": "Grit",
+        "description": "Refusal to die is a healthy trait.",
+        "image": "/assets/grit-DJICsy1S.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x83e1ef92f3906bdbd85eafc5f40586ff185963a0eae24a96785d2b32bb6cafac",
+                "entity": 469,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 10
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x4db1dae515106a09ee08f8fb5f92de1b3506250ac37b13259aca4ded8fe36e59",
+        "index": 111,
+        "name": "Aggression",
+        "description": "It’s possible to deliberately stoke the fires of Violence in Kami by traumatizing them in a very specific set of ways. ",
+        "image": "/assets/aggression-fPDOHm5y.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x505a7b47a928b84684aa854681674fbdb03f93c56651e81063508cdc918bd7e6",
+                "entity": 463,
+                "type": "STAT_VIOLENCE_SHIFT",
+                "value": 1
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xc6e423bc91f2881e6f10b2fe9e99744442623cb9729c65e9cf8318cbd06db7",
+        "index": 113,
+        "name": "Mercenary",
+        "description": "\"Why not make some money while we’re at it?”",
+        "image": "/assets/mercenary-DIiB6xmy.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0xab5922cbcf0abbdcc7d8a834546e63400b488b23bdfb89944004e7ac722ba8f5",
+                "entity": 472,
+                "type": "ATK_SPOILS_RATIO",
+                "value": 20
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xdb0f26133451f3213360ed12e6c67c1ba58b11fad3c59909382b41d97b21597b",
+        "index": 122,
+        "name": "Cruelty",
+        "description": "Baby shark, doo-doo, doo-doo, doo-doo.",
+        "image": "/assets/cruelty-CMr3gSxO.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0x42224127bc5135ca63dc4aa50efc979c4ea6fa0c3b4164ddbaba812c21f02024",
+                "entity": 474,
+                "type": "ATK_THRESHOLD_SHIFT",
+                "value": 20
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x4387796f6c21a643e5a702e5a1bb93d249ba0317abab94738f3bb2c67346ec9f",
+        "index": 123,
+        "name": "Sniper",
+        "description": "Careful assessment can allow a Kami to move into a Node more quickly. A product of experience…",
+        "image": "/assets/sniper-C68GIPOc.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0x38bffab26d851cf59810d5c41a8e2e34afec712a805afb3c48155fd8edf5cc6c",
+                "entity": 482,
+                "type": "STND_COOLDOWN_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xd57d5db501c95966187e0ce4d6ba0da9b7596dd27f3f37269987d062af050fee",
+        "index": 121,
+        "name": "Professional",
+        "description": "A true professional understands how to play to their strengths.",
+        "image": "/assets/professional-COViVpv-.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0xee271cd5ac9dc06a6b0fbdeea7d6a10333c2adf91c93b81cb2bb20c5434e6dae",
+                "entity": 477,
+                "type": "ATK_THRESHOLD_RATIO",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x31492e167dab6d04b93ef9d80279cd93ee1a40fef2ed2375762ee36f3cedc50e",
+        "index": 131,
+        "name": "Warmonger",
+        "description": "More fighting, more violence, more fighting, more violence. ",
+        "image": "/assets/warmonger-gLeWPM0l.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Predator",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x35a37682d1edc989eed2b0d35df6b9c4ac0205e5abb5e7d05d34720c55e10029",
+                "entity": 486,
+                "type": "STAT_VIOLENCE_SHIFT",
+                "value": 3
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0xb5732705f5241370a28908c2fe1303cb223f03b90d857fd0573f003f79fefed4",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 132
+                }
+            },
+            {
+                "id": "0x7901cb5addcae2d210a531c604a76a660d77039093bac314de0816a16392aff1",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 133
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xb379eec8f7c996374de60ee7cbaa815e845571decea995cac0ca1ffa43725c64",
+        "index": 132,
+        "name": "Vampire",
+        "description": "Edward Kamin, but sexier…",
+        "image": "/assets/vampire-C03apBTT.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Predator",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x319723e19c33a933f8a8f99614d270f716326aaf447540ea6d43da084f093f2a",
+                "entity": 489,
+                "type": "DEF_SALVAGE_RATIO",
+                "value": 50
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x8dc6fb69531d98d70dc0420e638d2dfd04e09e1ec783ede9aac77da9c5a0dac4",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 131
+                }
+            },
+            {
+                "id": "0x957bbdc7fad0dec56e7c96af4a3ab63aa9daf934a52ffce891945b7fb622d791",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 133
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xf3d4bb0191d4c44302c16b902a225d1276004bd4c29d5209bbfc5c87bf4017a6",
+        "index": 133,
+        "name": "Bandit",
+        "description": "It isn’t so much a profession as it is a way of life.",
+        "image": "/assets/bandit-DC5e9E8E.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Predator",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0xb41fab25f7236dcf013066e411c4ddb01d514a02c33223117b35e418589d1a6b",
+                "entity": 500,
+                "type": "ATK_SPOILS_RATIO",
+                "value": 50
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x5569044719a1ec3b04d0afa9e7a5310c7c0473331d13dc9fafe143b2c4e8148a",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 132
+                }
+            },
+            {
+                "id": "0xf0440771a29e57e18c66727944770b82cc77924aef333c927ce6bdd2cdb3ae03",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 131
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x7fdd12bfc23cd7aab6faff5430acd758200e4162db8d54818f9219961be2b37c",
+        "index": 142,
+        "name": "Brutality",
+        "description": "Sheer will-to-hurt continues to go a long way. ",
+        "image": "/assets/brutality-CD1ZRi8-.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0xeb33d208314305a1a8555fa21349770cd7d367331c1661855147b1e5be21d045",
+                "entity": 503,
+                "type": "ATK_THRESHOLD_SHIFT",
+                "value": 20
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x81115eb86d938ddacc8fe876ae2d11923537706fad28ae9ddd2f2f3df6169f1d",
+        "index": 141,
+        "name": "Hungry",
+        "description": "You just want it more. ",
+        "image": "/assets/hungry-CczAv7Mn.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0x920b35f889350fa009717212c2582f750fa8851a20edee0c788ea2d1ad193c7a",
+                "entity": 497,
+                "type": "STAT_POWER_SHIFT",
+                "value": 1
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x1d59f855b83156df0069129c3a85e0414a728546683ac52c37c68186b0fd44d1",
+        "index": 143,
+        "name": "Marksman",
+        "description": "Though the craft has evolved with its medium, swift killing remains a cherished art form.",
+        "image": "/assets/marksman-CnrFR5j2.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0xb21a11f333044cbb31804bb437d4432a297d9093563858cfe0da114cdc079416",
+                "entity": 501,
+                "type": "STND_COOLDOWN_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xbc99682e1d9a321023a4f1f8f101e4253ea9a7197e083fce488b2fa8d9e6be29",
+        "index": 153,
+        "name": "Bounty Hunter",
+        "description": "Your Kami is really, really good at milking all possible profit from their targets. ",
+        "image": "/assets/bounty_hunter-Cq-Jn8gi.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0xd8719555bfe6ce465a9e5304f92912d69d8fc2b6efe041666ebe7f739b4096cf",
+                "entity": 513,
+                "type": "ATK_SPOILS_RATIO",
+                "value": 20
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x829d86184b8f2df123fb10869591c2b4218f97fac20679a4f328b88c506e4199",
+        "index": 151,
+        "name": "Specialist",
+        "description": "Some Kami are particularly talented at preying on the weaknesses of others. They’re just like human beings in that way.",
+        "image": "/assets/specialist-BE8KRsyo.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x990d90371e00e090363715dfd8e2d4240ddf5377fa891aea190e1cb6a588d721",
+                "entity": 512,
+                "type": "ATK_THRESHOLD_RATIO",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x53c75263ffceab8aac4fa225d4fac21a5e4436a84e36a9e1cebcc0a03e2d8116",
+        "index": 152,
+        "name": "First Aid",
+        "description": "Your Kami is always ready to bandage up in case of a counter-liquidation…. Meaning they can hold on to a little more musu. ",
+        "image": "/assets/first_aid-Bp8GKv6D.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Predator",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x3dc46678c54216ffe88b87763071fe288f2a90537d1800f1a35bdc230e75e2a5",
+                "entity": 506,
+                "type": "DEF_SALVAGE_RATIO",
+                "value": 20
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x59a3447936b2ad417584b001793ec90dd68cb13c4041e374d8d0ec640118c3ae",
+        "index": 161,
+        "name": "Warlord",
+        "description": "A paragon of pure aggression. This Kamigotchi will overpower almost any other when it comes to raw strength. ",
+        "image": "/assets/warlord-DJhX_l9_.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Predator",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0x07a3649add3ae3b83ad698d47638d835cebbdb1cbf7b27563894680d213501d9",
+                "entity": 519,
+                "type": "STAT_VIOLENCE_SHIFT",
+                "value": 5
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x9222cbf5d0ddc505a6f2f04716e22c226cee16a955fef88c618922096dae2fd0",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 162
+                }
+            },
+            {
+                "id": "0xa913c8ac5320dae1c4a00ff23343947ed0fdf88d251e9bd2a5519d3d6162d222",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 163
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xd171765d2aaef9052a608238c87ab49e3093f1556881aac4227029a973381864",
+        "index": 162,
+        "name": "Lethality",
+        "description": "Liquidating a Kamigotchi requires a certain firmness of intent. This is that kind of intent. ",
+        "image": "/assets/lethality-CbfNws5Z.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Predator",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0x05633eadd328fdb26650be8bede4e430ad78454e113ef3a0f0f843299d6a1494",
+                "entity": 520,
+                "type": "ATK_THRESHOLD_SHIFT",
+                "value": 100
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x0f2ada1f2dbae48ae468fe0cdb7bcda7d0cffee8545442e682273ba01a6203a7",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 161
+                }
+            },
+            {
+                "id": "0x66925e85f1a4743fd8d60ba595ed74887b7caf321dd83b21e04d77c115383408",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 163
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xd6c3b468fdd16ab212b30bf6ce20bf79f3a7e6da9f7f8e676f67fff58fe528a3",
+        "index": 163,
+        "name": "Assassin",
+        "description": "A fully-trained Assassin can enter a node almost instantly. The complacent should live in fear.  ",
+        "image": "/assets/assassin-B8NRq7tG.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Predator",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0xd081947094bf2c171ca14799cdcc3958fe7c1d2da1fc96f4326ab90ff7612447",
+                "entity": 526,
+                "type": "STND_COOLDOWN_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x76fce494794d92ac286b20d6126fc49ecb9cca2fa94b5c726f6ec1109b891414",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 162
+                }
+            },
+            {
+                "id": "0x59f3fb058c6bba7a4e76396639fc4dd21bd59163db798899cf56cef48b3c9ec9",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 161
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xcfbe739f1da37cb1af3566e766129e562d8a92c3036b99debc8b30e027206d93",
+        "index": 212,
+        "name": "Cardio",
+        "description": "While Kamigotchi aren’t exactly material beings, regular exercise has been proven to improve their stamina. We’re not sure why.",
+        "image": "/assets/cardio-Er62keJM.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x76947560e99d4fc6e47280844f8bf1d4fa692e945f25dc2cd7ad912b82b84ebf",
+                "entity": 536,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 10
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xa5d5e79c46c42a61a3cb900b31c21cf56731ac81137947bf8a23acba37e0c28b",
+        "index": 211,
+        "name": "Self Care",
+        "description": "Did you drink water today? Please drink water.",
+        "image": "/assets/self_care-D4UBIQxc.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x2fe1b271cf24e4097e9c805b1f9b43091be88cbbb5cde3caf99ef67d55dce0f9",
+                "entity": 527,
+                "type": "REST_METABOLISM_BOOST",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x1fe610495571350e655b237df57a05369fa14997623629c050bf34a02762dde3",
+        "index": 213,
+        "name": "Good Constitution",
+        "description": "Some texts from the old world refer to a similar concept, roughly translated as “breedability.”",
+        "image": "/assets/good_constitution-Ddtemj-m.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x35a856faa10fa89c7ecedf1a446ec7f39cd021b648ab93bbe641855154dbd65a",
+                "entity": 542,
+                "type": "HARV_FERTILITY_BOOST",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xdfd28aa7ff5918f2bb48653e70444709f12045fb19df591e44ce29e706682b86",
+        "index": 223,
+        "name": "Concentration",
+        "description": "With enough concentration Kamigotchi can stave off their own death if only for a bit longer. ",
+        "image": "/assets/concentration-CAw5whjV.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0x61cf55d75b72747e9abb7c8954949664b9037f1309f5062becb1a8a4e7332280",
+                "entity": 544,
+                "type": "STND_STRAIN_BOOST",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xdcd2740993c1c25f38ee6f41e875bc621e73f7213e35bd8ccaa33f65cfac28ad",
+        "index": 221,
+        "name": "Focus",
+        "description": "It’s important to focus one’s mind on the bags. ",
+        "image": "/assets/focus-B3KI3eh_.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0x640c40118d6ecdffbefd5dc7046651cfb12a82162e1c6e81f24938ad27dfc134",
+                "entity": 539,
+                "type": "HARV_BOUNTY_BOOST",
+                "value": 40
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x6386ad21c564286229d70bbfbc505f80fabbf4517bf495f2ca58de33a04f4059",
+        "index": 231,
+        "name": "Sleep Hygiene",
+        "description": "An element of self care. Investing in it is known to help recover one’s energy levels and physical health.",
+        "image": "/assets/sleep_hygiene-CUJLSp2b.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Enlightened",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x841bb4ad6f7cd1d03fe43ee56ac86697a021ca6675b46bb9c671dd3b9b3a7b5e",
+                "entity": 552,
+                "type": "REST_METABOLISM_BOOST",
+                "value": 150
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x1397b88f412a83a7f1c0d834c533e486ff1f24f42a31819e91b624931060a863",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 233
+                }
+            },
+            {
+                "id": "0xb2244e644cfe16f72b654fbc48ff0fecec8fc59649ca8625094bebd9bd2e4035",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 232
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x3198ad09c290b7b1a3e2d0d4a5d1f3a3b6d99e7c5003df5f46e1d783b7152b04",
+        "index": 232,
+        "name": "Warmup Exercise",
+        "description": "Even a light warmup can offer a significant edge in physically intensive activities.",
+        "image": "/assets/warmup_exercise-D8eZGXAP.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Enlightened",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x1c42eb84fa8719b658c225019b44472ca5e8ff058e3d76e55862540990be8d94",
+                "entity": 548,
+                "type": "HARV_INTENSITY_BOOST",
+                "value": 10
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x50250e93f8c73d2c1be015ec28e8cd2feb871efa71e955ad24477aafb09484fa",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 231
+                }
+            },
+            {
+                "id": "0xdbdaec72d84124d8c7c57ae448f5a4e3eedb34dba437fdcbe6d26496b68afe87",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 233
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xf212162ac1240a7f732d99c01d403dfe2fa5c5077f0c3ef36b743acdaaf21586",
+        "index": 233,
+        "name": "Advanced Mewing",
+        "description": "Your jawline never looked so good.",
+        "image": "/assets/advanced_mewing-DGzEVGAI.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Enlightened",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x0c6efc51085b9d2c98e0147257847685dcc2baf97f8d964a89966b7ca994062b",
+                "entity": 556,
+                "type": "HARV_FERTILITY_BOOST",
+                "value": 150
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x46b7ea84944250856a716737059479854246a026d947c13d5a0929bc8c1bc81d",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 231
+                }
+            },
+            {
+                "id": "0x171ab08901be24769dbebedbdf7e0245486fbc64ab975cd431a39533032d5415",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 232
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x87a86f45c4e0368482e64cc92af26127cbaf4addaa9c225a6e435272cc8778af",
+        "index": 241,
+        "name": "Momentum",
+        "description": "One does not simply achieve higher states of mind. Only after struggle and release.",
+        "image": "/assets/flow-C2OKOBT6.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0x6bbb66953672444765d416b62708677353b8cb78981adba67a4efbbcd88b53db",
+                "entity": 561,
+                "type": "HARV_BOUNTY_BOOST",
+                "value": 40
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x7ba5b9e60714abc9c1638981b4eb192afb297e1ec888aae129202d8d8eb3dd47",
+        "index": 243,
+        "name": "Endurance",
+        "description": "Like many of life’s trials, Musu harvesting is often more of a marathon than a sprint.",
+        "image": "/assets/endurance-CXWqP2At.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0x590915a77335f5e58053cd586aad125f72f86cb989317ba62bbf1b8dd56ceecb",
+                "entity": 562,
+                "type": "STND_STRAIN_BOOST",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x27cbaffe6db9b3eb20aa946d2463c1a1016864a38119c4587c772332793457f8",
+        "index": 253,
+        "name": "Productivity",
+        "description": "You get things done. ",
+        "image": "/assets/productivity-CKnAsj6a.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x2a0a22fa178fbcf93e10739958613f1a947042d54edd3a8e0c066e16b4418af9",
+                "entity": 575,
+                "type": "HARV_FERTILITY_BOOST",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x56129bedbe07d4ff0349ab2ed8dc8c58c86d4a46e58df14c4f3daeb5a5ed5a01",
+        "index": 252,
+        "name": "Workout Routine",
+        "description": "5 day split for the Serious builders.",
+        "image": "/assets/workout_routine-BvASzAFF.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x767c50d67d0fe53392cf15b74c03fb22647a8fdca916a72f6266f8a7d44ad726",
+                "entity": 568,
+                "type": "HARV_INTENSITY_BOOST",
+                "value": 4
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xdc0200f543b5f6f980bd744ea74f9bda17e4d430965cea5245dced02da7fcde2",
+        "index": 251,
+        "name": "Regeneration",
+        "description": "Wolverine can do it. Starfish and salamanders can too. Stop saying “can’t” you pathetic nugget.",
+        "image": "/assets/regeneration-C6gQ7BEx.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x1eb0d0e6c77425d7e428ca464d62aeecbe96957b9c571a9514d8755f608df8b6",
+                "entity": 569,
+                "type": "REST_METABOLISM_BOOST",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xf8c2ec87c9e5c6ec285d4e783b55d598592c9e160c44f89022569cbe23cb1959",
+        "index": 261,
+        "name": "Wu Wei",
+        "description": "Mastery of action-without-action allows you to make a little more money, with no effort. Not bad. ",
+        "image": "/assets/wu_wei-hx-a2oM3.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Enlightened",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0xa47072fbeaf6d5b79fa1b34a7a49348024bab29a43a924f3d1c040e0f365e2f1",
+                "entity": 581,
+                "type": "HARV_BOUNTY_BOOST",
+                "value": 200
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x5bfa74c743914028161ae645d300d90bbdc659f169ca1469ec86b4960f7266cb",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 263
+                }
+            },
+            {
+                "id": "0x7ef464cf5a521d70c933977510816a0355b91a50eca2778837fb82da8448ecf6",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 262
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x50bc976202b5fb1c7c576e6161e0aa48b45093354ab64744be443e84f3d4b955",
+        "index": 262,
+        "name": "Spin Class",
+        "description": "Cardio for the hardcore. ",
+        "image": "/assets/spin_class-DIR19gmw.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Enlightened",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0xf25afb0219bb56785e77efd75113803f234b5d5a8788037e377fb7474ce80652",
+                "entity": 576,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 50
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x834355d35cbfbd33b2397e201af04b52bdd40b9b51275f279ea47e93547b631e",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 261
+                }
+            },
+            {
+                "id": "0x7b6bb1e9d1b017ff82945596cf3cfb1a6cee971c1ebb16f2c6bd23c2d642728e",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 262
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x3272b03c3f7b3bae442971fb26e888558bbcbd937c07da5d4bed2731ecde59c3",
+        "index": 263,
+        "name": "Immortality",
+        "description": "In the same way that gliding is flying.",
+        "image": "/assets/immortality-Cr_v7lMf.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Enlightened",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0x7c69395d10f974bc87a1c37f2c4c6a8dd85dcf8c879d4d76a37afc4bee4ff01e",
+                "entity": 589,
+                "type": "STND_STRAIN_BOOST",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x37a1be2a88dadcd0e6062f54ddcc01a03360ba61ca7784a744e757488bf8ceb2",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 262
+                }
+            },
+            {
+                "id": "0x5f2f2dca1d951c7429b52007f396328c64c25e226c1867318158f7f2cbdd40a9",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 261
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x41d0b00f8e1123d6498134bde2653cc9a5ea309d3d0c55d865c963be94ea62c3",
+        "index": 311,
+        "name": "Defensiveness",
+        "description": "Training a Kamigotchi in a certain degree of closed-mindedness can help to maintain inner peace.",
+        "image": "/assets/defensiveness-D5FYByVw.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x4b1da58da993a5ba9600448c872c56919bb862f8db85ca1cf3522d0ed657dfd2",
+                "entity": 588,
+                "type": "STAT_HARMONY_SHIFT",
+                "value": 1
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xf72bb94fef6911f93c889d68873df89528e8d83c3dee71497de46a624b4a7ac3",
+        "index": 312,
+        "name": "Toughness",
+        "description": "Without any milk.",
+        "image": "/assets/toughness-COmOt8mG.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x705e254a0a42b3961f0f9dae70aa9865969e584aed05e9a86de60331c1bbb8a4",
+                "entity": 597,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 10
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x9e4de83f25b457f1274f5f9b29ef1dafcf715d1eb733b3d76dbe1940a27a8c46",
+        "index": 313,
+        "name": "Patience",
+        "description": "Your Kamigotchi believes the virtuous should be rewarded.",
+        "image": "/assets/patience-CBM-U_zG.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x51dfd284c37b39047e9416abf6173cafae50c0d0fcf6dea46b0d2977e6bba978",
+                "entity": 596,
+                "type": "HARV_INTENSITY_BOOST",
+                "value": 4
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x9e54a14d1ead1dcc81711a85ea33bc659018b403807aa3db12ef57c90716e82a",
+        "index": 322,
+        "name": "Vigor",
+        "description": "All forms, especially libido, are a sign of good health.",
+        "image": "/assets/vigor-B-vN7zvw.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0x541e697b73ee0d6ff82f4a87a6f968c480e6a9475911a3b9f32bbde02b360dea",
+                "entity": 600,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 10
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x2269e2bdcb79ea6930cabdad39d62d34d450cca8ec4766cb6be7cd36263039d9",
+        "index": 331,
+        "name": "Anxiety",
+        "description": "aaaaAAAAaaaAaAAaAaaaaa",
+        "image": "/assets/anxiety-gxJSodNe.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Guardian",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x12391df59c32ce8842bd4351faa9a5888425f492f7b2cb833ee14e297c973683",
+                "entity": 607,
+                "type": "STAT_HARMONY_SHIFT",
+                "value": 3
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x8edd81ff20324ea0cfe70c700ff4e9db7580d269b423d9f61470b370819cbd17",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 332
+                }
+            },
+            {
+                "id": "0x337f7913db22d91ef425f82102bc8075ef67e23a2be359965ea316e78e1eff3f",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 333
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xdeb37ef036eeef7580247b4a67f96a817310b8882f161c14e8861445678eb180",
+        "index": 332,
+        "name": "Die Hard",
+        "description": "Survival is one thing, but another is knowing how to die effectively. ",
+        "image": "/assets/die_hard-CX6aRnfs.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Guardian",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0xb65251c6bc8ef74640e1e374c0733da4bb12f42be1261a3adacef5057b2d4438",
+                "entity": 605,
+                "type": "STND_STRAIN_BOOST",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x60b1e32550f9d5f25f9dd040e7a106b15d8eb282dd6b3e1914c73d8066896412",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 331
+                }
+            },
+            {
+                "id": "0xcdae184edd6bf71c1fb62d6e6682fdb2032455c0e50143742135fbbe809bd793",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 333
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x747c9fc4aa618efee1ef3171141b11eb063f1fafb204cefde88861cce38d636d",
+        "index": 333,
+        "name": "Loyalty",
+        "description": "bark bark arf grrr awoof awooo",
+        "image": "/assets/loyalty-C77abdrH.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Guardian",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0xab201e154504397a385ca4e623a832eb7309b95ea8484cb0253b5e18db920c49",
+                "entity": 611,
+                "type": "HARV_INTENSITY_BOOST",
+                "value": 10
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x28da5ca8143bfa5e9f642e58e5e87bef0a2eb0c00bcd4efdd01050293f5fac91",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 332
+                }
+            },
+            {
+                "id": "0x6e452848784197f00927d379e3db9e69a5131d2269f862bfcd05a0b38f6abf7f",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 331
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xf4b861319b9b06597d5e00ed63090a7361e9e84a5cdf90eb0068809feba4ef30",
+        "index": 342,
+        "name": "Dedication",
+        "description": "Your Kami shows up 5 minutes early to literally everything. ",
+        "image": "/assets/dedication-DUHrdgTg.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0xb4fea1265875564c69af8d8400bb8a72a87042b05e4e11623aa8beafd9d305a5",
+                "entity": 618,
+                "type": "HARV_INTENSITY_BOOST",
+                "value": 4
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xbbc601b1657ae473082ba0c232ecd1e2e971eb98ff23f75b030f36b586a9106a",
+        "index": 352,
+        "name": "Hefty",
+        "description": "Raw physical mass can be a form of talent, too. ",
+        "image": "/assets/heft-DfTbHiyB.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x1bfba5e5e98d3efbc1f2284385df4de86e3b38766a2618a31d78036964f29d75",
+                "entity": 621,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 10
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xb13e0bc12a99dafd8a4dea36eee6c3b1b7ba3fe42bdf90f797f6c32bd55f4982",
+        "index": 351,
+        "name": "Powerhouse",
+        "description": "All that intensive physical training has built up some Violence… ",
+        "image": "/assets/powerhouse-BZVLJCN7.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x8ec47ccac2a9ee6f56667d95112722c748c8e9d5f2ed8b927eb21d6d344241c2",
+                "entity": 620,
+                "type": "STAT_VIOLENCE_SHIFT",
+                "value": 1
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xaf5899aab1528c872617b6483a96d6b631e2154882a9f5d615d46dde1952c0d2",
+        "index": 361,
+        "name": "Neurosis",
+        "description": "“Not a radical loss of touch with reality.”",
+        "image": "/assets/neurosis-BgJhhd47.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Guardian",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0xb6a7a453389a183b54ac6259a08df5dac365d16c7ba15026f7bfa38bed437585",
+                "entity": 628,
+                "type": "STAT_HARMONY_SHIFT",
+                "value": 5
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x7047a3cc0a76edcee45792ca71527c753f6167484f14b94c4a3bd2997516725c",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 362
+                }
+            },
+            {
+                "id": "0x947035e97d0f7e1937f791bc189f60c984ceaaa7a8494fc67f9f8f4de8ccf2c6",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 363
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xa2caea60f1d2f1b0bbc413c7e590266a1e948af2b315200be19270465011255a",
+        "index": 362,
+        "name": "Undying",
+        "description": "Your Kami gets every single ounce of juice from their Health points. ",
+        "image": "/assets/undying-BRjBD67J.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Guardian",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0xfdf84e061afc07c3c88c83f3fabff5ec1274f7c843cf33daafa6a7f5f6c9a802",
+                "entity": 631,
+                "type": "STND_STRAIN_BOOST",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x6aa7ec8ac2a999a90ce6c78668dffe4e487e2576a97ca366ec81ecb335af90d0",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 361
+                }
+            },
+            {
+                "id": "0x354a83ed9988f79f6038d4c7a7dadbad8af32f4ad6df893e0e5807a1b1944ff9",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 363
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xe9fd99c4019eb5eb933977746dec002be6368e6587f1ff99bf870466769cac40",
+        "index": 363,
+        "name": "Obsession",
+        "description": "Compulsive and intrusive. But hardly a disorder.",
+        "image": "/assets/obsession-CAoq-OcT.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Guardian",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0x6ec931a52acfc936413a29e737a0e19ec3eb15b392d94bd472ed8f1b038b8fb2",
+                "entity": 638,
+                "type": "HARV_INTENSITY_BOOST",
+                "value": 20
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x72a152ddfb8e864297c917af52ea6c1c68aead0fee1a62673fcc7e0c94979d00",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 362
+                }
+            },
+            {
+                "id": "0x2237a976fa961f5921fd19f2b03c925c725d77b20ce8f790c19709c03de4d814",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 361
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x34d80c297c09c8e94b1268d2224af546443034813d25c65344dd252b4937529b",
+        "index": 411,
+        "name": "Acquisitiveness",
+        "description": "The children long for the mines…",
+        "image": "/assets/acquisitiveness-BEUA9MGW.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x4aa6a11e3e105e8b7820c3ef7a496c2d6efb2f6b87ef71a58b8ba7024f30035c",
+                "entity": 643,
+                "type": "STAT_POWER_SHIFT",
+                "value": 1
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x013fd4f5113d638ffdd872fc05369fad31e65f591d8455656a007eca5f73c746",
+        "index": 412,
+        "name": "Mogging",
+        "description": "Good fashion choices can be the first step on the road to massively outsized gains. ",
+        "image": "/assets/mogging-GXrkIEcL.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0xa620e37469d4bdf19537eab9b8dff7aa122baae1123a6c72a203a5dd16a1d2d5",
+                "entity": 646,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 10
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x3aa5cd1519e5effd25d09e7747cc873a1611c884e529c611927a14cb9713ab60",
+        "index": 413,
+        "name": "Greed",
+        "description": "Your Kami just want it more.",
+        "image": "/assets/greed-DlvUiNSi.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 0,
+        "bonuses": [
+            {
+                "id": "0x49665e8c791b7cea1da6ff112bdccf4b8b4b91ccc12ee8bf8caca9a40216a29f",
+                "entity": 648,
+                "type": "HARV_BOUNTY_BOOST",
+                "value": 40
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xfe1c5db67f1c37bf3b85738ca683d6b612c8f5415a354591bc69b3df55eb6875",
+        "index": 422,
+        "name": "Side Hustles",
+        "description": "Your Kamigotchi has learned to drive taxi while harvesting, increasing their MUSU gains. ",
+        "image": "/assets/side_hustles-DIlNZFiI.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0xb8d3118dce2e4f43dda2b489641b4a1888a7844422cda17b9d5c0c8211aaf392",
+                "entity": 655,
+                "type": "HARV_FERTILITY_BOOST",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xc378992d5081d12a02752e52cb24efe848287fc20d9196226cc3d1c901a814f6",
+        "index": 421,
+        "name": "Wide Portfolio",
+        "description": "Negatively correlated assets have proven a great way to diversify risk in your Kamigotchi’s holdings.",
+        "image": "/assets/wide_portfolio-DW-tj0Ia.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0x9c644ef6c6443694d8d06fba318185cc81b34f49b1a7192c0102c9e93356dca7",
+                "entity": 656,
+                "type": "STND_STRAIN_BOOST",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x458f6f714ee1712ec415f87a30a012d4ba341ff032a02f4aef30ad038c9008e5",
+        "index": 423,
+        "name": "Hedging",
+        "description": "Go ahead. Announce your sexuality on an immutable ledger.",
+        "image": "/assets/hedging-oTyDdUU-.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0xbd52b295c4babac9f41b7f32efb9a7d98634203e863bb3f4c170a8cd100f0699",
+                "entity": 660,
+                "type": "DEF_SALVAGE_RATIO",
+                "value": 20
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x30c07767d8901e810f7b5b7383ce4114e19704e868ee50c9f24448f4a35847b6",
+        "index": 431,
+        "name": "Technical Analysis",
+        "description": "Your Kami keeps muttering about Fibonacci retracement levels. You think it may have some form of schizophrenia, but it’s making more money this way.",
+        "image": "/assets/technical_analysis-lQjW8G8X.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Harvester",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0xea1db5509034fc3f5a23686af69d15a17a181b38bf1d0c7fa9505bf20d5ab1d9",
+                "entity": 661,
+                "type": "STAT_POWER_SHIFT",
+                "value": 3
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x44da158ba27f9252712a74ff6a55c5d531f69609f1f6e7f17c4443a8e2089be4",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 432
+                }
+            },
+            {
+                "id": "0xbba9db4cdbea0a37c207bbb83e20f828cd4441c49891101dc94fd20dc8efc349",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 433
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x89c5b590b985e800d4479bff8b54704e9ba3f38a1cdbfcfeaec92d70d512fc57",
+        "index": 433,
+        "name": "Leverage",
+        "description": "You know how to maximise your own use of time and energy. ",
+        "image": "/assets/leverage-BD4ScNtv.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Harvester",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x62270c778a1d9ebe719ef2bf2a6238580b92463f5ba8bfda1b445527a61c6208",
+                "entity": 669,
+                "type": "HARV_BOUNTY_BOOST",
+                "value": 100
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0xcfe2a20ff701a1f3e14f63bd70d6c6bc6fba8172ec6d5a505cdab3927c0a9de6",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 431
+                }
+            },
+            {
+                "id": "0x0bc14066c33013fe88f66e314e4cf150b0b2d4d6451a1a51dbbd1c27cd11de28",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 432
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x31f676f6303c464b49e35b97151e86c191938c39bb41f64935da42ebd6e727de",
+        "index": 441,
+        "name": "Opportunist",
+        "description": "Sometimes, the competition just leave themselves open. ",
+        "image": "/assets/opportunist-2RqC8NsY.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0xae012bfd60293e5967883410946eba0023af03ebcc30c06e24f75929c2e8711e",
+                "entity": 666,
+                "type": "STAT_VIOLENCE_SHIFT",
+                "value": 1
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x9abf15812fab17d6163401b094f9335733c1af68eecd3f7735b3baf409514981",
+        "index": 442,
+        "name": "Trading Courses",
+        "description": "Market capitalization? Enterprise value? he bit da wa?",
+        "image": "/assets/trading_courses-mL6aZB2L.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0xe776f66755fcda348676efb223e5c40e7ba22e064df03c00aefc5081a13b538a",
+                "entity": 673,
+                "type": "HARV_FERTILITY_BOOST",
+                "value": 50
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x1e4a0e1f036ceed160ccd210bfd84b52634573777ba979c79c9fc0ecca8f8e3c",
+        "index": 443,
+        "name": "Index Funds",
+        "description": "A way to inject some Harmony into the portfolio…",
+        "image": "/assets/index_funds-CmTD13P-.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0x6771299ba197b1b72f13ca59cd9eb53d3e4ba2fac5d000a56b86148b2e59fe53",
+                "entity": 680,
+                "type": "STAT_HARMONY_SHIFT",
+                "value": 1
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xeab3f48320370673120a6de2faf0e923f99b1d429a89df189e4c9608c15f5233",
+        "index": 452,
+        "name": "Looping",
+        "description": "You know.. because looping is umm. Healthy?",
+        "image": "/assets/looping-DUup9RPr.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x5f70ee196d5bec3a55cf5f1f7cd7ae1b6fb6dd80487974670d3beacae0e02f18",
+                "entity": 681,
+                "type": "STAT_HEALTH_SHIFT",
+                "value": 10
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x9b91a3daf75bb794ce32fc4476026dd0890755d7ea2b58b2482ee8c7f8fb51f9",
+        "index": 453,
+        "name": "Stimulants",
+        "description": "For men destined to define eras and change history, who will be remembered for millennia to come.",
+        "image": "/assets/stimulants-oWNJ2i1l.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x4f7da7dfa3249739bbe5087b2effdd9b1bf78b7120b1b9c1a851acbfb25fe5d6",
+                "entity": 687,
+                "type": "HARV_BOUNTY_BOOST",
+                "value": 40
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x32f1581f77d930bd161878820d4f65416197049808c9e140f344f6c94942c223",
+        "index": 451,
+        "name": "Time in the Market",
+        "description": "Always wins in the end.",
+        "image": "/assets/time_in_the_market-BFVOi9S4.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Harvester",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x893ecb2d9130594b46d4caf0433cd1a7785d65539c58e50a76a2c0bad88732ce",
+                "entity": 679,
+                "type": "STND_STRAIN_BOOST",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xf489b41c72ee114c958c1b627684038dd0506cdeeb08a687340daab7bf02e19e",
+        "index": 461,
+        "name": "Intelligent Investor",
+        "description": "Benjamin Graham. Jim Simons. Roaring Kitty.",
+        "image": "/assets/intelligent_investor-DQxqfgre.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Harvester",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0xa83368c9cef32c8d6e9336cb582c2ee68e46a3ff75c629fba046cdd771e6539d",
+                "entity": 692,
+                "type": "STAT_POWER_SHIFT",
+                "value": 5
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0xaadc37b8ba5645e62f4546802db221593a94729ccbfc5a97d01365a88f649878",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 463
+                }
+            },
+            {
+                "id": "0x78fdc8d422c49ced035a9edf18d00d3c6a8d81df210f3e5e448e045e77b41e88",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 462
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x855226ea5b527a4794f2d093fa7b586f11dd957dd08b33446e293441eee6abc7",
+        "index": 462,
+        "name": "Paid Groupchat",
+        "description": "You know it’s good. Otherwise they wouldn’t charge you.",
+        "image": "/assets/paid_groupchat-C4Te42Ja.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Harvester",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0xc792fde9eee1f0e2a5903956bdbe5908d623689942ff176f069a24ec2041195e",
+                "entity": 694,
+                "type": "HARV_FERTILITY_BOOST",
+                "value": 250
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0xaaf4f58de99300cfadc4585755f376d5fa747d5bc561d5bd9d710de1f91bf42d",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 461
+                }
+            },
+            {
+                "id": "0x60859188cffe297f44dde29f2d2865634621f26215049caeb304ccba566a8b17",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 463
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xa68d280501871372cda9e6c2e403b2493fd418f58afd2f4436fba3fbc95e1d87",
+        "index": 463,
+        "name": "Coward",
+        "description": "What can we say? Are you actually going to choose this? We’re sure your parents still love you. ",
+        "image": "/assets/coward-DBPNiNvD.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Harvester",
+        "tier": 5,
+        "bonuses": [
+            {
+                "id": "0x59666f481f9fdb912126b3ffa53bf71076b314f2bdace0d5bd274afb6e94cf42",
+                "entity": 696,
+                "type": "DEF_SALVAGE_RATIO",
+                "value": 100
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0xb29a2b3b6f2ff1b765777a231725941da5072cc4fcc30ac4a2ce09706e8ddeff",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 462
+                }
+            },
+            {
+                "id": "0xe434dc35da084cf8d7e8186688ea2dacb53db7003d427af3abf351bd9d0a4e8d",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 461
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x88f4b4baa7d7d53d231248ed44da8ee3f62b5d42325827b92d41ea960ffff5f8",
+        "index": 353,
+        "name": "Fortress",
+        "description": "Unbreakable. ",
+        "image": "/assets/fortress-DzBl0Apq.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 4,
+        "bonuses": [
+            {
+                "id": "0x333bba3aa94227d6d1c0df456ab43ec24057658d6fe2de09f65cf9d5941d5ab7",
+                "entity": 348548,
+                "type": "DEF_THRESHOLD_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xd231f0f0abe6ee6382f02d9e37761062c14e51ca53d847b8b0d03ba006690b2f",
+        "index": 432,
+        "name": "Daylight Savings",
+        "description": "Leopold II. Hideki Tojo. George Hudson.",
+        "image": "/assets/daylight_savings-CncZZKoy.png",
+        "cost": 1,
+        "max": 1,
+        "type": "Harvester",
+        "tier": 2,
+        "bonuses": [
+            {
+                "id": "0x58a23f2577c441285aa14ef0bc043f7e9e815b8c1a2f2cf15504dca543c563e4",
+                "entity": 348622,
+                "type": "DEF_THRESHOLD_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x4c624e53e83ced2635912d4d8c30048a7082434f2a2370181c7ea7e5020a3ae3",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 433
+                }
+            },
+            {
+                "id": "0x4b5c001b5380e21bf0d2dd4cd56f340e6ed4042dd5d3c2fa61b8ce7b8887eb49",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "SKILL",
+                    "index": 431
+                }
+            }
+        ]
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x21c8b12f5f3be997bb469749725333a473ed03ea3d291d256514dc6cd25c09e9",
+        "index": 323,
+        "name": "Armor",
+        "description": "Hard body. Battle tested. Able-to-take-a-beating kinda Kami.",
+        "image": "/assets/armor-CUvog5WW.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0x0251f7f70710b72231a26460a592e6e0c10fabff4f64b92dc5bb3d20218f2330",
+                "entity": 348621,
+                "type": "DEF_THRESHOLD_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xb3662d540f6ff58da1f84f30b0aa56f128ebe4fc58d853ac1a2acdf82267a4fc",
+        "index": 343,
+        "name": "Shielding",
+        "description": "Back in my day this used to cost 30 tree branches and 50 firewood.",
+        "image": "/assets/shielding-CDSUhOC3.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0x91a4a754c815d41f19d18600d10abae64b615f2202474ad5bca4915bf1faa6f1",
+                "entity": 348620,
+                "type": "DEF_THRESHOLD_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x6ab75d493177f57f611ba098b4b19ea7c714eacbce004d423ff21b28d1efd863",
+        "index": 242,
+        "name": "Therapy",
+        "description": "Or, for boys, why not blast your music while going 120mph on the highway? You don’t need this.",
+        "image": "/assets/therapy-WQWt9sZa.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0x6e7169f7d5bec52f8a87e76bb13e7fbcbb7f7d7b98bcf081b634345ad3c56d80",
+                "entity": 348615,
+                "type": "DEF_THRESHOLD_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x1cb0f2f70efba3a3c3090f9f1201b64d0ef0683aa424af381fcb02cedcdb8567",
+        "index": 222,
+        "name": "Meditative Breathing",
+        "description": "The Buteyko method emphasizes the importance of nasal breathing, which protects the airways by humidifying, warming, and cleaning the air entering the lungs.",
+        "image": "/assets/meditative_breathing-CfjMsZHH.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Enlightened",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0xa74c872b93289cdbec3aa1746d3a60abeed6b0685bd7a4a351c0bc2e67455f6e",
+                "entity": 348630,
+                "type": "DEF_THRESHOLD_SHIFT",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0x8f74c396f9d55319e4de4b59fd409fca59aa4f6153cf166431f4af4544bc766e",
+        "index": 341,
+        "name": "Flawless",
+        "description": "They don’t want you to know your Kami can just wake up like this.",
+        "image": "/assets/flawless-DfLk6FQG.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 3,
+        "bonuses": [
+            {
+                "id": "0x76465b80c4be0384306cc149b0cc590c215de56cf26c344c0b2c55404ac3e932",
+                "entity": 348633,
+                "type": "DEF_THRESHOLD_RATIO",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    },
+    {
+        "ObjectType": "SKILL",
+        "id": "0xee2de82eb63aa51f8d6820d08214c191abe6aae6dd63c128a5a12deb20b22e7c",
+        "index": 321,
+        "name": "Meticulous",
+        "description": "When preparing for the worst, the details matter.",
+        "image": "/assets/meticulous-B2voXcv-.png",
+        "cost": 1,
+        "max": 5,
+        "type": "Guardian",
+        "tier": 1,
+        "bonuses": [
+            {
+                "id": "0xf3e7a901bf3526bdafb268143c3b824e8860ab354c4fa1cf1ed6b623c165cbc2",
+                "entity": 348634,
+                "type": "DEF_THRESHOLD_RATIO",
+                "value": 1.157920892373162e+77
+            }
+        ],
+        "requirements": []
+    }
+]

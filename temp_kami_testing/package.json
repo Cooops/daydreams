@@ -1,0 +1,20 @@
+{
+  "name": "kami-testing",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.7.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/KamiManager.js",
+    "test": "npx tsx tests/testRunner.ts"
+  }
+} 

@@ -1,0 +1,3040 @@
+[
+    {
+        "id": "0xe17e3faae89c8a9b72dbeaff37c60945001efe1b116f70574116d07954a5e3d2",
+        "index": 1,
+        "entity": 223,
+        "registryEntityIndex": 223,
+        "name": "An Unknown World",
+        "description": "Welcome to Kamigotchi World. I’ll be your guide. \n\nStart by exploring your surroundings. You can move around by using the Map Menu - try clicking the buttons in the top left of your screen. \n\nWork out how to move, and then move 3 times. Afterwards, I’ll have a reward for you! ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0xd7b6990105719101dabeb77144f2a3385c8033acd3af97e9423a695e81ad1eb5",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "MOVE",
+                    "value": "0x03"
+                },
+                "name": "Move 3 times"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x5daea3197d00c63b0da2a4124a1ab2c61f8a335dd892335cd811215889b28600",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x8ff8881c9131bcf040986267a56818428065d1ad479d74659b298157622879a6",
+                "type": "ITEM",
+                "index": 2,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x8f994428482c906d3570db21b168fc2fc77d5183ba6228be8f13ae4971fb15d6",
+        "index": 2,
+        "entity": 222,
+        "registryEntityIndex": 222,
+        "name": "An ode to MUSU",
+        "description": "Your Kamigotchi can be used to harvest resources from this world. Open the harvesting menu in the top left bar and take a look. \n\nYou’ll need to move to another room to harvest, though. Use your Kamigotchi to Harvest for 5 minutes and I’ll have another reward for you.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xbb7b4a454dc3493923482f07822329ed19e8244eff582cc204f8554c3620c3fd",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 11
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x8d1108e10bcb7c27dddfc02ed9d693a074039d026cf4ea4240b40f7d581ac802",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "HARVEST_TIME",
+                    "value": "0x012c"
+                },
+                "name": "Harvest for > 5 minutes"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x4fc8fbed82f72e47cf68000fb9ebe1dd8484cf1bfa732338274103c80250ec9d",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x56a9ab85fa2fea0f5197516cae7daa9c1174847e7a5b0c405c8f59f8835a9374",
+                "type": "ITEM",
+                "index": 11201,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x766adde41c22e596673055da1ce874e0ff3763b5a50ac2e193f1586ddbca062f",
+        "index": 3,
+        "entity": 230,
+        "registryEntityIndex": 230,
+        "name": "There are levels to this",
+        "description": "Unlike humans, Kamigotchi have the potential to grow and change.  The simplest way to do this is by using XP, which is generated as a byproduct of Harvesting, to level them up.  \n\nTry it.  ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x1b6847dc741a1b0cd08d278845f9d819d87b734759afb55fe2de5cb82a9ae672",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 2
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x31ecc21a745e3968a04e9570e4425bc18fa8019c68028196b546d1669c200c68",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_LEVELS_TOTAL",
+                    "value": "0x01"
+                },
+                "name": "Level up a Kamigotchi"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x35d4f3a29f0b7f7176a683c4ff39d6f68ebdade5151f744683c7042d180791eb",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x2da2c5b6f6d4d7fd3ffbd9020dd1860f14f5a5ef1fcb5f9ba62b660f6703313b",
+                "type": "ITEM",
+                "index": 11303,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0x8954375d3c827e17baad4834d09e6b714dc2991ffc1247115342008ab9b78d37",
+        "index": 4,
+        "entity": 233,
+        "registryEntityIndex": 233,
+        "name": "Skill issue",
+        "description": "Each time a Kami levels up, they gain a skill point. Spending skill points empowers your Kamigotchi. \n\nTry spending one now. But choose carefully - it’s permanent. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xbb8a6a4669ba250d26cd7a459eca9d215f8307e33aebe50379bc5a3617ec3444",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 3
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x66de8ffda797e3de9c05e8fc57b3bf0ec28a930d40b0d285d93c06501cf6a090",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "SKILL_POINTS_USE",
+                    "value": "0x01"
+                },
+                "name": "Spend a Skill Point"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xc1d781cad15f8f789df51cd753d55e1f1799e221a22d24779125f6825b506eee",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x0d62760ffc509746de315581332970db8afc77bda87d0cd9537c18e78e68a7c6",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x92a5f454326f2704fdfb920557f5905a443b98396bc83573e8dde3ea3f1cf1b4",
+        "index": 5,
+        "entity": 239,
+        "registryEntityIndex": 239,
+        "name": "Back to the mines",
+        "description": "As your Kamigotchi harvest, they produce Musu. Musu is a universal form of energy in this world. You’ll need it. Gather some.  ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xce6d7b5282bd9a3661ae061feed1dbda4e52ab073b1f9285be6e155d9c38d4ec",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 2
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x55f448fdea98c4d29eb340757ef0a66cd03dbb9538908a6a81d96026b71ec475",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_TOTAL",
+                    "index": 1,
+                    "value": "0x64"
+                },
+                "name": "Collect 100 $MUSU"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x0895ecc32688d3ae1115f68ebefc28e2c7a587b7aa3a37e72fb382b156e362d9",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x1e6a918c4b65ebaef6b0e38a604175a430e7eb08795900a32b347fccea232916",
+                "type": "ITEM",
+                "index": 11001,
+                "value": 1
+            },
+            {
+                "id": "0xdd4d5f238252ee5ec57ad4c02570d149627635e91bb1a7c996acde4a5c2f3af7",
+                "type": "ITEM",
+                "index": 11201,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x4cb56ea6c7385f07cfe4a3654ab3f3ca0636e6dc1fd04e59075e59d8ac7cc8f9",
+        "index": 6,
+        "entity": 245,
+        "registryEntityIndex": 245,
+        "name": "There are more levels to this",
+        "description": "Your Kamigotchi is getting stronger. Good!\n\nEach level takes more XP than the last. It’ll take a lot of time to reach level 100…. \n\nFor now, just get to level 10. That much is easy.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xd833147d7dc355ba459fc788f669e58cfaf9dc25ddcd0702e87d69c7b5124289",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 3
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xc624b66cc0138b8fabc209247f72d758e1cf3343756d543badbf24212bed8c15",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_LEVEL_HIGHEST",
+                    "value": "0x0a"
+                },
+                "name": "Raise a Kamigotchi to level 10"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x05c39f9ea7bd0413445e30769d04787e7df20812cffc765f784fc55b26231520",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xf22a3b8b4cf9e59fd5ef52eec02e9b1b5144acc438a184d455e1ca5b1f8c134a",
+                "type": "ITEM",
+                "index": 11304,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xd7ae4867c8924e606c6286532534d48cb396c2c021c7558479bde915a24b9883",
+        "index": 7,
+        "entity": 249,
+        "registryEntityIndex": 249,
+        "name": "There are even more levels to this",
+        "description": "It seems you’re a real Kamigotchi trainer. I appreciate the dedication. \n\nI want to see a level 20 Kamigotchi, now. I’ve got a few XP candies here as a reward. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xb13d2d76d1f4b7be834882e410b3e3a8afaf69f83600ae24db354391d2378d2e",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 6
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x944998273e477b495144fb8794c914197f3ccb46be2900f4698fd0ef743c9695",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_LEVEL_HIGHEST",
+                    "value": "0x14"
+                },
+                "name": "Raise a Kamigotchi to level 20"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xd8a4b2693e3485d0cdaf398abdc72c1a197015607fec33f5fffa984e7db534c2",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            },
+            {
+                "id": "0x1f2bbb32534360f43be4b1a3cc8e1c4212f8e68a2e9434d264914073e14522bb",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xb8a4c741725420d3d81632e6aca6d6c2cf641e29f7426a36b4360a8143cd753c",
+        "index": 8,
+        "entity": 254,
+        "registryEntityIndex": 254,
+        "name": "Spring Rites",
+        "description": "Your first Kamigotchi has fallen. But Death is not permanent in this world. \n\nYou can resurrect your Kamigotchi by using a Ribbon. This one is free. The rest will not be. \n\nBe careful. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x3ad8aa4f87544323a9d1e5dd902f40c356527a7955687113db5f9a85ad579dc1",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "LIQUIDATED_VICTIM",
+                    "value": "0x01"
+                }
+            },
+            {
+                "id": "0x057c384a7d1c54f3a1b2e5e67b2617b8224fdfd1ea7234eea573a6ff665ff63e",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 1
+                }
+            }
+        ],
+        "objectives": [],
+        "rewards": [
+            {
+                "id": "0x88ea7affa86758625b0a2bca857a9d4054b036bc7e65e9c1efca22497fc2f2e6",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xa48cbe643840c9cf491a565de506259dfb72957cf38a18ead8c8b7f8b03b26d0",
+                "type": "ITEM",
+                "index": 11001,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x4ecca25a806282934089ad0c32acd6cbb41f66cbb753121331c5603a2330c23b",
+        "index": 9,
+        "entity": 262,
+        "registryEntityIndex": 262,
+        "name": "Supporting local businesses",
+        "description": "Now you have MUSU. \n\nMUSU is a form of energy that exists within this world. It can, sometimes, be used to purchase things. \n\nThere’s a shop located somewhere nearby. I don’t approve of the owner, but you should seek it out and try trading with her. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x0e4562a10381dec21b205ed72637e6b1b523bdd0e4d4d50af5cd23dd4500a211",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 5
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x6d4407e7be21f808e6509aa9fa9143369579dd7d760fe20a2c09680fc146134f",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BUY_TOTAL",
+                    "value": "0x01"
+                },
+                "name": "Buy something from the store"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xe3ce51ec6aabce57752e0108e221cbec4b6778caf700ceed2258e1c4c4d0a00d",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xbea8135854d779986af3c3b83ee790296128df84fcbb7c52f2d99cf1b535b662",
+                "type": "ITEM",
+                "index": 11011,
+                "value": 1
+            },
+            {
+                "id": "0x0b7a8f6b7cd02884fb0b492640184d5f2f792faa368367a29dc0b6e7c790565c",
+                "type": "ITEM",
+                "index": 21001,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x21fbaef78d6967ae32b3b818df305f440ad1dff3a29b24eab049c56a367f115b",
+        "index": 10,
+        "entity": 264,
+        "registryEntityIndex": 264,
+        "name": "An Unforgiving World",
+        "description": "It seems you understand how to harvest. \n\nThere is another way to gain MUSU - from other Kamigotchi. Kamigotchi left with low Health while harvesting are open to liquidation. \n\nTry it out. Gather some MUSU from a Kamigotchi using one of your own Kamigotchi.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x50bb669a95c7b50b7e8a6f09454034b2b14cf2b85c730dca9a539ca82cb6e350",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 5
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xa03837a25210ee280c2113ff4b77ca23440b19d4866cca721c801278fd08d807",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "LIQUIDATE_TOTAL",
+                    "value": "0x01"
+                },
+                "name": "Liquidate 1 Kamigotchi"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x70882a955b83ffc26fb9c8ac682bc38505e107dcbc6e516571f9f39cea59bb05",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xd2f482e2671cd98edaeba72967ab443dc1f6de557e26da9646bc7ca9405e1a14",
+                "type": "ITEM",
+                "index": 21001,
+                "value": 1
+            },
+            {
+                "id": "0xb656eb405bd25c5aaec24dc8b82dacd5e186105c43e509bba9b98e26199ae16e",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xd265ee6dc5a90b6938508c26680eeb25a92e0ce640577067a6c8ac761a127427",
+        "index": 11,
+        "entity": 858361,
+        "registryEntityIndex": 858361,
+        "name": "Your First Kamigotchi",
+        "description": "You got a Gacha Ticket as a reward for the last quest. Good job. \r\n\r\nThese tickets can be used to mint Kamigotchi on this testnet. These are testnet-only Kami, so don’t get too attached. It’s not like there’s a way to save them…\r\n\r\nSeek out the vending machine and get yourself a Kamigotchi. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x2111ea597c8b671f0be80b0db528aa7126b13ed66012ba27585e43f30d01ce8f",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 1
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x7a912699e82d993caeaf7c6459f22d709fceac279890dff82beb56d89e9d1f64",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_NUM_OWNED",
+                    "value": "0x01"
+                },
+                "name": "Mint 1 Kami"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x775af9c376fffd998b1e16dd7037ec0c09ef05a981464896fda06abe2b7602e6",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xc38466617b00113fd6962fec85a2b6a0ec6edde33b4263ad7178f25ae70e55ac",
+                "type": "ITEM",
+                "index": 11301,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x123e36bdb8ebbc236b473f076b03c494b2126a4a80b840c7a2a107e0c1361236",
+        "index": 12,
+        "entity": 272,
+        "registryEntityIndex": 272,
+        "name": "Proving Yourself",
+        "description": "You’re doing well. \n\nCompleting quests for me will raise your REPUTATION. As your REPUTATION grows, you’ll be able to claim rewards that manifest both within and outside of this world. \n\nFor now, raise your REPUTATION to 25 if you want a second testnet Kamigotchi. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0x61035b26e3e9eee00e0d72fd1ee8ddca6894550dca6916ea2ac6baa90d11e510",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "REPUTATION",
+                    "index": 1,
+                    "value": "0x19"
+                },
+                "name": "Have 25 REPUTATION"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xb1200996b37342c2dc490dd7b7e7dfce7caed4db1909713d2dcb16345876f6c1",
+                "type": "ITEM",
+                "index": 2,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xea3e17475fdaf6118b8a9d093c922ab104fcc58d406ebc7241b4d16d59fde2dd",
+        "index": 13,
+        "entity": 273,
+        "registryEntityIndex": 273,
+        "name": "Further Progression",
+        "description": "You’re getting started. \n\nThere are things to come for those with sufficient REPUTATION. Quests are one thing, but if you explore this world you’ll find other ways to raise your REPUTATION. \n\nRaise your REPUTATION to 100 and then we’ll talk about other incentives. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0xd57b2b5166478fd4318d2acc6cc2c704584312bdd8781b32d5d06abda57f4230",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "REPUTATION",
+                    "index": 1,
+                    "value": "0x64"
+                },
+                "name": "Have 100 REPUTATION"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xc51a31490b96fb762f25b437ac3e103dcd64ebd5174187ad409cd8c7e0a63dc5",
+                "type": "ITEM",
+                "index": 2,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x80d55789a14d768af2006ff3a7ffc545b56f7478128428b346ba5e5013f95bc9",
+        "index": 14,
+        "entity": 276,
+        "registryEntityIndex": 276,
+        "name": "The Kamigotchi Who Shall Be Named",
+        "description": "Deep within the forest lies a shrine - beside it is a board capable of renaming your Kamigotchi. Seek it out and bless one of your Kamigotchi with a new name. \n\n",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x7cd332d19b93bcabe3cce7ca0c18a052f57e5fd03b4758a09f30f5ddc4b22ec4",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 9
+                }
+            },
+            {
+                "id": "0x401968ff42a154441da5f6c4c935ac46b8671f0e062baaa62a7545ba53bb6e4c",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x3aae57ca13cf6f026b9eac8e97f9b891b59fb198c3f15f95a3a2460ffda3b40c"
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x744a2cf8fd7008e3d53b67916e73460df9fa5214e3ef23dd4259ca09493a3594",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "KAMI_NAME",
+                    "value": "0x01"
+                },
+                "name": "Name a Kamigotchi using Holy Dust"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x80a2339773968637b6612898a3a3fdc16dac6c6c9143fc8b88737fe2788fdcf4",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xe643fc6ce226ebf9830d6542e69f7360a6fab70c621e520fb209c845b10d5168",
+                "type": "ITEM",
+                "index": 21001,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x2dd1637c52dad042d587cb94374c31f6f5fb567cf3df1bd8450385080eaec1f5",
+        "index": 15,
+        "entity": 284,
+        "registryEntityIndex": 284,
+        "name": "Got MUSU?",
+        "description": "This world relies on MUSU to function. \n\nYou’ll need MUSU to repair broken parts of this world, as well as to purchase items at the shop, and, well…. you’ll see. \n\nYou’ll need to start gathering it seriously. Get 1000 MUSU and come back to me. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x98a476f1687bc3d60a2da2adbcba2c46958e61fa2fb4042cd7bc5816a710195b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 5
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xe16da923a2d88192e5070f37b4571d58682c0d66212ec634d495f33de3f77ab5",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_TOTAL",
+                    "index": 1,
+                    "value": "0x03e8"
+                },
+                "name": "Harvest 1000 MUSU"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x950d45a12af85458659717c960f3ffe62cc82a4b8836769caaae09fdfa28e59d",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x6fb6e573042d060b9c10c08841d8431d77ecfc8342bccb016b84ac8d09b08531",
+                "type": "ITEM",
+                "index": 21001,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0x804353c4f299015ec73296baeca2e59f3f0db54c8dc65e12578d342c1c6e76fd",
+        "index": 16,
+        "entity": 286,
+        "registryEntityIndex": 286,
+        "name": "Harden Your Heart",
+        "description": "Liquidating Kamigotchi can be a very easy way to get MUSU. \n\nDid you know that liquidating Kamigotchi is much easier if the attacker has the right Type? Well, it is. \n\nGo hunt down another 5 Kami. I’ll have something very special for you once you’re done. You’ll like it. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xcb7c14ce178f56e2e8d86ab33ebc0ae081ba8556a00cd122038841867181caac",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 10
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xbeced09521047d05b8960b7e7bcc1d1292cf3e4b2a6b63f48335cbde5f7545d2",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "LIQUIDATE_TOTAL",
+                    "value": "0x05"
+                },
+                "name": "Liquidate 5 Kamigotchi"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x6a5adda2edb0603405e5be93a6a731344425efb7a878362c02d2fe4e86c0f3be",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            },
+            {
+                "id": "0xc02f7931e3ac4c009912b797f637ca74e218eea1ca9e987ddf565a342775f292",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x521b774e3a03efdc9e7769430b6eaf0ef3c99e6e2cbc2dd7a9aff3c3eeb04700",
+        "index": 20,
+        "entity": 6027,
+        "registryEntityIndex": 6027,
+        "name": "Kamigotchi Citizenship",
+        "description": "You’ve truly proven yourself. \r\n\r\nThis world won’t last…….. but I can give you something that will. I need help here….. so work your reputation up to 300 and I’ll give you an NFT. We’ve got plans for this baby, but for now….. \r\n\r\nThis NFT won’t be available after the testnet period ends. Good luck.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0x3f539f465397ab387efa93a617e37005205c037386b5b474fcfac82f47f77f0d",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "REPUTATION",
+                    "index": 1,
+                    "value": "0x012c"
+                },
+                "name": "Have 300 Reputation"
+            },
+            {
+                "id": "0x960942b7bcefc06c4573016a89cb45882597f73bb18f9afb0df2c0e01c496e1b",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "ITEM_COUNT_GLOBAL",
+                    "index": 3,
+                    "value": "0x03f1"
+                },
+                "name": "Less than 800 passports claimed"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x6e3906e24cba106f2520b5e326fdad36fc025738b9beb24e8587a5d3591853b0",
+                "type": "ITEM",
+                "index": 3,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x919828cc514227dd4d3626dcc9f86818038e15b5ba2a99beeed9ce7e0490835d",
+        "index": 21,
+        "entity": 294,
+        "registryEntityIndex": 294,
+        "name": "Daily Grind",
+        "description": "This world follows its own cycles. The calendar here isn't quite the same as in your world.... for example, things here run on a 36 hour day. Have you noticed?\n\nNow, Harvest 300 Musu during the daytime. Show me you understand the purpose of those waking hours!",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x4a2cc91ee622da3bc833a54c37ffcb6f3ec23b7793efc5eaf5e71b7b406c5c06",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 14
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x37fa166cbdbfbb1561ccd9ea985ec0218b5e68502e230525f544285b2bdf3d7e",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "HARVEST_WHEN_DAYLIGHT",
+                    "index": 1,
+                    "value": "0x012c"
+                },
+                "name": "Harvest 300 Musu during daytime"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x275818f37ec4d3dfdcbf3a69bcfb6ab0315350f4cce4d8f3ebce2a14d590d217",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x77c8b02d36369322b225b439ca41aa5cc58b4f97054b6a97986d709e6bee6f4e",
+                "type": "ITEM",
+                "index": 21001,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x3b2a9c702726a5dddc4e24d5403255e4d200133f7b8ed39e70331518c0d5a3de",
+        "index": 22,
+        "entity": 298,
+        "registryEntityIndex": 298,
+        "name": "A place of tranquility",
+        "description": "Kamigotchi world has three times of day - Daylight, Evenfall, and Moonside. Maybe that's a little different to your home world?\n\nVisit the riverside during Evenfall and meditate for a moment…",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xa813484aef6fb598f9f753daf162068ff39ccea4075cb95e1a30f86995b5b7ee",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 21
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x6ff97a59c90d62cc7236ba3a37cd85351bf564556780cf8c1157a220f31f0cbb",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "ROOM",
+                    "index": 1
+                },
+                "name": "Visit Misty Riverside"
+            },
+            {
+                "id": "0xc54045fa7c6ec765e825df7f9e9bf9dec12c5cef146f93a5eee56772ee647fbc",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "PHASE",
+                    "index": 2
+                },
+                "name": "During Evenfall"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xea2727063e5e1dfe616da0fe349672584553a303676aeb9b818d1c455bde7418",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xa8acaee373cb0e2612312b2769d36f5e2689f4b499914104b3c62cfe8d7f485c",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xcb2c18b208ff40a827a2b3ca27f946adb7b849d90c9248eb0a845b759f15ff89",
+        "index": 23,
+        "entity": 303,
+        "registryEntityIndex": 303,
+        "name": "A dark forest…",
+        "description": "Moonside is the time to hunt. Seek out and slay a Kamigotchi under the cover of darkness.... embrace the call of the night...",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x11df491316f14931039edfd4f8964c9a443b862f02d4c7611d18c2bc4e6ff697",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 22
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x82a75bdeeae8604d839476ae9efd8b0e15aa447e21bfd7f41283bb54e22c9a82",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "LIQ_WHEN_MOONSIDE",
+                    "value": "0x01"
+                },
+                "name": "Liquidate 1 Kamigotchi during moonside"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x730fc56440907af3d1862111dbd213b6e3ebd352a4b30e68dcdf495a12d2318e",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x2daa5e84f18c3d1fa643b521cb8fd69ae1f1f64d7bd4ac2a60b5f5ab42d6e108",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xd03b9317d61ba6e3c15f6ed0b7410344b511d5797fe8f12e9fd3b18a6f315174",
+        "index": 24,
+        "entity": 648954,
+        "registryEntityIndex": 648954,
+        "name": "Feeding them up…",
+        "description": "As you've probably noticed, use of food is key to efficient Harvesting. The more you spend, the more you can earn.....\n\nNow you're getting into the groove of it. Feed Kamigotchi thirty times in total to show me you understand how eating works.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x0811e24b8519f4ed383f94aa0851ebf57b0946b3cdddf2491721670c8cf55de3",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 15
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xd970d987a83913592707ab8e86368c5f67751254bd45bb26167be1e54a102d05",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "KAMI_ITEM_USE",
+                    "value": "0x1e"
+                },
+                "name": "Feed a Kamigotchi 30 times"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x0e18190da75e5e9dfa17bae3dc59fdbd9185f16f2fa64bdd31decca864eaa0ae",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x62d987025afbb6d7462b16dbe6fc63dd0ae38e1701dc03846c45662ff404f71b",
+                "type": "ITEM",
+                "index": 21001,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xc6f738a0620c3156b0072c9ece8637757449b097d9ccf9567ad154f09391233b",
+        "index": 25,
+        "entity": 311,
+        "registryEntityIndex": 311,
+        "name": "A Serious Hiker",
+        "description": "Exploration is a key part of mastering this world. Have you taken the time to really look around?\n\nI need you to put in your ten thousand steps for me. Move 100 times and I'll consider you a proven explorer. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x4a11f94e20a93c79f6ec743a1954ec4fc2c08429ae2122118bf234b2185c81b8",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 6
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x42a7b7dd785cd69714a189dffb3fd7d7174edc9ece837694ce50f7078f7c31ae",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "MOVE",
+                    "value": "0x64"
+                },
+                "name": "Move 100 times"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xdd5e9e117f57b818d08ef85e71ff48e8d675a4ffd8be0888eed40f1104e3ca6a",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x448f9626f340f70ca2ba9bd4a8b56ce63f325c186fe62ed0a92930c57f6e0d18",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xc05cbfbff1b5ac9b7b3f729667a7d34fb6445e8e8925edec0ac7d4f3a8676330",
+        "index": 26,
+        "entity": 797873,
+        "registryEntityIndex": 797873,
+        "name": "Searching for somebody",
+        "description": "Seems like you're struggling to find the right Kamigotchi. Well, here's a consolation prize at least....",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x39a6c9dd91f7738fa7b614e3dda798f9f7fe66790db670316cc91825cb615cb4",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_GACHA_REROLL",
+                    "value": "0x01"
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x91b853ccc661fc4683832e625bd1783bc539c71e9ed76f9d7b4f8fcda3af9ff5",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "KAMI_GACHA_REROLL",
+                    "value": "0x05"
+                },
+                "name": "Reroll 5 times"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xd1fe1ad6a1e9b0f438bd2084b20e6b2b254440876aff6c031983fdf08a04452b",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xb2b24c912d7f340dd7f307b2ac682954272b46338fcc6453f41ffd23d12b5e00",
+                "type": "ITEM",
+                "index": 21001,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0x54d99e889ee3a2e3b1fa67760652edbf6e2e5df9be5749d3ac0bc2610152ae37",
+        "index": 27,
+        "entity": 314,
+        "registryEntityIndex": 314,
+        "name": "Expanding Your Team",
+        "description": "If you can make it to 150 REPUTATION, I'm comfortable giving you access to another Kamigotchi. It just makes sense to support you more as you help the community.…",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0xa2999d817b6757290b50e8ecf3fa939673403dd35c97de392fdb343b4015ce9e",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "REPUTATION",
+                    "index": 1,
+                    "value": "0x96"
+                },
+                "name": "Have 150 REPUTATION"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xceb65d78cbe4ba622ece14ac35900bc35eb146a84d49f60c20dbebf462e476e1",
+                "type": "ITEM",
+                "index": 2,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x95e5feec4619e556d5174f17f798c3609e0a86b84334a95b23dd767e17d62746",
+        "index": 28,
+        "entity": 321,
+        "registryEntityIndex": 321,
+        "name": " Another One",
+        "description": "You'll really need to dedicate yourself to completing Quests if if you want your fifth Kami. But of course, this is only a step on the road to 300 REPUTATION… That's the real reward, trust us. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0xbbe3212124853f8b0084a66a2d057c2966e251e132af3691db153ab65f0d1a4d",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "REPUTATION",
+                    "index": 1,
+                    "value": "0xc8"
+                },
+                "name": "Have 200 REPUTATION"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xcfcfd1f2aeee45db234caa0773be473c46b71588d7bf5b39ad57c92ee2179148",
+                "type": "ITEM",
+                "index": 2,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x7e1b7db11827e8d559655ae960e1a35cbf8a891196cddf031cfe88d01df85583",
+        "index": 29,
+        "entity": 317,
+        "registryEntityIndex": 317,
+        "name": "A Full House ",
+        "description": "This is the last Ticket it'll be possible to get within this world. If you can make it this far, you're very close to snatching that Passport… you can do this.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0xc6bb06cb7f92603de181bf256cd16846b93b752a170ff24824098b31aa008a7e",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "REPUTATION",
+                    "index": 1,
+                    "value": "0xfa"
+                },
+                "name": "Have 250 REPUTATION"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xc60f6785e7c05dd29a64f973ae5236d3c3ee60fa225b1e39abe3af9faa238658",
+                "type": "ITEM",
+                "index": 2,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x69c69ab62528cb4e1f1aa17c54ee78f7211d3313e9022cb2aaa8a0812a5d3440",
+        "index": 31,
+        "entity": 322,
+        "registryEntityIndex": 322,
+        "name": "Kamigotchi Development 301",
+        "description": "You're really getting into the rhythm of managing your Kamigotchi. I hope by now you've started to pay careful attention to the choices you make when developing your Kami.... It can be difficult to decide whether to focus on one tree or spread your attention across all of them.\n\nAnyway: Now for a Level 30 Kami. You can do it.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xece66cfdbd22e3f37d348a3d8e19074452862cd65fd4b9a11f0336d1ac6d1dc3",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 7
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x8d800d6614d35eed73733ee453164a3b48076eb3138f466adeeb9dec7bb31f70",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_LEVEL_HIGHEST",
+                    "value": "0x1e"
+                },
+                "name": "Have a level 30 Kamigotchi"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x6d893e234e959f63509b958849a76885814a72b9f976c27b9c930fd384b79591",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            },
+            {
+                "id": "0x0be9374a764f6e5d6fc2159e77effb4b8b38ceb8e5d60ed8817375455364bef6",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xb94fcd45082fa643e6d76b406162b30218d1c5fbaf36f666a976118fb9690f09",
+        "index": 32,
+        "entity": 329,
+        "registryEntityIndex": 329,
+        "name": "Building Materials",
+        "description": "You should have noticed by now that your Kami can also Scavenge while Harvesting. You build up the Scavenging bar by harvesting Musu; once it's full, you can claim additional items your Kami found while Harvesting. \n\nI need to build up a stockpile of basic crafting materials right now... Can you take a look around and bring me some wood and stone?",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xc03004e3ce0784bf68186394306849f9b7b1200073105cd9aeb554a1802b58fd",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 15
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x7c9785e8241615bc80415d89775984a1337d15dc1bf4ce50f41988b2a2b336a7",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 102,
+                    "value": "0x05"
+                },
+                "name": "Give 5 Stones"
+            },
+            {
+                "id": "0x352feee0eea125f11f791c1b77524172e9bc20f1b719b6cef0fc24f64db8e15e",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 101,
+                    "value": "0x05"
+                },
+                "name": "Give 5 Sticks"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xdbbb3ca9d782bfb2f9ef6687ae5aa6bb1bf26de8c0786e2ae00f08fed4021988",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x2ed0a860fa4db75df49b248142485709407552befcfa18972822544d61c5f25b",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xffe3e274195a2b866c22876ead4e88bcae90cb9692578b33dfd29a40fbdba6d1",
+        "index": 33,
+        "entity": 334,
+        "registryEntityIndex": 334,
+        "name": "Recycling Duty",
+        "description": "The exact items your Kami can Harvest depend on the Tile you're in. Some tiles have much rarer and more interesting items to find..... Keep your eye out as you explore the world. \n\nI crave Microplastics at this time. Find me some Plastic Bottles.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x38dfe4635b27babeca8be38d3b448cb5161a639b899a14825ba9c8d7892eb8c3",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 32
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x9690ad99d6ce244efa8a0f6c2d04036d3b33a9474db32a71b71135c695102793",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 103,
+                    "value": "0x05"
+                },
+                "name": "Give 5 Plastic Bottles"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x6f2c64a116e4a357f995508f0429d9a10df8b94a55fb691a101d783fe1970535",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x55f836595fcee7ef55375b7c3ed6fea0fe4c2598c1025fccb42d7e6d50d15763",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xf0cc51a49ea18ff68fc25ccafdc8292c1c5c1593e73cca2f77fd54f2b70f7068",
+        "index": 34,
+        "entity": 340,
+        "registryEntityIndex": 340,
+        "name": "Scrapyard Feast",
+        "description": "Did you know it's possible to find edible Cheeseburgers in the scrapyard? Well, it totally is. If you're interested in saving your MUSU, that's one way to find food....\n\nPersonally, I want to take samples. Find me 5 of them and try feeding them to your Kami.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x9b22d3d61959b4d3528b1d8ba932c96fbe302b36a1aad1d95cab54f9e0a135ea",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 32
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xa80a8fcc11760162f08bb091d2c9389d07f2b73d0e996161dfac6f1043b5fc0b",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_USE",
+                    "index": 11302,
+                    "value": "0x05"
+                },
+                "name": "Feed 5 Cheeseburgers To Kamigotchi"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x46ef925c9cdcd63be885e9a9e06b33485e4ca3c2c07247d54c756be97589edf8",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xc20eb9d38b62451ee67a0d391f2245f8f5d4f0f1bfbaf0bf06ba36b913ca8a67",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xa2cb6bb6c843cc83fcb8a0d70b7c7ddb4d27efc184801ad862f7bc93b1997e46",
+        "index": 35,
+        "entity": 348,
+        "registryEntityIndex": 348,
+        "name": "Fruits Of The Forest",
+        "description": "Have you ventured deeper into the Forest, yet? You can find Pinecones there. \n\nPinecones can be used to make Pine Pollen, which will be very important for Crafting various types of items....",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x128667f541fed74a8429f9d592c26c2c6a4beb9ae5ead9912c98b2595c842310",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 33
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xc43c1e24e1884c4e28a16bbd9506f60b5ca9f18fc90635e729d3cfe13abcf001",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 104,
+                    "value": "0x0a"
+                },
+                "name": "Give 10 Pinecones"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x4a4045ba32c05c2dfd33ab45f447143e954657e9132887987bf2761f13fbb63e",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x76259274a1844e3ed43f16ed586510b24fd1d3ed3fc7992ce53aebef7232ae4a",
+                "type": "ITEM",
+                "index": 107,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xcee7a888abfcc6d1fd24d9b1215b020f8442e2f8837fafd7bdc476dd8c8e1ea8",
+        "index": 36,
+        "entity": 350,
+        "registryEntityIndex": 350,
+        "name": "Elusive Herbs",
+        "description": "If you search very carefully, I believe there's one place in the world where it's possible to find Mint..... While elusive, I think it may be useful one day. \n\nFor now, bring me some and I'll give you an XP Candy. Deal?",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x15040156076f78057c0a886f6dbac29221fa3c2646adbc8effedab98152ff32b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 34
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x37e472f504e93744df80d87316862f9a8fd41a7bc266c723bf77df7866d75f55",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 111,
+                    "value": "0x03"
+                },
+                "name": "Give 3 Mint"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xf5ef0664e499b11517d712818e33746cdcb757da67b3a0f7e2a02cd1f55f90c9",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x3f83de24771750e0215b2594e3e5b59c35bbebcb13e734f49c0141df23dd1c3b",
+                "type": "ITEM",
+                "index": 11140,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x2e70e56603eb57b1608ad80d075fee7687de47cc9114a61a74fe01a482319bea",
+        "index": 37,
+        "entity": 351,
+        "registryEntityIndex": 351,
+        "name": "Scrap Metal Hunter",
+        "description": "I need a very large quantity of tin cans for a project. Hanging out in the scrapyard seems like your thing. Bring me a whole pile of them.\n\nYes, I know it's degrading.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xfcc5ba1a98fc477b8948a04d08c6f4a76181fe75021370ab5e6abd22b1792a2a",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 32
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x17b0af156a929edf60c351f3df2d53ed643fdd750aef9eda90dc7c8759a104a8",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 105,
+                    "value": "0x0a"
+                },
+                "name": "Give 10 Scrap Metal"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x203d8b24fe3d9abdb1499204e4c38f2339119def595d24f0c141cde233d87529",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x0652cc81ea6b6e2760416737c36beb90119166d1394f285047b8edc7381156f2",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x7392f1b8eb1bd38232390885bf60f7953210a4ace9f58f22e1f20a11a7adf23a",
+        "index": 38,
+        "entity": 363,
+        "registryEntityIndex": 363,
+        "name": "Research Samples",
+        "description": "I don't know if you trust Mina.... but I have no idea where Mina got those Ice Creams from, or how you're even able to eat them. \n\nI need samples of the things, because I'm very interested in finding out. Bring me some. Fast. This is important to me...",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x42859d4f253f4d4a28ee9a59f9c9683a9404da2c5d329c733ab84f150db798a8",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 9
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x1b524e1c8b5382bb913d0a2aae8ad83bb92a45fcb47761fa4a12f5b6316c2b20",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 21202,
+                    "value": "0x05"
+                },
+                "name": "Give 5 Better Ice Creams"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xbcd0c45655fe9e380fff8d06baba75d006b2adee8dd81b3e6b4124794f18b4f1",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x2273c8c44ba405621231dcfa7d659572a46b284b8177d63cb0f0d74015734204",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x6bd7b9d5e37bcf8a09d3dc05277054ceb407900bda4ba6eba0aa51a031f3d18a",
+        "index": 39,
+        "entity": 364,
+        "registryEntityIndex": 364,
+        "name": "Industrial Quantities",
+        "description": "You're really becoming a pro at this scavenging thing. \n\nWell, time to practice the basics. Can you bring me uh, a ton of wood and stone? I need more. For that project of mine. We're almost there.....",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x9b65e484ce3d961a557081a44c6c68a0a27eca0b88fce820bdd99c3dc223dcc7",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 37
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x5529612556959ef813dbe8d0ed29336ab75e80a9b7855030760b2917b01e568a",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 102,
+                    "value": "0x14"
+                },
+                "name": "Give 20 Stones"
+            },
+            {
+                "id": "0xa2e8f972dc9f7d0b76177bb8be102e6bec069ee42c61080745e8825470e80c6c",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 101,
+                    "value": "0x14"
+                },
+                "name": "Give 20 Sticks"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x084ef58dfad461f9a5f255eb704d0281c97174b062b76ad925b112edf7c0b740",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xca16896cb3dcac894428beb01e5ea95116c96611baa788332ff4753078449cf3",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0x13893928327e59e1efea72780ccf579b9e99445970b2eda20b7c086588f71b4a",
+        "index": 40,
+        "entity": 371,
+        "registryEntityIndex": 371,
+        "name": "Even more MUSU",
+        "description": "MUSU is a common resource. Most of the nodes you can find in this world to harvest from will give you MUSU.... although perhaps not all. \n\nEventually, it'll be possible to use MUSU to trade with other players. That's not quite ready yet.... but one day...",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x994a4b4eddb300691ee19901712848b1114bad8a1a4ae195e5abe0ec38021b94",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 15
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xa9144a5e7efd259b8b0d55467f4696ed47ec83317d61501b76366dbcca65ce73",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_TOTAL",
+                    "index": 1,
+                    "value": "0x0bb8"
+                },
+                "name": "Gather 3000 MUSU"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xb7ded392eb1d662a7bdd904d223f4c976299f983e8b3cfa8da12b95f11a03368",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x06be8323fc07c34202c97652f975edd868ab02c53ab9cea1f5809303e395a38e",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0x74a737a8abe50b4d58e7a6ad300f12bba8bce00e761ec4d86e8974c9ab3e2f05",
+        "index": 41,
+        "entity": 376,
+        "registryEntityIndex": 376,
+        "name": "Industrial-scale MUSU",
+        "description": "You're going to want to gather a lot of MUSU if you're serious about living here in Kamigotchi World. I'm starting to respect your dedication.... but let's push it a little further.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x4c83efb3982afbd500ab7c66d02b996df5fdc3d20660e61600390aad6d5f7f1e",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 40
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xf0d642dbc7517672e217238a2f008f4f8cdad0586d8ce5113e9e09dcc6860619",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_TOTAL",
+                    "index": 1,
+                    "value": "0x2710"
+                },
+                "name": "Gather 10000 MUSU"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xc7f7eb1b0aea4d8e010abf60b839439c3e33e680312d49c465d196e6c2a0e81c",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            },
+            {
+                "id": "0x42e131cbc293af028435c904f673089ef78d005fc41a3b276c9b969131ef9ff0",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "id": "0x71137eea8a8ae183098075f38de174efac045a9ea7c6f9cddc76a8f8d3bc2791",
+        "index": 42,
+        "entity": 379,
+        "registryEntityIndex": 379,
+        "name": "Scouting Out",
+        "description": "I'm interested in gathering more data on a few specific locations within this world. To start, I want you to investigate the area outside the office building to the south.... Have your Kamigotchi search the area for a while. No, I don't need you to report back, don't worry.…",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x71beda120aafdd3bb922b360a066d10b7ce81d7ac2ad9874daac46e2282f6b45",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 14
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xea7419f5ae821e7204864e6a0871433ba612011908963bb42a64f42d65ad2f72",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "HARVEST_TIME",
+                    "index": 6,
+                    "value": "0x1c20"
+                },
+                "name": "Harvest for 2 Hours at Lab Entrance"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x72827f768ed60fa34e78d6bf499b67228e7253bc4efefbd5c4c8bf2fca4433e3",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xbf27fd1d7fafb8e6b1cbd5f625581342829163d103a9e252eeda46c82433dc55",
+                "type": "ITEM",
+                "index": 11301,
+                "value": 5
+            }
+        ]
+    },
+    {
+        "id": "0x0e7a6f33bade95949663e9e1375f7a1c7c9fece6a0956647f16e79e1da5898d2",
+        "index": 43,
+        "entity": 385,
+        "registryEntityIndex": 385,
+        "name": "Points of Importance",
+        "description": "Interesting. The office is still sealed for now.... but I have a sense that it'll be possible to enter later on.\n\nNext up, I need you to search the core of the scrapyard to the west. Maybe you'll find a screwdriver.…",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xe8e5595d268aaa85b36c3557e9d96c14a4fffaee9f45bcae0c407968a7109630",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 42
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x657000d47e971dcfb21375bcfa3496f47a2a2f0f12c8aeb78a008ace6ae55ca5",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "HARVEST_TIME",
+                    "index": 12,
+                    "value": "0x4650"
+                },
+                "name": "Harvest for 5 Hours at Scrap Confluence"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xf57a377c224ebd143c187b519da3db49f380b5b4daf078136d12f510d5ed7c16",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xfb8e69342db8c00c1a732f08a75646d484bdecb365568c2d2f2268676ca556c0",
+                "type": "ITEM",
+                "index": 11302,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0x127d15070ef434e6992575c4175e01063c16ffdc6edfafc353873f7e8d176d29",
+        "index": 44,
+        "entity": 389,
+        "registryEntityIndex": 389,
+        "name": "A Moment of Peace.…",
+        "description": "Very interesting. In order to calibrate my readings, I need a neutral control for contrast..... can you have your Kamigotchi harvest in the Clearing for a while? I'm sure there's nothing special there…",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xd73956b9e00d8f8bc5e44f7184df1387cdd652e7726b8ccda3db4859e02f31bf",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 43
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xe8c3abd4193a84ec8a3fff3eeb3ecbcbd0979e0c977ac1dee06c6e01a60aca1b",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "HARVEST_TIME",
+                    "index": 49,
+                    "value": "0x8ca0"
+                },
+                "name": "Harvest for 10 Hours at Clearing"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x30ba04558b95c88b89d8c41c00571f860383d8680615005f48abecc83102671b",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xe927416ef8a6b666c57001f3e15887e0f228b3a44969fe9e1744fd67759febf4",
+                "type": "ITEM",
+                "index": 111,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xd38cb23f242a28fe8d9d006d77217a6b4e25e74b2f7960cae540290b751eb21f",
+        "index": 45,
+        "entity": 395,
+        "registryEntityIndex": 395,
+        "name": "An Even Rarer Flower",
+        "description": "I'm amazed to see you found me that mint. Very few of the other pioneers have made it this far...... \n\nThere's one other rare flower I need. It can be found around the centre of the forest.... but I regret to inform you that it's even rarer than mint. Best of luck!",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xfcebc02dd307dc58cd01b156d63c6948b8f3422055fac1d836349b01722e9c52",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 36
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xec0b854938343f85eb39a6648b9e449c2e4aee4dc9b4e96ab592f9f497d05138",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 109,
+                    "value": "0x01"
+                },
+                "name": "Give 1 Black Poppy"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x021a9690581a940ffb97f12f111b99a3d8dbc6c5ed4d7f4aad00bc6dddd1a65a",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": "0xc2bc948664ce589ebfa1ad6dc4d4bffad92fd6f09a1adc2a85f2d8f1e10836ef",
+        "index": 46,
+        "entity": 398,
+        "registryEntityIndex": 398,
+        "name": "Alongside the stream...",
+        "description": "It looks like filling the Torii Gate with MUSU has opened up a new area by the riverside. I think you should be able to find Daffodils there. Do you mind wandering down to take a look? Yes, I know, even more flowers..... I'm starting a collection.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x2619ec68b255542e3da68c054bfe0d7d0f27b7fdbefc8bbccdd23188fc71fe7f",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x909cb0ef35f5f5f666b1b04ed0ee93bf4379cf0ebdd488301650fd8faedfa6f4"
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x34d3c319f536deb74ed8f1f3205d9aefef7487c819e77d3351630820dbff1118",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 110,
+                    "value": "0x03"
+                },
+                "name": "Give 3 Daffodils"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xb86f0490e51eb379551361ca6bd1f6f8306b41a3bcdfaada9b27772be5070e66",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xed38454a2b5a847d53d35598b18e400967a99181780dee290b3d042fe106b244",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0xf821f644a04975471c5d236b06a7b576ae1418a14ce28d4e38782d0bb00cbc43",
+        "index": 47,
+        "entity": 404,
+        "registryEntityIndex": 404,
+        "name": "Defiance of Common Sense",
+        "description": "It seems that Mina has now started selling some sort of teleportation device. That shouldn't be possible at all. I'm going to need a whole bunch of these to reverse engineer whatever she's up to..... Can you go and grab me 15, please?",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xcc7ee599e5d59fee88c83157bd897847c5911dc7d317b3175e0b085198349973",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x6e9663ad45f9ac77e6bb31c45246cfbbd6a603941b75035df24223c4fa7a54af"
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x41c7ae758795765c6664a5d39bf63841c71ff191e9189522bad8ebff5d4eca98",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 21100,
+                    "value": "0x0f"
+                },
+                "name": "Give 15 Scrolls of Shop Teleportation "
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x6639b2244d8833c7087b88ffedd8a4318bafd60c8dad11549e094fdd945f27b8",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x9486aba101dd23035f55f95815c93794e36822c794834f30e139bae2cfe9f026",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x7f0fe427b3687979ff861befd424529333d1317c2639948b25a0fb1d4c3d6cc9",
+        "index": 48,
+        "entity": 411,
+        "registryEntityIndex": 411,
+        "name": "A whole team...",
+        "description": "Raising one Kamigotchi is great, but frankly, you're going to need a squad to survive out here. \n\nYou can get more Kamigotchi by increasing your REPUTATION and claiming Gacha tickets. Come back when you have a team of 3. I'll have even more REPUTATION for you!",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xf0ecb75dd1820844c57b6762233d4e26853b3a7b8157bbd9f41f280a0f1cee9b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 6
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xb912c5eb6319a4a6a83580b9611610bedb31614179330261bfd87a41347cae1c",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_LEVEL_QUANTITY",
+                    "index": 5,
+                    "value": "0x03"
+                },
+                "name": "Have 3 Level 5 Kamigotchi "
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x07580fe6b806c817da144de338a162b6f4755ca3dbd50c30f433605eefc2b8a5",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x552ec70e40bc4339477adca987f847a82e869545e922190a1f0315ddc706e390",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0xe964e728a25ca163536775ca46c91edf1a04263acfad372906baf991408a349a",
+        "index": 49,
+        "entity": 413,
+        "registryEntityIndex": 413,
+        "name": "Gang Gang",
+        "description": "I see you're still growing your squad. Well, I want to see 4 Level 10 Kami, now. 4 is my favourite number, you know. It's a very important number down here. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xd86d8a3f7c82c89ed8e04140017aa108a0a1469249f92c8f022b9dbafa87b883",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 48
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x26700e13983fefbd9cf16da2ed70fa5c6798ac55062a4803121a869731e308d2",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_LEVEL_QUANTITY",
+                    "index": 10,
+                    "value": "0x04"
+                },
+                "name": "Have 4 Level 10 Kamigotchi"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x605ab98a4e694a8fd37bf4a49e11b5702d8f6922169faf035a1850de3faf956f",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x23b6d55f620a5776e0aa8fdc9a82379d69c33e4dd9d8518e67382a85bcc6211a",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0xede98823e81305101900dd9a7b47dd26e0efb9cfb37d3e2b22d5f878a8ddb3c9",
+        "index": 50,
+        "entity": 419,
+        "registryEntityIndex": 419,
+        "name": "A Squad of Elites",
+        "description": "You're becoming a veritable Kamigotchi powerhouse, now. Well, I'll ask for one final show of strength from your team.... you guessed it, 5 Kamigotchi at Level 15. Get to it.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x8ff97419363ffd7000167f130ef7168fbea05faf9251824ca5043f113cc6a7c7",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 49
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x46501879b8ca8525e8c2fd519e2fbfcfa2ebea26501294aa02cbfcfb12e94354",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "KAMI_LEVEL_QUANTITY",
+                    "index": 15,
+                    "value": "0x05"
+                },
+                "name": "Have 5 Level 15 Kamigotchi"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xd0cb065eaca1bb337e8265c7d10fef94c52a39eb116527a36129b307b2072324",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            },
+            {
+                "id": "0xf0338c0aad41d16852199478331a1bf6ae2d2de880ffc10461412d8dfff4f3fb",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0x8920953b9be4701d8cc5477256491085fbd48d787c0900ec4696a4c9f6caf72b",
+        "index": 51,
+        "entity": 426,
+        "registryEntityIndex": 426,
+        "name": "Endurance Runner",
+        "description": "Now that you've become accustomed to exploring, I need your help to map out the finer details hidden in this world. Move 200 times and I'll reward you handsomely.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x9787eeb91fe3101235e4a76063c7023ecb40f923f97916639c598592fa30d6ae",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 25
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xa2153420d844928b4421650203c77babc8b33d7f2e7b450e2966db0c22097753",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "MOVE",
+                    "value": "0xc8"
+                },
+                "name": "Move 200 times"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x0cad85b254e30e379d0bc81ed281afbcd2c28a98467ea64641f23f3d3b0e50b8",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x84286a4517b2de19f4d1758abef33ff6167a5fb10818e177753184c348c14da1",
+                "type": "ITEM",
+                "index": 21202,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0xd45eb40468458801badad0491b1f51399e3c99c268426ded4979e365152174b0",
+        "index": 52,
+        "entity": 431,
+        "registryEntityIndex": 431,
+        "name": "Nomadic Explorer",
+        "description": "You and your team have proven their endurance, but I'm afraid it's not enough. This world is big, and easy to get lost in. Move 500 times to prove to me you have acquired enough wisdom to find your way around. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x7fb4302e8e91f9110a6554c2c0a24601252c2a42c2220ca988efcfe399914308",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 51
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x116fea137db6e131133e7f2bab296045d8f41cc5607279db17b218cab0929a51",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "MOVE",
+                    "value": "0x01f4"
+                },
+                "name": "Move 500 times"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x53b9c2592742f7fe7ed0d2e0355d922bf31ac3f4d67b8e32698556dfd3c8ecc8",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x2190322eda3ad686d61d4d00171d3e05245ed6a918939323a249a4d22fc9c36e",
+                "type": "ITEM",
+                "index": 21203,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0x6c087b1fc4d7d740c463423d62a78b0228e83c4b6d4c18b0fac8b259605a8825",
+        "index": 53,
+        "entity": 436,
+        "registryEntityIndex": 436,
+        "name": "Globetrotter",
+        "description": "You’ve done well so far, but the journey is far from over. I need you to make one last push... in the name of science, of course. Move 1,000 times and show me that you are a master of this world. You will be rewarded appropriately.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xbd43cb8ece8cd1863bcd6082d65c5b0d25665b1ce17980f0da43c0ed545f98b4",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 52
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x2b4a51ab505fc96a0952efda2ba61bcd3078d4c02c39a186ec16f21883fbe016",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "MOVE",
+                    "value": "0x03e8"
+                },
+                "name": "Move 1000 times"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x23477f7aeb20792625053c36875e3d0016aadf4dda1df5d19eb5f355d28e081f",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            },
+            {
+                "id": "0x980b4bbe14910922193dbd344a12bfafff9b400ae9842fecd5ecb9d0af848e5a",
+                "type": "ITEM",
+                "index": 21203,
+                "value": 5
+            },
+            {
+                "id": "0x2fd31ebcd901a43f1f31bceb71f630efd0de888f9e7887ebe9b2449366191102",
+                "type": "ITEM",
+                "index": 11203,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xabdb65ac6eba1242aa397422142a5f3a0fc06d52ae6417684c8785f9a9859469",
+        "index": 54,
+        "entity": 441,
+        "registryEntityIndex": 441,
+        "name": "A Terrible Tragedy",
+        "description": "Hmm, this is unexpected.... There seems to be an anomaly in the readings from the crash site. I need you to investigate further. Have your Kamigotchi harvest at the Airplane Crash site. Be careful, though.... The energy there feels... heavy.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x5006b838207c6a9ae9b84d68f467dd4bb5c305fbfb6b04eab8faaabeec1e18d8",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0xa2dd18e2e4e6da502da18d3021a949727044dcb27d99ed5693917e4edc048647"
+                }
+            },
+            {
+                "id": "0xbf87b4a3cfdbd664fe786efeabdcdc1554a7e5da5807fa8204f02eee858cad70",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 42
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x9930d9ff0dee0ef5ca2f7710ea66b8f84dd0f5f5351ecffe72b952cd9db7142a",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "HARVEST_TIME",
+                    "index": 52,
+                    "value": "0x8ca0"
+                },
+                "name": "Harvest 10 hours at Airplane Crash"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xa74ada4b2ee8741adacd2f9d32548ef5dcf785d9f11f97d38f84ba2923fd436e",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x5fc0d7ea80a2fc07abe70ece47280eb56bedd3845bba327e59b93dd926195085",
+                "type": "ITEM",
+                "index": 110,
+                "value": 1
+            },
+            {
+                "id": "0x973c604ec8ffe0ffb0862941ea8c17a1d7e9207b0c59810634470e0701e65ae1",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xfd89887c1523acaa38fe5c5892cc05a255cec71d27d04b784f4bc4547416ec98",
+        "index": 55,
+        "entity": 445,
+        "registryEntityIndex": 445,
+        "name": "Keeping Them Company",
+        "description": "The data from the crash site was... unsettling. But there's more. I'm picking up a strange signal from what appears to be someone, as if it's calling out... Have your Kamigotchi harvest near the Lost Skeleton and report back.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x39f2babe526038520877fc7c33d81accf578af4a06c5fa6b0d038cae36e12711",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 54
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x8f6b23ffa15f0465e3176e15ca644cf24f86dc1312fe715484e3c4aead5eb78b",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "HARVEST_TIME",
+                    "index": 25,
+                    "value": "0xa8c0"
+                },
+                "name": "Harvest 12 hours at Lost Skeleton"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x615c1cfb89ebe560897f0fc1d2fe90c63bcee2e687d877cf4d819595605f93bc",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x90f0e1ab5c2776ed2d3f9250d60fb89dd3fd7ea57b1fd617627866dc156ea593",
+                "type": "ITEM",
+                "index": 11202,
+                "value": 1
+            },
+            {
+                "id": "0xf49cceeb0b0cd914a6c88b58127bc79190ff684453e55413e0a08df1a0b76feb",
+                "type": "ITEM",
+                "index": 11001,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0x554d69b9c09187d382224c1ccc79debc2b8dfb1f64ab4dbd48561be75467909f",
+        "index": 56,
+        "entity": 448,
+        "registryEntityIndex": 448,
+        "name": "Paying Your Respects",
+        "description": "The final location I need you to investigate is not pleasant. An area with what seem to be makeshift graves. Have your Kamigotchi harvest there, but... be respectful. Sometimes, the departed still linger....",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xa1fcd19bfe8c32a61095b6bfbb2664842857e148fcbb5188386c8cd40348d5b6",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 55
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xdffbd64cc7c1a7eb27984335d9416d51137a03d3fabec7141025c62663253fe1",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "HARVEST_TIME",
+                    "index": 26,
+                    "value": "0xd2f0"
+                },
+                "name": "Harvest 15 hours at Trash Strewn Graves"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x396e3333768d945264579911a5ea8d614258a5ea0d758233f1a7ac4aefb5c339",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            },
+            {
+                "id": "0xfc62bb17dd94f881faf8f23e7973fc5b7c7b9e2e8ff89d8318ca39ffc1701558",
+                "type": "ITEM",
+                "index": 111,
+                "value": 1
+            },
+            {
+                "id": "0x24a6944ed9e370b37c355b862198502774065c9fe063a9aa941ef047011d346f",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x1919bc6cc28683d80a1c45d871e486f2ff05896831dadbde6940b09fd9b72ba4",
+        "index": 57,
+        "entity": 458,
+        "registryEntityIndex": 458,
+        "name": "Welcome Back",
+        "description": "Congratulations. It seems you've successfully saved one of your Kamigotchi from the previous incarnation of this world. \n\nWell, it's nice to see you back. This time round, a few of the rewards have been adjusted.... it'll be a little bit more work to earn that Passport, now. Good luck. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xf79bde9ddd17963ebce6f7d021d60de7c2bd0db944d23c900c0c0e775f530052",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP"
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x19a0b39aa25ac793b5f6e9a0534364cc0b3fd1ea9b651e79c7f50a59d48ef813",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "MOVE",
+                    "value": "0x01"
+                },
+                "name": "Move once"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xa0d04c60a2d86c135d67a4b6868d722445075d344d093ebd27700636d7b102ab",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xb4e945fd632dd732a4b01ac8a8d805a6ca56e847652f638cce9b1d4134a6f9f8",
+                "type": "ITEM",
+                "index": 11001,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x3ffafaaf6c96aded2fce048b599ff254d2c0f93764a392cb4a921d60e1c8e935",
+        "index": 59,
+        "entity": 447798,
+        "registryEntityIndex": 447798,
+        "name": "Supplementing your Health",
+        "description": "I'm sure by now you've noticed that herbs and flowers can be found in many areas of this world. Some of these can be broken down, and the raw material used to make potions or other items.\n\nPine Pollen is very important - when extracted from Pinecones, it can be used to make potions that give Kamigotchi raw XP. I need some for my own health, so break down a few Pinecones and bring some to me. I'm sure these XP Candy will make up for your loss.…",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0x875ba66b26b981be161e2547fb047f2bdd6d69ff8c88ca6e936b93eb69d27b4d",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 107,
+                    "value": "0x03e8"
+                },
+                "name": "Give 1000 Pine Pollen"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x3ef62482ac2e3ae25c607b7db957d232f01259b12ccb6104abe57bae032a9a8f",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0xfe68d0b6529751ba005144416ef125cebd97a339cdde6dee3793e74fe2ab1158",
+                "type": "ITEM",
+                "index": 11204,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0xff6fba4add1ec5bf00c75b23735d9b75ea90908f6eaa5beb6a6dfff2ee806e66",
+        "index": 60,
+        "entity": 447804,
+        "registryEntityIndex": 447804,
+        "name": "Industrial XP",
+        "description": "Raw Pine Pollen can be processed into potions at a riverside, if you have a Portable Burner... which you'll also need to buy from Mina. This is how all potions are made.\n\nI want samples of these potions. Bring me 5, and I'll give you something very special... a Mana Mochi.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xb8c389ca3fb551e1c1f35dc00ec92a81fe722e749ebbcf93f356268e6006ad3f",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 59
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x2ef69dc27becd5f2552c7a4fc1329b659ad20b7f0b30dc3fffed71cdabf2bd5f",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 11401,
+                    "value": "0x05"
+                },
+                "name": "Give 5 XP Potions"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x2e84bca700073242b28c3ec3e7daffaa7e6c06c2e419c480e38c099e5e3a8923",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            },
+            {
+                "id": "0x1a81e296fe2afbfd18b84eebf139e2154b6e575152108d2dbd328cd8eeabab2c",
+                "type": "ITEM",
+                "index": 11140,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xb73a9c46a62ae213d6b5c22834adc1abc1fe2e1eff282f39bfb553b392998bc6",
+        "index": 61,
+        "entity": 447812,
+        "registryEntityIndex": 447812,
+        "name": "They're Inside You",
+        "description": "If you have spare Plastic Bottles, you can also use the grinder to break them down into precious Microplastics. These don't have any direct uses just yet, but I find them beautiful.... Please, bring some to me. I have a little Reputation left to spare.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x1a4013da30575258d302bbb48003dc1e0c71e4e2f002dd105d5af8751d7d6877",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 60
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x1b5daefb8882a6f8b346ae56a0bf75cb47432ef8ef3950f45e64c39a4f58609f",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 112,
+                    "value": "0x05dc"
+                },
+                "name": "Give 1500 Microplastics"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xae7ed708ba3df9d159e652ec9d7e6a15b194d58100ebdbbd1763ac3cba44154c",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 5
+            }
+        ]
+    },
+    {
+        "id": "0xa4b7fb3b8bc400720de6067809b6442b98c04b5a97b9069a3fd765f4283d8a33",
+        "index": 62,
+        "entity": 447819,
+        "registryEntityIndex": 447819,
+        "name": "Even More Experience",
+        "description": "Although XP Potions are very effective, they're strictly less efficient than the more powerful Greater XP Potions. Greater potions require far more Pine Pollen, however..... as well as Glass Jars. You can find them over by the plane crash...\nIf you need Reputation, I can award you 10 in exchange for one of those Greater XP Potions.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xfdfbfd1dadcf122780d6c12d94a1f40e4165568386602d74b2f7642ebf6bc7b5",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 61
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x99537966903ad686ef4ad0f7db56ecbcffa57557b7a3d15c2227a9db0aa6c65d",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 11402,
+                    "value": "0x01"
+                },
+                "name": "Give 1 Greater XP Potion"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xaa6b66f698fbe4ea6f5b7e791705d58d0d4442fd87f537ba782478850fa587c0",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": "0xe16ee4ff31c499ac335c336ec8aae7079030b0dd2fcd8eb2dbf6a3a299ec38fb",
+        "index": 63,
+        "entity": 552378,
+        "registryEntityIndex": 552378,
+        "name": "Mapping Error",
+        "description": "I'm experiencing some errors with my mapping software. Some of the areas of this world have been altered. A cluster of rooms is dark no matter what time the clock shows, frozen in time like a little snowglobe. Please travel back to the Misty Riverside at the edge of the Kamigotchi World. Tell me what changed, then I can run an update.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [],
+        "objectives": [
+            {
+                "id": "0xb2d57f5a2c015b163952814147d38beb316a1575a016611a2229bb17b3b2ae86",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "ROOM",
+                    "index": 1
+                },
+                "name": "Go back to Misty Riverside (1)"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x07538508ea0b172a1f10f8872ed390b3b71045f4bdcae0b71ad531fc14d5486c",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x3a4019c74d65eea530473a7e221de8fae1816fd8e83b173d9827207225136996",
+        "index": 64,
+        "entity": 552381,
+        "registryEntityIndex": 552381,
+        "name": "Database Error",
+        "description": "I'm also experiencing some errors with my object database. It looks like we’re doing a seasonal event! Merry Christmas! There are new items, too. Please harvest in the event area for MUSU and scavenge one of each of the new items so I can run an update. There are lit candles and mistletoe everywhere, they shouldn't be too hard to find. And it smells like someone's baking cookies!",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xb9017af7e22a1608a1c9be1673f98362dfaf48dd7c46e922e58533e3fae651d7",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 63
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x08996406cd544abb20be8ccd47b2d4c73408b89b7eb8ef1966cc6e8ce3619b7b",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 116
+                },
+                "name": "Have 1 Candle in your inventory"
+            },
+            {
+                "id": "0xaef77500970efb74523c2186d5cc0d5b0ad8aac73c8edb08035d7ac9b6fa5e2d",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 11305
+                },
+                "name": "Have 1 Gingerbread Cookie in your inventory"
+            },
+            {
+                "id": "0xc598fb32cf973f763db979943476c5655fc64cdc3fa78a86e95f5656b83085b7",
+                "logic": "CURR_MIN",
+                "target": {
+                    "type": "ITEM",
+                    "index": 11406
+                },
+                "name": "Have 1 Mistletoe in your inventory"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xd784c9e9f745de5929d3720b37e8e284e747420c1db8580ff0eb621d1ef205fe",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "id": "0x1dc27095c6d51b64a6153fdeab63ddbabf3a4c6ca8fd2628b00cad95e5989c59",
+        "index": 65,
+        "entity": 552388,
+        "registryEntityIndex": 552388,
+        "name": "The Spirit of Giving",
+        "description": "This isn't a logical request, but it feels right for the season. Think about it, okay? You could hoard all those cookies for yourself, but it's the season of giving! Think of those less fortunate and kick them a little something. I can't think of anyone less fortunate than the dead. Leave some cookies out for them tonight, it would warm my heart if I had one.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xd688d4ca2b030451c5314434c6e4b52f4de1a113bf65f07fb0e2a5be90ef79a7",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 64
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xbcc4a83a63f2c0ce94f4c28022f29bfba26e879d013f5103d58484b7b5eaca34",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 11305,
+                    "value": "0x08"
+                },
+                "name": "Give 8 Gingerbread Cookies"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0x51e402fa7a0b442286b5a5eb9be92f092a8d2ef39eb394b7ff9d6e0425ad5e58",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 2
+            },
+            {
+                "id": "0x0ad35c88c25b15dff994e6cca667c2655c38d5f0824f4040852171a7c8c18ec1",
+                "type": "ITEM",
+                "index": 11401,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x806a5d7d6c7d581ab87d78cbac3e27583f5a8f292ef44e7aa4eed2ac97a5fab5",
+        "index": 66,
+        "entity": 552393,
+        "registryEntityIndex": 552393,
+        "name": "Decking the Halls",
+        "description": "Thank you for completing my quests, Operator. I'll run a self-diagnostic right after this, but while I'm in the Christmas spirit, I want you to do a little decorating for me. Just hang those mistletoe branches around the Kamigotchi World wherever you like. Maybe you'll get a kiss!",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xbf9fa2ec7aff1014dcfa65fbd96f2872e09345778c05518489370dba5e22379b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 65
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0xad725d61ef915ef4b1a661ac5d695801581215c2c05a5acaf37542ce4da55d36",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 11406,
+                    "value": "0x03"
+                },
+                "name": "Give 3 Mistletoe"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xacf9995f3231460d7a1047b1276c815c55f70d5bca8a7a9a640a710f3253f012",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "id": "0xf280f7a59d78c748e9a85a83980327980ce5b93a58b87b109d30429ff66e9c51",
+        "index": 67,
+        "entity": 552399,
+        "registryEntityIndex": 552399,
+        "name": "Stop Having Fun!",
+        "description": "I don't like this new domain invading the boundaries of this world. What is it, anyway? Some icy avatar of death and entropy? One of those harvest cults? Nothing respectable, that's for certain. A bunch of humbug! \n\nIt’s best to smoke evil spirits out like the vermin they are. Burn that mistletoe wherever you deem it necessary. This is bound to get the sun shining again.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xa4e6ec409ad15201e98e8868c901a395835c87b2a2c611a19d79af9dae87bfb3",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 63
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x0d04a0c88eab26b2f8ec86dc503a3c74fe399d59ed1f7111d9dd97264fa6b0c2",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 11406,
+                    "value": "0x03"
+                },
+                "name": "Give 3 Mistletoe"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xb66598e063bf0489bd2353224b8e500cd111fc704b8b4b1a80f674a7f588ee73",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 2
+            },
+            {
+                "id": "0xfab1461e15fcad29498e4aba76f7dee698189b5cab8b61375828cea996ea2297",
+                "type": "ITEM",
+                "index": 11401,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0xd4c1cfd4310cfc86aa0194366f4d9b942c766a30b138b7d10dd8ae4a43145678",
+        "index": 68,
+        "entity": 552404,
+        "registryEntityIndex": 552404,
+        "name": "Sending a Signal",
+        "description": "Still dark? What a bothersome power. Get a bunch of those candles. Someone's been lighting and placing them all around the forest. Get me thirteen of them. I'll put a hex on the candles to let me see through the flame, then send them down that misty river nearby. We'll find out together whose frosty domain creeps over the boundary of the Kamigotchi World.",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xd930917f10de86456e6eed54ce417067ad22000e7ff24de5e2870c086913433c",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 67
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x02b2fbe0da022f5d72afef5738d5648862795f90c2db9bc93aa48dee8c9d2bec",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 116,
+                    "value": "0x0d"
+                },
+                "name": "Give 13 Candles"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xbaa76d82bba95d859e8738752a426b82ea812a4553d8626128f696b10cd53f0e",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 2
+            },
+            {
+                "id": "0x82e21e2843956c61ebf7d7d9c5c88af5aee31d44857ec7bea65b94639625704d",
+                "type": "ITEM",
+                "index": 11401,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x057b79dae3807af1b0e7feda0254b48e46685a32dfd47a87d5ab08683fd6355d",
+        "index": 69,
+        "entity": 552409,
+        "registryEntityIndex": 552409,
+        "name": "Mistletoe for Mina’s Shop",
+        "description": "If I have to live with this frivolity for the next several days, you might as well make me something I can use to make my shop feel more comfortable. Go collect a bunch of mistletoe and I'll show you how to tie it together to make a wreath. If it burns evenly, I'll give you something special. ",
+        "repeatable": false,
+        "repeatDuration": 0,
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0x88d81f72a01c32f4a66f6ace2835b08defbbe9e8ba1f3d5f7dd953a3f7cff654",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "QUEST",
+                    "index": 67
+                }
+            }
+        ],
+        "objectives": [
+            {
+                "id": "0x4d2f061b5a7a226dceb4c2996c7cffe31740806f4bd5a5df88bd39fc46a46880",
+                "logic": "INC_MIN",
+                "target": {
+                    "type": "ITEM_BURN",
+                    "index": 11406,
+                    "value": "0x05"
+                },
+                "name": "Give 5 Mistletoe"
+            }
+        ],
+        "rewards": [
+            {
+                "id": "0xa48b595d10dec6ec3dc63eef880d7d2207f16e6bd9a9982f1a701fabeca511b3",
+                "type": "REPUTATION",
+                "index": 1,
+                "value": 3
+            },
+            {
+                "id": "0xcd154ddd3f9feebe2c20b8253b35b66658f2c8e471bb61bed562e813f8f34b8b",
+                "type": "ITEM",
+                "index": 11110,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "0x2586364e5923e46fa68adf1c46e41eae976b8be8853e9606dfe2824970e9c538",
+        "index": 10002,
+        "entity": 102039,
+        "registryEntityIndex": 102039,
+        "name": "Fountain of Revival [Daily]",
+        "description": "Kamigotchi rise, fall, and rise again......\r\n\r\nHave you found yourself without the means to carry on? Well, here's a Ribbon, just for you…",
+        "repeatable": true,
+        "repeatDuration": "0xfd20",
+        "startTime": 0,
+        "complete": false,
+        "requirements": [
+            {
+                "id": "0xc0ddd04b1d7a25466ac1c9b18239a6e442f775d0dbf90397a8ec351e713d8016",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "ROOM",
+                    "index": 11
+                }
+            }
+        ],
+        "objectives": [],
+        "rewards": [
+            {
+                "id": "0xfc9d22311de6ce8f4b410f4890290ed537f77dab06bc5498f5e2592d4b97432c",
+                "type": "ITEM",
+                "index": 11001,
+                "value": 1
+            }
+        ]
+    }
+]

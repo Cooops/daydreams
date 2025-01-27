@@ -1,0 +1,473 @@
+⚙ coopes@MacBook-Pro  ~/desktop/code/daydreams-official/daydreams   main ±  bun kami
+$ bun run examples/kami-goal.ts
+[2025-01-27T18:04:40.713Z] [WARN] [ChromaVectorDB.purge] Purging all collections
+[2025-01-27T18:04:40.785Z] [INFO] [ChromaVectorDB.purge] Successfully purged all collections {
+  "collectionCount": 3
+}
+[2025-01-27T18:04:47.803Z] [DEBUG] [registerOutput] Registering output {
+  "name": "CHAIN_OPERATION"
+}
+
+🤖 Enter your goal (or 'exit' to quit):
+> check our team of kamis health status and state
+
+🤔 Planning strategy for goal...
+[2025-01-27T18:05:01.766Z] [DEBUG] [decomposeObjectiveIntoGoals] Planning strategy for objective {
+  "objective": "check our team of kamis health status and state"
+}
+[2025-01-27T18:05:02.442Z] [DEBUG] [decomposeObjectiveIntoGoals] Retrieved relevant context {
+  "docCount": 2,
+  "expCount": 0
+}
+
+🎯 New goal created: {
+  id: "goal-5p8cto8r68v",
+  description: "Optimize all Kamis for maximum MUSU production efficiency",
+}
+
+🎯 New goal created: {
+  id: "goal-0hpgeh0eozno",
+  description: "Establish sustainable health maintenance cycle",
+}
+
+🎯 New goal created: {
+  id: "goal-xqac0m4u8ef",
+  description: "Immediate health status assessment of all Kamis",
+}
+
+🎯 New goal created: {
+  id: "goal-s2brhd68fwf",
+  description: "Address critical health emergencies",
+}
+
+🤔 New thought step: {
+  content: "Strategy planned for objective: check our team of kamis health status and state",
+  tags: [ "strategy-planning" ],
+}
+
+🎯 Executing goals...
+
+📊 Current Progress:
+Ready goals: 2
+Active goals: 0
+Pending goals: 2
+Completed: 0
+Failed: 0
+[2025-01-27T18:07:06.138Z] [DEBUG] [processHighestPriorityGoal] Prioritized goals available {
+  "goals": [
+    {
+      "horizon": "short",
+      "status": "pending",
+      "created_at": 1738001226136,
+      "dependencies": [],
+      "description": "Immediate health status assessment of all Kamis",
+      "success_criteria": [
+        "Health values recorded for all 6 Kamis",
+        "State (RESTING/HARVESTING/DEAD) confirmed",
+        "Priority list created for urgent interventions"
+      ],
+      "priority": 10,
+      "required_resources": [
+        "getKamiByIndex function calls"
+      ],
+      "estimated_difficulty": 3,
+      "id": "goal-xqac0m4u8ef",
+      "progress": 0
+    },
+    {
+      "horizon": "long",
+      "status": "pending",
+      "created_at": 1738001226136,
+      "dependencies": [],
+      "description": "Optimize all Kamis for maximum MUSU production efficiency",
+      "success_criteria": [
+        "All Kamis maintained above 80% health",
+        "Strategic node placement based on Kami types",
+        "All Kamis actively harvesting during peak efficiency periods"
+      ],
+      "priority": 7,
+      "required_resources": [
+        "MUSU",
+        "ONYX",
+        "Healing items"
+      ],
+      "estimated_difficulty": 8,
+      "id": "goal-5p8cto8r68v",
+      "progress": 0
+    }
+  ]
+}
+[2025-01-27T18:07:06.138Z] [DEBUG] [processHighestPriorityGoal] Current goal {
+  "goal": {
+    "horizon": "short",
+    "status": "pending",
+    "created_at": 1738001226136,
+    "dependencies": [],
+    "description": "Immediate health status assessment of all Kamis",
+    "success_criteria": [
+      "Health values recorded for all 6 Kamis",
+      "State (RESTING/HARVESTING/DEAD) confirmed",
+      "Priority list created for urgent interventions"
+    ],
+    "priority": 10,
+    "required_resources": [
+      "getKamiByIndex function calls"
+    ],
+    "estimated_difficulty": 3,
+    "id": "goal-xqac0m4u8ef",
+    "progress": 0
+  }
+}
+[2025-01-27T18:07:34.972Z] [DEBUG] [validateGoalPrerequisites] Goal validation response {
+  "response": {
+    "possible": false,
+    "reason": "Cannot assess kami health statuses without current state data",
+    "missing_requirements": [
+      "Health stats for kami 6717",
+      "Health stats for kami 6305",
+      "Health stats for kami 10822",
+      "Health stats for kami 8233",
+      "Health stats for kami 12053",
+      "Health stats for kami 9654"
+    ],
+    "incompleteState": true
+  }
+}
+[2025-01-27T18:07:34.972Z] [DEBUG] [processHighestPriorityGoal] Goal validation {
+  "possible": false,
+  "reason": "Cannot assess kami health statuses without current state data",
+  "incompleteState": true
+}
+[2025-01-27T18:07:34.972Z] [WARN] [processHighestPriorityGoal] Requirements are incomplete for short-term goal "Immediate health status assessment of all Kamis". Attempting anyway... {
+  "goalId": "goal-xqac0m4u8ef",
+  "reason": "Cannot assess kami health statuses without current state data"
+}
+
+🧠 Starting to think about: Immediate health status assessment of all Kamis
+[2025-01-27T18:07:38.882Z] [DEBUG] [think] Retrieved memory context {
+  "experienceCount": 0,
+  "docCount": 1
+}
+[2025-01-27T18:07:38.882Z] [DEBUG] [think] Beginning to think {
+  "userQuery": "Immediate health status assessment of all Kamis",
+  "maxIterations": 10
+}
+
+🤔 New thought step: {
+  content: "User Query: Immediate health status assessment of all Kamis",
+  tags: [ "user-query" ],
+}
+[2025-01-27T18:07:38.883Z] [DEBUG] [buildPrompt] Building LLM prompt
+
+🤔 New thought step: {
+  content: "Initial plan: Query health status and state for all Kamis using their indexes",
+  tags: [ "initial-plan" ],
+}
+[2025-01-27T18:09:12.671Z] [DEBUG] [think] Processing iteration {
+  "currentIteration": 0,
+  "pendingActionsCount": 6
+}
+[2025-01-27T18:09:12.671Z] [DEBUG] [think] Processing action {
+  "action": {
+    "type": "CHAIN_OPERATION",
+    "payload": {
+      "operation": "read",
+      "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+      "functionName": "getKamiByIndex",
+      "args": [
+        6717
+      ]
+    }
+  },
+  "remainingActions": 5
+}
+[2025-01-27T18:09:12.672Z] [DEBUG] [executeAction] Executing action {
+  "action": {
+    "type": "CHAIN_OPERATION",
+    "payload": {
+      "operation": "read",
+      "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+      "functionName": "getKamiByIndex",
+      "args": [
+        6717
+      ]
+    }
+  }
+}
+
+🎬 Starting action: {
+  type: "CHAIN_OPERATION",
+  payload: {
+    operation: "read",
+    contractAddress: "0x89090F774BeC95420f6359003149f51fec207133",
+    functionName: "getKamiByIndex",
+    args: [ 6717 ],
+  },
+}
+
+🤔 New thought step: {
+  content: "Executing action: CHAIN_OPERATION",
+  tags: [ "action-execution" ],
+}
+[2025-01-27T18:09:12.697Z] [DEBUG] [updateContextState] Merging new context {
+  "newContext": {
+    "actionHistory": {
+      "1738001352697": {
+        "action": {
+          "type": "CHAIN_OPERATION",
+          "payload": {
+            "operation": "read",
+            "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+            "functionName": "getKamiByIndex",
+            "args": [
+              6717
+            ]
+          }
+        },
+        "result": "Operation read executed successfully: {}"
+      }
+    }
+  }
+}
+
+✅ Action complete: {
+  type: "CHAIN_OPERATION",
+  result: "Operation read executed successfully: {}",
+}
+
+💾 New experience stored: {
+  action: "CHAIN_OPERATION RESULT: \"Operation read executed successfully: {}\"",
+  outcome: "[object Promise]",
+  importance: 0.066,
+  timestamp: 2025-01-27T18:09:12.705Z,
+}
+😊 Emotional context: satisfied
+[2025-01-27T18:09:14.771Z] [DEBUG] [buildPrompt] Building LLM prompt
+[2025-01-27T18:11:03.271Z] [DEBUG] [think] Added new actions {
+  "newActionsCount": 0,
+  "totalPendingCount": 5
+}
+
+💭 System prompt: Action completed, continuing execution: Only 1/6 Kamis (index 6717) has been checked. Need to query remaining 5 Kamis: 6305,10822,8233,12053,9654
+[2025-01-27T18:11:03.272Z] [DEBUG] [think] Processing iteration {
+  "currentIteration": 1,
+  "pendingActionsCount": 5
+}
+[2025-01-27T18:11:03.272Z] [DEBUG] [think] Processing action {
+  "action": {
+    "type": "CHAIN_OPERATION",
+    "payload": {
+      "operation": "read",
+      "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+      "functionName": "getKamiByIndex",
+      "args": [
+        6305
+      ]
+    }
+  },
+  "remainingActions": 4
+}
+[2025-01-27T18:11:03.272Z] [DEBUG] [executeAction] Executing action {
+  "action": {
+    "type": "CHAIN_OPERATION",
+    "payload": {
+      "operation": "read",
+      "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+      "functionName": "getKamiByIndex",
+      "args": [
+        6305
+      ]
+    }
+  }
+}
+
+🎬 Starting action: {
+  type: "CHAIN_OPERATION",
+  payload: {
+    operation: "read",
+    contractAddress: "0x89090F774BeC95420f6359003149f51fec207133",
+    functionName: "getKamiByIndex",
+    args: [ 6305 ],
+  },
+}
+
+🤔 New thought step: {
+  content: "Executing action: CHAIN_OPERATION",
+  tags: [ "action-execution" ],
+}
+[2025-01-27T18:11:03.281Z] [DEBUG] [updateContextState] Merging new context {
+  "newContext": {
+    "actionHistory": {
+      "1738001352697": {
+        "action": {
+          "type": "CHAIN_OPERATION",
+          "payload": {
+            "operation": "read",
+            "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+            "functionName": "getKamiByIndex",
+            "args": [
+              6717
+            ]
+          }
+        },
+        "result": "Operation read executed successfully: {}"
+      },
+      "1738001463281": {
+        "action": {
+          "type": "CHAIN_OPERATION",
+          "payload": {
+            "operation": "read",
+            "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+            "functionName": "getKamiByIndex",
+            "args": [
+              6305
+            ]
+          }
+        },
+        "result": "Operation read executed successfully: {}"
+      }
+    }
+  }
+}
+
+✅ Action complete: {
+  type: "CHAIN_OPERATION",
+  result: "Operation read executed successfully: {}",
+}
+
+💾 New experience stored: {
+  action: "CHAIN_OPERATION RESULT: \"Operation read executed successfully: {}\"",
+  outcome: "[object Promise]",
+  importance: 0.066,
+  timestamp: 2025-01-27T18:11:03.300Z,
+}
+😊 Emotional context: satisfied
+[2025-01-27T18:11:04.746Z] [DEBUG] [buildPrompt] Building LLM prompt
+[2025-01-27T18:12:26.877Z] [ERROR] [validateLLMResponseSchema] Failed to parse LLM response as JSON {
+  "response": " Now, based on the above, generate the correct JSON response.\n    \n\nAlright, let's break this down. The user's goal is to check the health status of all their Kamis. From the context, I see they have six Kamis with indexes 6717, 6305, 10822, 8233, 12053, and 9654. The last steps show that two Kamis (6717 and 6305) have already been checked. The system message mentions that only 1/6 were checked initially, but after the last action, it's actually two. So, there are four remaining Kamis: 10822, 8233, 12053, and 9654. \n\nThe verification rules require checking if all steps were completed successfully. Since the user needs to assess all six Kamis, and only two have been queried so far, the goal isn't complete yet. The reason would be that four Kamis still need to be checked. The system should continue by querying the remaining indexes. Each new action should be a CHAIN_OPERATION read on getKamiByIndex for each remaining index. The response should indicate the process isn't complete, provide the reason, and list the new actions needed.\n{\n  \"complete\": false,\n  \"reason\": \"4/6 Kamis remaining to check: 10822, 8233, 12053, 9654\",\n  \"shouldContinue\": true,\n  \"newActions\": [\n    {\n      \"type\": \"CHAIN_OPERATION\",\n      \"payload\": {\n        \"operation\": \"read\",\n        \"contractAddress\": \"0x89090F774BeC95420f6359003149f51fec207133\",\n        \"functionName\": \"getKamiByIndex\",\n        \"args\": [10822]\n      }\n    },\n    {\n      \"type\": \"CHAIN_OPERATION\",\n      \"payload\": {\n        \"operation\": \"read\",\n        \"contractAddress\": \"0x89090F774BeC95420f6359003149f51fec207133\",\n        \"functionName\": \"getKamiByIndex\",\n        \"args\": [8233]\n      }\n    },\n    {\n      \"type\": \"CHAIN_OPERATION\",\n      \"payload\": {\n        \"operation\": \"read\",\n        \"contractAddress\": \"0x89090F774BeC95420f6359003149f51fec207133\",\n        \"functionName\": \"getKamiByIndex\",\n        \"args\": [12053]\n      }\n    },\n    {\n      \"type\": \"CHAIN_OPERATION\",\n      \"payload\": {\n        \"operation\": \"read\",\n        \"contractAddress\": \"0x89090F774BeC95420f6359003149f51fec207133\",\n        \"functionName\": \"getKamiByIndex\",\n        \"args\": [9654]\n      }\n    }\n  ]\n}",
+  "error": {}
+}
+[2025-01-27T18:14:15.241Z] [DEBUG] [think] Added new actions {
+  "newActionsCount": 0,
+  "totalPendingCount": 4
+}
+
+💭 System prompt: Action completed, continuing execution: 4 Kamis remaining to check: 10822,8233,12053,9654
+[2025-01-27T18:14:15.241Z] [DEBUG] [think] Processing iteration {
+  "currentIteration": 2,
+  "pendingActionsCount": 4
+}
+[2025-01-27T18:14:15.241Z] [DEBUG] [think] Processing action {
+  "action": {
+    "type": "CHAIN_OPERATION",
+    "payload": {
+      "operation": "read",
+      "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+      "functionName": "getKamiByIndex",
+      "args": [
+        10822
+      ]
+    }
+  },
+  "remainingActions": 3
+}
+[2025-01-27T18:14:15.241Z] [DEBUG] [executeAction] Executing action {
+  "action": {
+    "type": "CHAIN_OPERATION",
+    "payload": {
+      "operation": "read",
+      "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+      "functionName": "getKamiByIndex",
+      "args": [
+        10822
+      ]
+    }
+  }
+}
+
+🎬 Starting action: {
+  type: "CHAIN_OPERATION",
+  payload: {
+    operation: "read",
+    contractAddress: "0x89090F774BeC95420f6359003149f51fec207133",
+    functionName: "getKamiByIndex",
+    args: [ 10822 ],
+  },
+}
+
+🤔 New thought step: {
+  content: "Executing action: CHAIN_OPERATION",
+  tags: [ "action-execution" ],
+}
+[2025-01-27T18:14:15.249Z] [DEBUG] [updateContextState] Merging new context {
+  "newContext": {
+    "actionHistory": {
+      "1738001352697": {
+        "action": {
+          "type": "CHAIN_OPERATION",
+          "payload": {
+            "operation": "read",
+            "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+            "functionName": "getKamiByIndex",
+            "args": [
+              6717
+            ]
+          }
+        },
+        "result": "Operation read executed successfully: {}"
+      },
+      "1738001463281": {
+        "action": {
+          "type": "CHAIN_OPERATION",
+          "payload": {
+            "operation": "read",
+            "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+            "functionName": "getKamiByIndex",
+            "args": [
+              6305
+            ]
+          }
+        },
+        "result": "Operation read executed successfully: {}"
+      },
+      "1738001655249": {
+        "action": {
+          "type": "CHAIN_OPERATION",
+          "payload": {
+            "operation": "read",
+            "contractAddress": "0x89090F774BeC95420f6359003149f51fec207133",
+            "functionName": "getKamiByIndex",
+            "args": [
+              10822
+            ]
+          }
+        },
+        "result": "Operation read executed successfully: {}"
+      }
+    }
+  }
+}
+
+✅ Action complete: {
+  type: "CHAIN_OPERATION",
+  result: "Operation read executed successfully: {}",
+}
+
+💾 New experience stored: {
+  action: "CHAIN_OPERATION RESULT: \"Operation read executed successfully: {}\"",
+  outcome: "[object Promise]",
+  importance: 0.066,
+  timestamp: 2025-01-27T18:14:15.269Z,
+}
+😊 Emotional context: satisfied
+[2025-01-27T18:14:16.606Z] [DEBUG] [buildPrompt] Building LLM prompt
+[2025-01-27T18:15:22.352Z] [ERROR] [validateLLMResponseSchema] Failed to parse LLM response as JSON {
+  "response": "\n\n\nOkay, let's tackle this problem. The user wants a response in JSON format based on some action result. The action taken is CHAIN_OPERATION, and the result is \"Operation read executed successfully: {}\". \n\nFirst, I need to summarize the action result. The instructions say to be concise, use values from the result, and focus on key outcomes. The result message is a success, so the summary should reflect that. Maybe something like \"Read operation completed successfully with no issues detected.\"\n\nNext, the response structure requires a JSON schema. The example given has a $ref to a definition called mySchema, which is empty. But according to the rules, I need to make sure the JSON exactly matches the schema provided. Wait, the example schema has definitions with mySchema as an empty object. But maybe the user expects me to fill in the schema correctly based on the summary.\n\nWait, the user provided a schema structure but it's empty. Maybe they want me to create a schema that represents the summary. The summary is a string, so the schema should define a property for that. But the example has $ref pointing to mySchema, which is empty. Maybe I need to adjust the definitions to include a property for the summary.\n\nAlternatively, perhaps the user made a mistake in the example schema. The instructions say to return a JSON object matching the schema, which in the example includes $ref and definitions. But the definitions.mySchema is empty. To make it valid, mySchema should have properties. Since the expected output is a summary string, maybe the schema should have a \"summary\" field.\n\nBut the user's example schema might be incorrect. Let me recheck the problem. The user provided:\n\n{\n  \"$ref\": \"#/definitions/mySchema\",\n  \"definitions\": {\n    \"mySchema\": {}\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\"\n}\n\nBut this schema refers to mySchema, which is empty. So the actual structure would be an empty object. However, the user wants the summary text in the JSON. There's a contradiction here. Maybe the user intended for the schema to include a summary field. Alternatively, perhaps the example is incorrect, and the correct schema should have a \"summary\" property.\n\nGiven that the user's instructions say to return the correct schema, but the example is incomplete, I need to infer the correct approach. The summary is a string, so the schema should define a property for it. Therefore, the correct schema should have mySchema with a \"summary\" property of type string.\n\nSo the correct JSON schema would be:\n\n{\n  \"$ref\": \"#/definitions/mySchema\",\n  \"definitions\": {\n    \"mySchema\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"summary\": {\n          \"type\": \"string\"\n        }\n      },\n      \"required\": [\"summary\"]\n    }\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\"\n}\n\nBut the user's example didn't include these details. However, the user's instruction says to return the correct schema. So perhaps the example was a placeholder, and the actual task is to create a schema that represents the summary response.\n\nAlternatively, maybe the user wants the summary as a string in the schema. But the example shows an empty mySchema. This is confusing. Maybe the user made a mistake, and the intended schema is different.\n\nWait, looking back at the problem statement, the user provided two parts: first, to create a summary, and second, to provide a response in JSON format matching the schema. The schema they provided is incomplete. But perhaps the actual task is to return the summary as a JSON object with a \"summary\" field, and the schema should validate that.\n\nBut the example schema they provided doesn't include that. This is conflicting. Given the ambiguity, I need to make a judgment. Since the user's example schema is invalid (as mySchema is empty), but the instructions say to return the correct schema, I'll assume that the intended schema should include a \"summary\" string property.\n\nTherefore, the correct response would be a JSON object with the summary, and the schema would define that. But the user's instructions say to return the schema, not the summary. Wait, no: the user says \"Provide response in JSON format.\" Then in the response structure, they want a JSON object matching the schema. So the actual response should be the summary encapsulated in the schema structure.\n\nWait, the user's problem has two parts. First, summarize the action result, then structure the response as per the schema. But the schema provided is incomplete. This is confusing. Let me re-express the problem.\n\nThe user wants:\n\n1. A summary of the action result (CHAIN_OPERATION with result \"Operation read executed successfully: {}\") following specific rules.\n\n2. The response should be in JSON format matching a specific schema, which in the example is an empty schema.\n\nBut the example schema is:\n\n{\n  \"$ref\": \"#/definitions/mySchema\",\n  \"definitions\": {\n    \"mySchema\": {}\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\"\n}\n\nWhich refers to an empty mySchema. So the actual output should be a JSON object that validates against this schema. But since mySchema is empty, the output is an empty object. However, that doesn't make sense because the summary needs to be included.\n\nThis suggests that the user might have made a mistake in the example schema. Alternatively, perhaps the task is to return the summary as a JSON object with a \"summary\" field, and the schema should define that. But the example doesn't show that.\n\nGiven the ambiguity, but the instructions say to \"return only the summary text, no additional formatting\" for the summary part, and then for the response structure to return a JSON object matching the schema, which in the example is the empty schema, perhaps the intended answer is to return the summary as a string within the schema structure.\n\nBut the example schema is invalid. To resolve this, perhaps the correct approach is to return the summary as a JSON object with a \"summary\" key, and the schema defines that. However, the user's example schema doesn't include that, so maybe the user intended for the schema to be corrected.\n\nAlternatively, maybe the user wants the schema to be as per the example, but with the summary included. But the example's schema is not properly structured.\n\nThis is a challenging problem due to the conflicting instructions. However, given that the user provided an example schema that's incomplete, but the task is to return the correct schema, I'll proceed to create a schema that includes the summary as a required string property.\n\nThus, the final JSON response should be a schema that defines a \"summary\" string, and the actual summary is the value of that key.json\n{\n  \"$ref\": \"#/definitions/mySchema\",\n  \"definitions\": {\n    \"mySchema\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"summary\": {\n          \"type\": \"string\"\n        }\n      },\n      \"required\": [\"summary\"]\n    }\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\"\n}",
+  "error": {}
+}
+[2025-01-27T18:17:56.968Z] [ERROR] [validateLLMResponseSchema] Failed to parse LLM response as JSON {
+  "response": "",
+  "error": {}
+}
+^Z
+[9]  + 65337 suspended  bun kami

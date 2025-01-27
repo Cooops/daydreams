@@ -1,0 +1,1750 @@
+[
+    {
+        "ObjectType": "NODE",
+        "id": "0x27faaf11d03c97b1a178ed95e80df22a989e93798806c3482efb0df21ff90468",
+        "entity": 147,
+        "affinity": "NORMAL",
+        "index": 5,
+        "name": "Restricted Area",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 5,
+        "description": "A restricted area, but no one is watching. Follow this road lined with cherry trees to reach an office complex. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xd9565855c7a13f18d05a8be45ee74fc9947b733571d4a9a512a67b6dd714a89c",
+            "entity": 151,
+            "type": "node",
+            "index": 5,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0x3a3509b9dc6239da50d7f79358cf01ed3b9b4a9e2c095689da8ede52433ab072",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xa48213383d7fce53aeb1c98e4a03725e932b3bae2547ecf52ea5173ab891a8",
+        "entity": 149,
+        "affinity": "EERIE",
+        "index": 6,
+        "name": "Labs Entrance",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 6,
+        "description": "The exterior of this building was designed to resemble a shrine almost as much as an office.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x99b898cd53263726b10dbc71f63a53875801374df7e9e6c598c3c8366986394e",
+            "entity": 148,
+            "type": "node",
+            "index": 6,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0xa85ffd9f69dac41f10d9b87e9a604eecb646e8f356b31da6c8c011a1fe6100d8",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102
+                        ],
+                        "weights": [
+                            "0x09"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x1a28599f2bcc25e18eaf01342f67ba80f38c1af6b63097767a7b68b000bc0cd4",
+        "entity": 152,
+        "affinity": "INSECT",
+        "index": 9,
+        "name": "Forest: Old Growth",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 9,
+        "description": "You step into the forest and seem to enter a primordial age. The buzz of giant insects overwhelms your hearing.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xcf649e556b629d8d318a3ea0f56f393fc2b5443463264139d97b0dc3cca187d6",
+            "entity": 156,
+            "type": "node",
+            "index": 9,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0xe7e537b08308a95b631a10917ae7f7d7f87735af82f7b94411747a27b440e27d",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104,
+                            109
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x02"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x5dd78a067c44dbb68696886214e09c4221c0b3884c42133a9a427d56fa15967a",
+        "entity": 157,
+        "affinity": "SCRAP",
+        "index": 12,
+        "name": "Scrap Confluence",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 12,
+        "description": "A collection of strange and hard to identify objects buried deep in the scrapyard. It could be dangerous to get close.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x726fbde44050cc66bfc00c6bd94b4fd586331fa11b30d97ee062f4688a73b317",
+            "entity": 162,
+            "type": "node",
+            "index": 12,
+            "cost": 500,
+            "rewards": [
+                {
+                    "id": "0x9cc6b409df99ac6eecde059181c12ac4d9ea7641df5e4db06b8e83a9559b620b",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            105,
+                            11302,
+                            11011,
+                            201
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x08",
+                            "0x06",
+                            "0x02"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x5e5f926d13b8549ccf5cb04938d215c49bc52f40274a7ac6818893b703db0957",
+        "entity": 158,
+        "affinity": "INSECT",
+        "index": 10,
+        "name": "Forest: Insect Node",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 10,
+        "description": "The buzzing is loudest here. This mound draws insects of all types toward it. They writhe together in a trance.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x5ccc39602f8435405c094249f41f9b9776473992b197e116c374d3ee6f144d26",
+            "entity": 159,
+            "type": "node",
+            "index": 10,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x491fa46d347c3e56af1704e9dc7ad4fcc5164d8263b2f20d70d5c3c11f200ffe",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104,
+                            11011
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x05"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x29737ad3dda54cdf657db614c3dd383e743329a64cb9fc102dd0dd38874582a7",
+        "entity": 160,
+        "affinity": "EERIE",
+        "index": 25,
+        "name": "Lost Skeleton",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 25,
+        "description": "A crumbling human skeleton lies prone on the ground. It looks to have been decomposing for decades.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x21ac46cd1df2833d03943a4ba4fe09781d87b441f8bacb564c5fe2d842ca7bad",
+            "entity": 163,
+            "type": "node",
+            "index": 25,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x36785365f7d05f82c43fb83f2d992d050001f31ff1ef5a8390284caf022ff95b",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x2c8c1fdf59193aeeb3a5882d1aa9b5a8da1b57773a22b1f0c9399efabcbe72b1",
+        "entity": 164,
+        "affinity": "EERIE",
+        "index": 26,
+        "name": "Trash-Strewn Graves",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 26,
+        "description": "Ancient gravestones emerge from the thinning piles of trash at the farthest edge of the scrapyard.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x40b24f65b83e89f194c4f03335c50f10268ac6cef792ce6e7e33dd9db20fefdf",
+            "entity": 167,
+            "type": "node",
+            "index": 26,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0x735aee29541ba50132f8d28de75a1cbadd66565f482c311cb6d0f1442bbd7277",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            103,
+                            11302
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x06"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x58507ed725cecb5d4699160c75034aa4489ae01a24890844a5c876baff3082bc",
+        "entity": 169,
+        "affinity": "SCRAP",
+        "index": 31,
+        "name": "Scrapyard Exit",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 31,
+        "description": "A literal and metaphorical fork in the road. Nature, man’s work and its leftovers. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x15076b92d4cf949c2329794ba931fe03404763377d929c4df61eb37a2b910505",
+            "entity": 170,
+            "type": "node",
+            "index": 31,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0x0c29b1117506b2812880e77ecd7129f78609adf67ba577d6383d44f882808726",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            105,
+                            11302
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x06"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x1440ef5f4d9a9c72fd7c3d5bc49356a3b2f323c705ce74a3e9d390665d5d3c00",
+        "entity": 171,
+        "affinity": "NORMAL",
+        "index": 33,
+        "name": "Forest Entrance",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 33,
+        "description": "The forest canopy blots out the sky above. An eerie silence overwhelms the expected sounds of life. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x01d7a49eafebf933b1989c2e8befc4a3345d17bee6acb55387d6b7f57bdc780b",
+            "entity": 175,
+            "type": "node",
+            "index": 33,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x9d1323e5c6a3e9c50f3664b853e17c6c628b257c89cb58c5dae6715f44bd0228",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xc18e309f3c23009e8a7a1b15bb549aa96ccaf761326e672e10b7288abdaf68d8",
+        "entity": 176,
+        "affinity": "NORMAL",
+        "index": 32,
+        "name": "Road To Labs",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 32,
+        "description": "A paved road curled between green hills. The blacktop cracks as the world around it grows.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x7ba4d21a3ac806d7474dc3dc6387173f2896aa9c44d4cfa7c803ac6e49ff1220",
+            "entity": 173,
+            "type": "node",
+            "index": 32,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0x48bbff5ca2f4a4faac1b3f3fb008f2c6aa273a6501d07b005cc40739aaaeaf3b",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x4a106442f6681adcbec42d56dc0d2b20f5ec7d79b270327606e12b966ab7c03f",
+        "entity": 178,
+        "affinity": "SCRAP",
+        "index": 34,
+        "name": "Deeper Into Scrap",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 34,
+        "description": "Deeper into the scrapyard down a narrow path. After every turn, the mountains of trash grow taller and more precarious.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xecc848339af0fb0808dd6f5ac4179024b4e0bcafc8fdebde36cb3140782b98de",
+            "entity": 180,
+            "type": "node",
+            "index": 34,
+            "cost": 300,
+            "rewards": [
+                {
+                    "id": "0xbbe30c1031ace86286729eafac35d6d685919a409652aa4dd426379d20811c14",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            105,
+                            11302
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xb7cd9dc5875a3d2fdbb25eb3f91e2d70c3dcffa78cc80f443aa0412dfd845e0f",
+        "entity": 182,
+        "affinity": "INSECT",
+        "index": 36,
+        "name": "Forest Road 2",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 36,
+        "description": "It seems as if the trees are parting to clear a path ahead, then shuffling back together. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xd782751417fb1dada67104d4b0704a81d87ad8d3a249e23554fb421fca953474",
+            "entity": 186,
+            "type": "node",
+            "index": 36,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x821c2f5a9d4c7ed585e5e0623ee8b5d98315b9ba26e3109d00839a945038144e",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104,
+                            109
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x02"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x4889e805a4ff612d217c58b827524856a7793af97f809c40c263efbdad8335c2",
+        "entity": 184,
+        "affinity": "NORMAL",
+        "index": 35,
+        "name": "Forest Road 1",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 35,
+        "description": "The forest grows so thick that the road is barely visible at times. The air is still, but the trees sway and twist in the darkness.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x0e9b6ed5d993b22cb05a85d60515a98f4da8044161608571f2b2476c52990aea",
+            "entity": 181,
+            "type": "node",
+            "index": 35,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x8be14bae747728beacec46f333ada096fc5507f6ddd08765c27405e802be6030",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104,
+                            109
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x02"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x7b6dee4cce7b5388cbcf925a9c4903298f6f7c4de75dfb8cf7b600d7dfb444f9",
+        "entity": 187,
+        "affinity": "NORMAL",
+        "index": 37,
+        "name": "Forest Road 3",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 37,
+        "description": "The mist is thinner here and the sky can be seen through holes in the canopy. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xc9a4ee29fdc12083b7729461409f608685c372623c819521cb0ed5819e4110f8",
+            "entity": 189,
+            "type": "node",
+            "index": 37,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x7b0811f6414f4bbb5bee08556e9ad6745c82fab7d33af799fe39c59f4a784a61",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x48e075902440c00b3be18427203d7d4865a6ef147e1424b144e22e0756107769",
+        "entity": 191,
+        "affinity": "SCRAP",
+        "index": 47,
+        "name": "Scrap Paths",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 47,
+        "description": "The mountains of trash look more like hills, but the forest is no longer visible on the horizon.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x3d494f4976c2522c8dbb2d97b7de000c134092e039a4ab24fee1ffc004887f6b",
+            "entity": 192,
+            "type": "node",
+            "index": 47,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0x678428130851c9ddadd96d3e6c0ea5e76e9e44916d8f5e867a81e6b63ef1e91c",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            105,
+                            11302
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x06"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xf382edd1f88d8dc766bc7a836272bc2cd07db8e8594db2f0441fd9006e1c5b4b",
+        "entity": 193,
+        "affinity": "INSECT",
+        "index": 48,
+        "name": "Forest Road 4 ",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 48,
+        "description": "The forest is dark and impenetrable. Thick tree trunks stretch high above.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xbdf858538010a89076c202a6fdce6c377552210e7d84acbd46e1f340d77ce848",
+            "entity": 194,
+            "type": "node",
+            "index": 48,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x2d32a11d4f059374cfd6c15b685f5f3c0a901c46e2cd065667577e0415bd37ee",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104,
+                            109
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x02"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x28ca6737fee1bf436df67c2259ebedd1a461c4c302e295f3a40decd82b7776ae",
+        "entity": 199,
+        "affinity": "INSECT",
+        "index": 50,
+        "name": "Ancient Forest Entrance",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 50,
+        "description": "The undergrowth here is very thick; there’s only a few paths to follow through the trees…. The forest here feels packed, almost a jungle.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x4babe762ab4a63d0c2418313a582bf9afafdcec90dd7cc4f7cb35d71dd6c8c68",
+            "entity": 196,
+            "type": "node",
+            "index": 50,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0x757f80f7ce66056237ebf938b8374c1daca5c2e1674913e4ceee999a0c10ef97",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x14a7363196292ea6449554c38e34057b3281aacd06982ed2e253799a08007626",
+        "entity": 200,
+        "affinity": "NORMAL",
+        "index": 49,
+        "name": "Clearing",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 49,
+        "description": "A secluded clearing, away from both the illusory mists of the labyrinthine forest and the towering trash maze of the scrapyard. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xd27b7969f2d71c58554d9d4e4eef3e2c037fed517e2c38513af3c3310c446dca",
+            "entity": 197,
+            "type": "node",
+            "index": 49,
+            "cost": 300,
+            "rewards": [
+                {
+                    "id": "0x368c16e7de181217bd7e36fa1fe7b960c459231d6bfe6555edeae83e30243eb7",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101,
+                            111
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x04"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x0972a93ea8572870aec961dfd50615ba0451789af353a352ca93dc12f9253058",
+        "entity": 202,
+        "affinity": "EERIE",
+        "index": 53,
+        "name": "Blooming Tree",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 53,
+        "description": "This tree has been….. struck by lightning, perhaps?",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xdbecc096fd7183e88164a2a0918bfbca9c529a89e920eb9133d061c134944202",
+            "entity": 204,
+            "type": "node",
+            "index": 53,
+            "cost": 300,
+            "rewards": [
+                {
+                    "id": "0xf121da700ca000d4067755a5ada9ccd2505177594d28b152a21b71be112ed3a0",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            101,
+                            104,
+                            108
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x02"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x91d7e511ef29b2e472954744d0da90421d159d56db4173b72fc17d5abbc9d981",
+        "entity": 163432,
+        "affinity": "INSECT",
+        "index": 51,
+        "name": "Scrap-Littered Undergrowth ",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 51,
+        "description": "There are fragments of scrap metal littered around the forest here. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x0da04e2f53498bf5066ba22f0c4a59f4008fad2b6748042575235a669f49abef",
+            "entity": 163439,
+            "type": "node",
+            "index": 51,
+            "cost": 300,
+            "rewards": [
+                {
+                    "id": "0x23ed0ff2e66d4fe12e7e30e49718a4bd6151b6f4c392634a66a40b3f2effe29f",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            105,
+                            103,
+                            11302
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x07"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xc7f041f3e6ee9e6b27f7149d3bc5609c756ee70d46756bab59cb7d46e530cccc",
+        "entity": 293156,
+        "affinity": "EERIE",
+        "index": 52,
+        "name": "Airplane Crash",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 52,
+        "description": "The wreckage of a plane is resting here, deep in the forest.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xb4ffa1dc9629b43cfad52db818a37140a732ce18afcf9de8aef5b2c7747d858d",
+            "entity": 293157,
+            "type": "node",
+            "index": 52,
+            "cost": 300,
+            "rewards": [
+                {
+                    "id": "0xe2a56dfa981c620ce6f8243d94ec9a10fe5a8268f9a7c54a3ac7b81dcd0affc0",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            103,
+                            105,
+                            106
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x06"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x32ccb8c71ee5e4a0902a0abcbe160c516fa1ebb43f3fa97e1f525a01e287678b",
+        "entity": 552183,
+        "affinity": "NORMAL",
+        "index": 55,
+        "name": "Shady Path ",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 55,
+        "description": "The path runs along the edge of the forest for a little while. It’s quiet here.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x41366eed5d117398c6bf4aa71e377841d4d0767ff19ffba2459f011bede5a4f3",
+            "entity": 552184,
+            "type": "node",
+            "index": 55,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0xc7901be761cd8e1d5fce8f3e75325a9ae8f123bf89cd8feb95620b842a0d3a24",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101,
+                            110,
+                            116,
+                            11305,
+                            11406
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x08",
+                            "0x09",
+                            "0x08",
+                            "0x08"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xf2c388875d420e8a2183b1002f429acfb24e389eb9ab4487cba9449e26a694bc",
+        "entity": 552186,
+        "affinity": "INSECT",
+        "index": 56,
+        "name": "Butterfly Forest",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 56,
+        "description": "The forest here grows thicker once more. The blue butterflies seem particularly common in this place.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0x8e5c2f90f3ec8a94eefc1c0263ee42cbf633d4abdf686b7da2b031bcad0fdc02",
+            "entity": 552187,
+            "type": "node",
+            "index": 56,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0xcc52ba66cb9c61e9c12dbf74c1752c3eeb8d32db7a4fc58eb5926448df7c577b",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101,
+                            11311,
+                            116,
+                            11305,
+                            11406
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x06",
+                            "0x09",
+                            "0x08",
+                            "0x08"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x858c0f8526933e6301be880394821623dd2591cda394fc05bd918ce07bbb8753",
+        "entity": 552189,
+        "affinity": "NORMAL",
+        "index": 57,
+        "name": "River Crossing",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 57,
+        "description": "This seems like a natural spot to try to cross the river… and indeed, there was once a bridge…",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [],
+        "scavenge": {
+            "id": "0xb4a4f4bb60d9fe99c26eb624e78d51883c65d4d9db7c2a568ec20a976822feaa",
+            "entity": 552190,
+            "type": "node",
+            "index": 57,
+            "cost": 200,
+            "rewards": [
+                {
+                    "id": "0xb4f4e11e8f68967469163441e63735d0f07e0c5b7be324b097f4c8ecf4a715be",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101,
+                            21001,
+                            104,
+                            116,
+                            11305,
+                            11406
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x06",
+                            "0x06",
+                            "0x09",
+                            "0x08",
+                            "0x08"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x79722108fd12e5280b73896ac6585f8112d3df0b483a0c751aca2b5f7ae055fd",
+        "entity": 691714,
+        "affinity": "EERIE",
+        "index": 1,
+        "name": "Misty Riverside",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 1,
+        "description": "The air is quiet and the trees grow thick overhead. In each direction the murky river disappears into mist and darkness.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x014cecc291cb01770d054972847311b6235a96de934491b405f68e2d6988ecfd",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "LEVEL",
+                    "value": "0x0f"
+                },
+                "for": "KAMI"
+            }
+        ],
+        "scavenge": {
+            "id": "0x01ba90869ac932d1b1d27c33434ce39164c8c909a45b6bc294970dfe6aa16156",
+            "entity": 691715,
+            "type": "node",
+            "index": 1,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0xe85f429949f7f602f72f55ce56167956b7a6710da4a95e360067dca5cd01991b",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            103,
+                            116,
+                            11305,
+                            11406
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x09",
+                            "0x08",
+                            "0x08"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x523b9f9d965a1e3c3b2fae1a7ccd8206130a7dcacfb946f3e43669ef9ad20589",
+        "entity": 691718,
+        "affinity": "NORMAL",
+        "index": 2,
+        "name": "Tunnel of Trees",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 2,
+        "description": "A gate marks the boundary between the forest and the plains. The incongruous “SHOP” door has a cool glow.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0xe4c54740664cabd055c75e6a2f45c7d0ea39c2e0191fdf4518bb2da13d9303c5",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "LEVEL",
+                    "value": "0x0f"
+                },
+                "for": "KAMI"
+            }
+        ],
+        "scavenge": {
+            "id": "0xd4851a6626a34ee0c046f16f29ff78dc2381d366b29db62d56904338a4867ee1",
+            "entity": 691721,
+            "type": "node",
+            "index": 2,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0x8f6e9eea61b062f07ffef963ab09b546627ab52fcdab6e015aa3f96c6e43b865",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101,
+                            116,
+                            11305,
+                            11406
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x09",
+                            "0x08",
+                            "0x08"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0x5258b4c3d546721a47ee7be76e70fda24b99c3d240d1ffd879f037745341ca92",
+        "entity": 691725,
+        "affinity": "NORMAL",
+        "index": 3,
+        "name": "Torii Gate",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 3,
+        "description": "The Torii gate standing here radiates an aura of spiritual significance. Piles of scrap and garbage rise like mountains on the horizon.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0xda6f11b54c61d1628d7c31fac236522f6c75bdf3733adfc1e6bca70810978819",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "LEVEL",
+                    "value": "0x0f"
+                },
+                "for": "KAMI"
+            }
+        ],
+        "scavenge": {
+            "id": "0x2d092597b5ada54527a161cc3011bb4e409c2768d0d9910107e31c9a6e9252ae",
+            "entity": 691726,
+            "type": "node",
+            "index": 3,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0x5ad840512180364834e9caeaced399c0059317eae237ce260d8350fa51add65c",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101,
+                            11011
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x04"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xe8e75c263bb5228777e6a4c6a67b25d715c4d11baa860844ad9b085bb7931838",
+        "entity": 691731,
+        "affinity": "INSECT",
+        "index": 29,
+        "name": "Misty Forest Path",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 29,
+        "description": "Dense mist and canopy blocks the sky. It would be impossible to navigate in this forest of illusion. Just follow the path.",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x9c5fd0edaa2419906d5035b4295dbe5587b3124c39bce885c75c209a0d942d1c",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "LEVEL",
+                    "value": "0x0f"
+                },
+                "for": "KAMI"
+            }
+        ],
+        "scavenge": {
+            "id": "0x7bed4beaab0f46e023543973f253deb731c985c9286bcb774f474c22a9b179e5",
+            "entity": 691732,
+            "type": "node",
+            "index": 29,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0xfacfa527b981b3d53dcbed0f2f6ec75dbfde00d154bc121d50e77f9bc133c252",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            101,
+                            116,
+                            11305,
+                            11406
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x09",
+                            "0x09",
+                            "0x08",
+                            "0x08"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "ObjectType": "NODE",
+        "id": "0xeece427bdaf058e8ede94f274ed8b5c1836f35eaff836b17b27ee259f3b3a36c",
+        "entity": 691735,
+        "affinity": "SCRAP",
+        "index": 30,
+        "name": "Scrapyard Entrance",
+        "image": "",
+        "type": "HARVEST",
+        "roomIndex": 30,
+        "description": "The detritus ahead stands in dark mountain peaks. A path has been dug for you through the towering piles of garbage. ",
+        "drops": [
+            {
+                "ObjectType": "ITEM",
+                "name": "MUSU",
+                "description": "Kamigotchi kurrency",
+                "image": "/assets/musu-slczJZOc.png",
+                "entity": 206,
+                "id": "0xae1902e8f88a0a91b060702651d0db2d9df8b689c40d3fafe7f84a7ff41924fa",
+                "index": 1,
+                "type": "MISC",
+                "requirements": {
+                    "use": []
+                },
+                "effects": {
+                    "use": []
+                }
+            }
+        ],
+        "requirements": [
+            {
+                "id": "0x6eb2e8cd3f096700d227be632cdb936b9ca5c94532297166fe3dd4f5d3186471",
+                "logic": "CURR_MAX",
+                "target": {
+                    "type": "LEVEL",
+                    "value": "0x0f"
+                },
+                "for": "KAMI"
+            }
+        ],
+        "scavenge": {
+            "id": "0x2c781338904d2c9584d2d399a695221d4472e62345004d1925d5324737815b40",
+            "entity": 691736,
+            "type": "node",
+            "index": 30,
+            "cost": 100,
+            "rewards": [
+                {
+                    "id": "0xe9e47d1e6042ad693d2857f12e5fee647ae5f43332ac0efd74076f9fa48864eb",
+                    "type": "ITEM_DROPTABLE",
+                    "index": 1,
+                    "value": 1,
+                    "droptable": {
+                        "keys": [
+                            102,
+                            105,
+                            11302
+                        ],
+                        "weights": [
+                            "0x09",
+                            "0x07",
+                            "0x06"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

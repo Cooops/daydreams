@@ -1,0 +1,6162 @@
+[
+    {
+        "entity": 703,
+        "name": "Blue-Grey",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 700,
+        "name": "Default Green",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 699,
+        "name": "Blue",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 704,
+        "name": "Grey!",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 40,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 40
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 705,
+        "name": "Lavender!",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 707,
+        "name": "Alt Green",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 708,
+        "name": "BOG",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 706,
+        "name": "Hot Pink",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 710,
+        "name": "PURPLE!!!",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 709,
+        "name": "GOB",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 711,
+        "name": "BSOD",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 712,
+        "name": "RED!!!",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 713,
+        "name": "GREY!!!!",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 715,
+        "name": "Rust",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 716,
+        "name": "Red!",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 714,
+        "name": "Orange",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 717,
+        "name": "Purple",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 718,
+        "name": "Pink",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 719,
+        "name": "Mustard",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 721,
+        "name": "Yellow",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 720,
+        "name": "White!",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 722,
+        "name": "Bee",
+        "affinity": "INSECT",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 723,
+        "name": "Ghost",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 724,
+        "name": "Caterpillar",
+        "affinity": "INSECT",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 726,
+        "name": "Battery",
+        "affinity": "SCRAP",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 40,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 40
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 725,
+        "name": "Cube",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 727,
+        "name": "Butterfly",
+        "affinity": "INSECT",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 8,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 8
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 729,
+        "name": "Drip",
+        "affinity": "EERIE",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 728,
+        "name": "Lightbulb",
+        "affinity": "SCRAP",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 730,
+        "name": "Working CRT Monitor ",
+        "affinity": "SCRAP",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 732,
+        "name": "Orb",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 733,
+        "name": "Octahedron",
+        "affinity": "NORMAL",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 734,
+        "name": "Broken CRT Monitor",
+        "affinity": "SCRAP",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 40,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 40
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 735,
+        "name": "Pumpkin",
+        "affinity": "EERIE",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "violence": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 731,
+        "name": "Octopus",
+        "affinity": "EERIE",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 736,
+        "name": "Tube",
+        "affinity": "NORMAL",
+        "rarity": "0x08",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 737,
+        "name": "Jellyfish",
+        "affinity": "EERIE",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 739,
+        "name": "Magatama",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 741,
+        "name": "Spider",
+        "affinity": "INSECT",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 740,
+        "name": "Eyes",
+        "affinity": "EERIE",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 742,
+        "name": "Plant",
+        "affinity": "NORMAL",
+        "rarity": "0x08",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 738,
+        "name": "Amphora",
+        "affinity": "SCRAP",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 743,
+        "name": "Shrimp",
+        "affinity": "INSECT",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 745,
+        "name": "1BIT GREEN",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 746,
+        "name": "1BIT BW",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 744,
+        "name": "1BIT PINK",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 60,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 60
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 747,
+        "name": "Grey",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 748,
+        "name": "Green",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 749,
+        "name": "1BIT WR",
+        "affinity": "",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 750,
+        "name": "Lime Green",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 40,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 40
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 751,
+        "name": "Blue",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 752,
+        "name": "Orange",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 753,
+        "name": "Pink",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 755,
+        "name": "White",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 756,
+        "name": "Red",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 757,
+        "name": "Purple",
+        "affinity": "",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 758,
+        "name": "Yellow",
+        "affinity": "",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 754,
+        "name": ".w.",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 759,
+        "name": "._.",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 761,
+        "name": "n_n",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 5,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 5
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 760,
+        "name": ">_>",
+        "affinity": "SCRAP",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 763,
+        "name": "v_v",
+        "affinity": "SCRAP",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 764,
+        "name": "O_o",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 765,
+        "name": "x_x ",
+        "affinity": "INSECT",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 766,
+        "name": "o_O",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 762,
+        "name": "-_-",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 767,
+        "name": "^-^",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 769,
+        "name": "O_0",
+        "affinity": "EERIE",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 770,
+        "name": "o_o",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 768,
+        "name": "Teddy",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 772,
+        "name": "Impacted",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 771,
+        "name": "Sideeye",
+        "affinity": "EERIE",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 773,
+        "name": "HeartS",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 774,
+        "name": "Disapproval",
+        "affinity": "INSECT",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 5,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 5
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 775,
+        "name": "Lenny 2",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 776,
+        "name": ":3",
+        "affinity": "INSECT",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 777,
+        "name": "Unamused",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 778,
+        "name": "Ou0",
+        "affinity": "EERIE",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 5,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 5
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 779,
+        "name": "Drip",
+        "affinity": "EERIE",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 5,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 5
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 780,
+        "name": "Concerned",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 781,
+        "name": "Serious Teddy",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 782,
+        "name": "Lenny 1",
+        "affinity": "NORMAL",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 783,
+        "name": "Insectoid",
+        "affinity": "INSECT",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 785,
+        "name": "Sensor",
+        "affinity": "SCRAP",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 7,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 7
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 786,
+        "name": "Insectoid (Partisan)",
+        "affinity": "INSECT",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 7,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 7
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 784,
+        "name": "N+B",
+        "affinity": "SCRAP",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 40,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 40
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 787,
+        "name": "Sated",
+        "affinity": "EERIE",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 788,
+        "name": "Hungry",
+        "affinity": "EERIE",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 7,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 7
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 789,
+        "name": "Spectral",
+        "affinity": "EERIE",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 790,
+        "name": "Spinning Coins",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 791,
+        "name": "Candles",
+        "affinity": "EERIE",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 8,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 8
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 792,
+        "name": "Coins",
+        "affinity": "NORMAL",
+        "rarity": "0x08",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 793,
+        "name": "Orbs",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 794,
+        "name": "Eyeballs",
+        "affinity": "EERIE",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 795,
+        "name": "Fan Blades",
+        "affinity": "SCRAP",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 30,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 30
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 796,
+        "name": "Beetle",
+        "affinity": "INSECT",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 797,
+        "name": "Mantis",
+        "affinity": "INSECT",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 8,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 8
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 798,
+        "name": "Plugs",
+        "affinity": "SCRAP",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 10,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 10
+            },
+            "power": {
+                "base": 1,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 1
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 799,
+        "name": "Paws",
+        "affinity": "NORMAL",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 800,
+        "name": "Scorpion",
+        "affinity": "INSECT",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 801,
+        "name": "Tentacles",
+        "affinity": "EERIE",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 802,
+        "name": "Toasters",
+        "affinity": "SCRAP",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 803,
+        "name": "UFO Catcher",
+        "affinity": "SCRAP",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 804,
+        "name": "Wrenches",
+        "affinity": "SCRAP",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 805,
+        "name": "Guns",
+        "affinity": "NORMAL",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 7,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 7
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 806,
+        "name": "Mole Cricket",
+        "affinity": "INSECT",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 3,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 3
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 807,
+        "name": "Plant",
+        "affinity": "NORMAL",
+        "rarity": "0x08",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 810,
+        "name": "Torus",
+        "affinity": "NORMAL",
+        "rarity": "0x06",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 4,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 4
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 811,
+        "name": "Melted",
+        "affinity": "EERIE",
+        "rarity": "0x09",
+        "stats": {
+            "health": {
+                "base": 20,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 20
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "harmony": {
+                "base": 2,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 2
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    },
+    {
+        "entity": 808,
+        "name": "Crab",
+        "affinity": "INSECT",
+        "rarity": "0x07",
+        "stats": {
+            "health": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "power": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "violence": {
+                "base": 6,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 6
+            },
+            "harmony": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "slots": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            },
+            "stamina": {
+                "base": 0,
+                "shift": 0,
+                "boost": 0,
+                "sync": 0,
+                "rate": 0,
+                "total": 0
+            }
+        }
+    }
+]

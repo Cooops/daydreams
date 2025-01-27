@@ -1,0 +1,529 @@
+[
+    {
+        "id": "0x5904ff60975a2b8cf7c34195bb7b05b99a178a1b1e0e81d493c8c27060b3e174",
+        "entity": 103,
+        "index": 0,
+        "name": "deadzone",
+        "description": "This room is for debugging! You may not enter.",
+        "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "gates": []
+    },
+    {
+        "id": "0x62c7994b219e50054c44b1d2c7adc987412e70edd479735e1b565c315eab6ec1",
+        "entity": 107,
+        "index": 1,
+        "name": "Misty Riverside",
+        "description": "The air is quiet and the trees grow thick overhead. In each direction the murky river disappears into mist and darkness.",
+        "location": {
+            "x": 3,
+            "y": 1,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x99ad3f1a512def7420cb3f1ebb936fcc35cfa42af9c8ea9546d28ca2d546c168",
+        "entity": 109,
+        "index": 6,
+        "name": "Labs Entrance",
+        "description": "The exterior of this building was designed to resemble a shrine almost as much as an office.",
+        "location": {
+            "x": 4,
+            "y": 10,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x9a657dc452878223a39c2fb4c5857954863397deeb2ea213c4471648bb15072c",
+        "entity": 108,
+        "index": 2,
+        "name": "Tunnel of Trees",
+        "description": "A gate marks the boundary between the forest and the plains. The incongruous “SHOP” door has a cool glow.",
+        "location": {
+            "x": 3,
+            "y": 3,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x928572a8441a3bd9e78a05202412ea62b3627bc1331da0095aaaf8128e2630b2",
+        "entity": 111,
+        "index": 4,
+        "name": "Vending Machine",
+        "description": "A vending machine stands deep in the scrap, well stocked and operating despite the remote location and cut power cord.",
+        "location": {
+            "x": 3,
+            "y": 6,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x776b93e45d845bd1be0bc1bbabb1684e741b8c497379d76b7e8bee27460d3547",
+        "entity": 112,
+        "index": 9,
+        "name": "Forest: Old Growth",
+        "description": "You step into the forest and seem to enter a primordial age. The buzz of giant insects overwhelms your hearing.",
+        "location": {
+            "x": 5,
+            "y": 8,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x8fc48ccac13b7e0eeca7e878abefb400bf2fc918ea46b2a1c132428cd99d678b",
+        "entity": 110,
+        "index": 5,
+        "name": "Restricted Area",
+        "description": "A restricted area, but no one is watching. Follow this road lined with cherry trees to reach an office complex. ",
+        "location": {
+            "x": 3,
+            "y": 9,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x876109f5b9bee0256db37f6041d5b6a8b15abd51ee33bf0c87c8a8e7de8a2f69",
+        "entity": 113,
+        "index": 3,
+        "name": "Torii Gate",
+        "description": "The Torii gate standing here radiates an aura of spiritual significance. Piles of scrap and garbage rise like mountains on the horizon.",
+        "location": {
+            "x": 3,
+            "y": 4,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x98e93ff66a944e28be795cb2fcfd3c1b8d2de8f7972d517f4887703a544d7087",
+        "entity": 115,
+        "index": 10,
+        "name": "Forest: Insect Node",
+        "description": "The buzzing is loudest here. This mound draws insects of all types toward it. They writhe together in a trance.",
+        "location": {
+            "x": 5,
+            "y": 5,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x25cf6187beac6c4447fba9ec74c396d5ac652e0ba2d2a030fb84ea3d4dd37e58",
+        "entity": 114,
+        "index": 11,
+        "name": "Temple by the Waterfall",
+        "description": "A humble shrine lends this waterfall basin a peaceful aura, but the air has an unpleasant aroma like dirty laundry,",
+        "location": {
+            "x": 6,
+            "y": 11,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x938425bcc499028088728cf40d025bd1ad8335906dab88bb5fb69ac7438589bb",
+        "entity": 117,
+        "index": 12,
+        "name": "Scrap Confluence",
+        "description": "A collection of strange and hard to identify objects buried deep in the scrapyard. It could be dangerous to get close.",
+        "location": {
+            "x": 1,
+            "y": 6,
+            "z": 1
+        },
+        "gates": [
+            {
+                "id": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x0799446677957b7b27da9835ef2fc198bd09310ced6551678d79128fcc0e6b2e"
+                }
+            },
+            {
+                "id": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x0799446677957b7b27da9835ef2fc198bd09310ced6551678d79128fcc0e6b2e"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x5ed5b7f0ca08a2037890a9ba3a92e5922c9dfc5603f66d0da523b699ef606081",
+        "entity": 119,
+        "index": 29,
+        "name": "Misty Forest Path",
+        "description": "Dense mist and canopy blocks the sky. It would be impossible to navigate in this forest of illusion. Just follow the path.",
+        "location": {
+            "x": 3,
+            "y": 2,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x7acb36aace1e20e0145433ed0d9920cebac76eba2983b8b7f9787639cd915a01",
+        "entity": 120,
+        "index": 25,
+        "name": "Lost Skeleton",
+        "description": "A crumbling human skeleton lies prone on the ground. It looks to have been decomposing for decades.",
+        "location": {
+            "x": 6,
+            "y": 9,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0xe0dd5e85c1d2008b57c4e22a05d1c092fb6cc9948967df50267f4ad7f459b99b",
+        "entity": 116,
+        "index": 13,
+        "name": "Convenience Store",
+        "description": "The glowing blue door seems to lead to a convenience store. Where is this? That “Exit” sign might let you leave. ",
+        "location": {
+            "x": 4,
+            "y": 3,
+            "z": 2
+        },
+        "gates": []
+    },
+    {
+        "id": "0x41db086cbeff1e77b994158c8a768829eaee9a5c0c9d9218496bef2b6abf220d",
+        "entity": 121,
+        "index": 26,
+        "name": "Trash-Strewn Graves",
+        "description": "Ancient gravestones emerge from the thinning piles of trash at the farthest edge of the scrapyard.",
+        "location": {
+            "x": 2,
+            "y": 8,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x655d58ec3dc0bb497789e6d9ad0d7af8ded24f5f0cf1510d25292f88e8546317",
+        "entity": 123,
+        "index": 31,
+        "name": "Scrapyard Exit",
+        "description": "A literal and metaphorical fork in the road. Nature, man’s work and its leftovers. ",
+        "location": {
+            "x": 3,
+            "y": 8,
+            "z": 1
+        },
+        "gates": [
+            {
+                "id": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x3aae57ca13cf6f026b9eac8e97f9b891b59fb198c3f15f95a3a2460ffda3b40c"
+                }
+            },
+            {
+                "id": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x3aae57ca13cf6f026b9eac8e97f9b891b59fb198c3f15f95a3a2460ffda3b40c"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x5600958e463423e51d5cf9b8983d14fe6127ee012e7e965cbc401f7d5598e5ee",
+        "entity": 122,
+        "index": 30,
+        "name": "Scrapyard Entrance",
+        "description": "The detritus ahead stands in dark mountain peaks. A path has been dug for you through the towering piles of garbage. ",
+        "location": {
+            "x": 3,
+            "y": 5,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0xaa3a9a68a43437e7840b64409ddbb1f5b706e491a2b5231a55612957dce1a28a",
+        "entity": 124,
+        "index": 33,
+        "name": "Forest Entrance",
+        "description": "The forest canopy blots out the sky above. An eerie silence overwhelms the expected sounds of life. ",
+        "location": {
+            "x": 4,
+            "y": 8,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x7fb9d9c13842e0d9d7459cc645bda9540810679fc14962cf195b7385b0efabff",
+        "entity": 125,
+        "index": 32,
+        "name": "Road To Labs",
+        "description": "A paved road curled between green hills. The blacktop cracks as the world around it grows.",
+        "location": {
+            "x": 3,
+            "y": 10,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x94a9e4d788088def528096d79ba26938d084a49e3f0f8e52f44c17da0afa5ea9",
+        "entity": 127,
+        "index": 34,
+        "name": "Deeper Into Scrap",
+        "description": "Deeper into the scrapyard down a narrow path. After every turn, the mountains of trash grow taller and more precarious.",
+        "location": {
+            "x": 2,
+            "y": 6,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x4f946582729eeca591019f5be312db3371667f2437328dfba4e9a35ab27bd2d9",
+        "entity": 126,
+        "index": 35,
+        "name": "Forest Road 1",
+        "description": "The forest grows so thick that the road is barely visible at times. The air is still, but the trees sway and twist in the darkness.",
+        "location": {
+            "x": 5,
+            "y": 6,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x5eff947178d9f571474a88a4bf594d20ebd049fd55911f7704d8da3413b8d738",
+        "entity": 129,
+        "index": 36,
+        "name": "Forest Road 2",
+        "description": "It seems as if the trees are parting to clear a path ahead, then shuffling back together. ",
+        "location": {
+            "x": 5,
+            "y": 9,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x870ff5ce93944649d8a5ae5d69d909ffad3a8064e692463f817fd134731c1f25",
+        "entity": 130,
+        "index": 47,
+        "name": "Scrap Paths",
+        "description": "The mountains of trash look more like hills, but the forest is no longer visible on the horizon.",
+        "location": {
+            "x": 3,
+            "y": 7,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0xd9ae0925084f3614ac08115033fac0a790a20c6e6917962f46a13c6ffe1b1131",
+        "entity": 131,
+        "index": 37,
+        "name": "Forest Road 3",
+        "description": "The mist is thinner here and the sky can be seen through holes in the canopy. ",
+        "location": {
+            "x": 6,
+            "y": 10,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x145e8bf9e3eee25a0a2d5c1d33609f3fc8c12fd0643fb9f7827f1f8d55753ed6",
+        "entity": 132,
+        "index": 48,
+        "name": "Forest Road 4 ",
+        "description": "The forest is dark and impenetrable. Thick tree trunks stretch high above.",
+        "location": {
+            "x": 5,
+            "y": 7,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x92af3965bc85804e82ba971d4bcd330cde53fe2565be4a242b9776057766a964",
+        "entity": 133,
+        "index": 49,
+        "name": "Clearing",
+        "description": "A secluded clearing, away from both the illusory mists of the labyrinthine forest and the towering trash maze of the scrapyard. ",
+        "location": {
+            "x": 7,
+            "y": 9,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0xaa4a6911abe1a1692d3dd4446df2d68acbd7d8c42ce67af3ca86512d96033630",
+        "entity": 136,
+        "index": 51,
+        "name": "Scrap-Littered Undergrowth ",
+        "description": "There are fragments of scrap metal littered around the forest here. ",
+        "location": {
+            "x": 7,
+            "y": 5,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x13e059a6697ff638dd323ee90a5615a81a8e237d57e54ca55c89b1d8e87e622e",
+        "entity": 137,
+        "index": 50,
+        "name": "Ancient Forest Entrance",
+        "description": "The undergrowth here is very thick; there’s only a few paths to follow through the trees…. The forest here feels packed, almost a jungle.",
+        "location": {
+            "x": 6,
+            "y": 5,
+            "z": 1
+        },
+        "gates": [
+            {
+                "id": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0xa2dd18e2e4e6da502da18d3021a949727044dcb27d99ed5693917e4edc048647"
+                }
+            },
+            {
+                "id": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0xa2dd18e2e4e6da502da18d3021a949727044dcb27d99ed5693917e4edc048647"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0xc8573960bd286a0bfef1a9a1789232546de32ae6a4606219634a7b58e7ca9a72",
+        "entity": 134,
+        "index": 52,
+        "name": "Airplane Crash",
+        "description": "The wreckage of a plane is resting here, deep in the forest.",
+        "location": {
+            "x": 8,
+            "y": 5,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0x657ed41e476925564d9d65bf45946af435fd54ebc4078cda2041f311be6b0d56",
+        "entity": 139,
+        "index": 53,
+        "name": "Blooming Tree",
+        "description": "This tree has been….. struck by lightning, perhaps?",
+        "location": {
+            "x": 7,
+            "y": 4,
+            "z": 1
+        },
+        "gates": [
+            {
+                "id": "0x036b6384b5eca791c62761152d0c79bb0604c104a5fb6f4eb0703f3154bb3db0",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0xede4e5d4ab41268885e260787a486aa6ee6a7b5a2bea8b0823ea962285bc2804"
+                }
+            },
+            {
+                "id": "0x036b6384b5eca791c62761152d0c79bb0604c104a5fb6f4eb0703f3154bb3db0",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0xede4e5d4ab41268885e260787a486aa6ee6a7b5a2bea8b0823ea962285bc2804"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x6eb1666adb676ba500208a5fca3fb076bbf206302321a51a03c068eed66b2be7",
+        "entity": 140,
+        "index": 54,
+        "name": "Plane Interior",
+        "description": "The air inside this airplane is…. sterile. Something’s wrong here.",
+        "location": {
+            "x": 8,
+            "y": 5,
+            "z": 2
+        },
+        "gates": []
+    },
+    {
+        "id": "0x8f9b65f256241e353c8aed73a2279480c9f45afdb873502bab9e966fe65b19d9",
+        "entity": 143,
+        "index": 55,
+        "name": "Shady Path ",
+        "description": "The path runs along the edge of the forest for a little while. It’s quiet here.",
+        "location": {
+            "x": 4,
+            "y": 3,
+            "z": 1
+        },
+        "gates": [
+            {
+                "id": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377c0d3f",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x909cb0ef35f5f5f666b1b04ed0ee93bf4379cf0ebdd488301650fd8faedfa6f4"
+                }
+            },
+            {
+                "id": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f377c0d3f",
+                "logic": "BOOL_IS",
+                "target": {
+                    "type": "COMPLETE_COMP",
+                    "value": "0x909cb0ef35f5f5f666b1b04ed0ee93bf4379cf0ebdd488301650fd8faedfa6f4"
+                }
+            }
+        ]
+    },
+    {
+        "id": "0x18621dc99fdf0816de4fbf34f1a250da1b489a29940a615b03f06e6c9a8084a1",
+        "entity": 144,
+        "index": 56,
+        "name": "Butterfly Forest",
+        "description": "The forest here grows thicker once more. The blue butterflies seem particularly common in this place.",
+        "location": {
+            "x": 5,
+            "y": 3,
+            "z": 1
+        },
+        "gates": []
+    },
+    {
+        "id": "0xcaf97afcc374f4fb226a097b18b63870a40e7faa7281808962af24e746f6cb98",
+        "entity": 141,
+        "index": 57,
+        "name": "River Crossing",
+        "description": "This seems like a natural spot to try to cross the river… and indeed, there was once a bridge…",
+        "location": {
+            "x": 6,
+            "y": 3,
+            "z": 1
+        },
+        "gates": []
+    }
+]
