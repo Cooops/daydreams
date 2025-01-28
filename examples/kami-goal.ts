@@ -9,7 +9,6 @@
 
 import { LLMClient } from "../packages/core/src/core/llm-client";
 import { ChainOfThought } from "../packages/core/src/core/chain-of-thought";
-import { ETERNUM_CONTEXT, PROVIDER_GUIDE } from "./eternum-context";
 import * as readline from "readline";
 import chalk from "chalk";
 
@@ -22,9 +21,10 @@ import {
 import { fetchGraphQL } from "../packages/core/src/core/providers";
 import { z } from "zod";
 import { env } from "../packages/core/src/core/env";
-import { KAMI_CONTEXT } from './kami-context';
+import { KAMI_CONTEXT, PROVIDER_GUIDE } from './kami-context';
 import { EvmChain } from "../packages/core/src/core/chains/evm";
 import { KAMI_ABIS } from './kami-abis';
+import { ethers } from "../packages/core/node_modules/ethers";
 
 /**
  * Helper function to get user input from CLI
@@ -68,7 +68,7 @@ async function main() {
     const yominetChain = new EvmChain({
         chainName: "yominet",
         chainId: 4471190363524365,
-        rpcUrl: "https://rpc.preyominet.initia.tech",
+        rpcUrl: "https://json-rpc.preyominet.initia.tech/",
         privateKey: env.KAMIGOTCHI_PRIVATE_KEY,
     });
 
@@ -109,50 +109,144 @@ async function main() {
         name: "CHAIN_OPERATION",
         role: HandlerRole.OUTPUT,
         handler: async (data: any) => {
-            const { operation, contractAddress, functionName, args } = data.payload;
+            // Helper function to process a single operation
+            const processOperation = async (op: any) => {
+                const { operation, contractAddress: worldAddress, functionName, args } = op;
 
-            // Get the appropriate ABI based on function name
-            const abi = KAMI_ABIS[functionName];
-            if (!abi) {
-                throw new Error(`No ABI found for function: ${functionName}`);
-            }
+                try {
+                    let result;
+                    if (operation === "read") {
+                        // 1. Get systems registry from world contract
+                        console.log("\n=== Step 1: Getting Systems Registry ===");
+                        console.log("World Address:", worldAddress);
+                        const systemRegistryAddr = await yominetChain.read({
+                            contractAddress: worldAddress,
+                            abi: KAMI_ABIS.world,
+                            functionName: "systems",
+                            args: []
+                        });
+                        console.log("Got system registry address:", systemRegistryAddr);
 
-            try {
-                let result;
-                if (operation === "read") {
-                    result = await yominetChain.read({
-                        contractAddress,
-                        abi,
-                        functionName,
-                        args,
-                    });
-                } else if (operation === "write") {
-                    result = await yominetChain.write({
-                        contractAddress,
-                        abi,
-                        functionName,
-                        args,
-                    });
-                } else {
-                    throw new Error("Invalid operation type");
+                        // 2. Get getter system address from registry
+                        console.log("\n=== Step 2: Getting Getter System ===");
+                        const getterId = ethers.id("system.getter");
+                        console.log("Getting entities with ID:", getterId);
+
+                        const values = await yominetChain.read({
+                            contractAddress: systemRegistryAddr,
+                            abi: KAMI_ABIS.registry,
+                            functionName: "getEntitiesWithValue",
+                            args: [ethers.toBeArray(getterId)]
+                        });
+                        console.log("Registry response values:", values);
+
+                        // 3. Convert response to address
+                        console.log("\n=== Step 3: Converting Response to Address ===");
+                        const getterAddr = values.length > 0
+                            ? ethers.getAddress(ethers.toBeHex(values[0]))
+                            : ethers.ZeroAddress;
+                        console.log("Final getter address:", getterAddr);
+
+                        // 4. Make the actual getter call
+                        console.log("\n=== Step 4: Getting Kami Info ===");
+                        if (functionName === "getKamiByIndex") {
+                            const rawResult = await yominetChain.read({
+                                contractAddress: getterAddr,
+                                abi: KAMI_ABIS.getter,
+                                functionName,
+                                args
+                            });
+
+                            console.log("Raw result:", rawResult);
+
+                            // Create a clean JSON structure from the array
+                            const cleanResult = {
+                                id: rawResult[0].toString(),
+                                index: Number(rawResult[1]),
+                                name: rawResult[2],
+                                mediaURI: rawResult[3],
+                                stats: {
+                                    health: {
+                                        base: Number(rawResult[4][0][0]),
+                                        shift: Number(rawResult[4][0][1]),
+                                        boost: Number(rawResult[4][0][2]),
+                                        sync: Number(rawResult[4][0][3])
+                                    },
+                                    power: {
+                                        base: Number(rawResult[4][1][0]),
+                                        shift: Number(rawResult[4][1][1]),
+                                        boost: Number(rawResult[4][1][2]),
+                                        sync: Number(rawResult[4][1][3])
+                                    },
+                                    harmony: {
+                                        base: Number(rawResult[4][2][0]),
+                                        shift: Number(rawResult[4][2][1]),
+                                        boost: Number(rawResult[4][2][2]),
+                                        sync: Number(rawResult[4][2][3])
+                                    },
+                                    violence: {
+                                        base: Number(rawResult[4][3][0]),
+                                        shift: Number(rawResult[4][3][1]),
+                                        boost: Number(rawResult[4][3][2]),
+                                        sync: Number(rawResult[4][3][3])
+                                    }
+                                },
+                                traits: {
+                                    face: Number(rawResult[5][0]),
+                                    hand: Number(rawResult[5][1]),
+                                    body: Number(rawResult[5][2]),
+                                    background: Number(rawResult[5][3]),
+                                    color: Number(rawResult[5][4])
+                                },
+                                affinities: rawResult[6],
+                                account: rawResult[7].toString(),
+                                level: rawResult[8].toString(),
+                                xp: rawResult[9].toString(),
+                                room: Number(rawResult[10]),
+                                state: rawResult[11]
+                            };
+                            result = cleanResult;
+                        } else {
+                            throw new Error("Invalid function name");
+                        }
+                    } else if (operation === "write") {
+                        throw new Error("Write operations not yet implemented");
+                    } else {
+                        throw new Error("Invalid operation type");
+                    }
+                    return `Operation ${operation} executed successfully: ${JSON.stringify(result, null, 2)}`;
+                } catch (error) {
+                    return `Error during ${operation} operation: ${error instanceof Error ? error.message : 'Unknown error'}`;
                 }
-                return `Operation ${operation} executed successfully: ${JSON.stringify(result, null, 2)}`;
-            } catch (error) {
-                return `Error during ${operation} operation: ${error instanceof Error ? error.message : 'Unknown error'}`;
+            };
+
+            // Handle both single operations and batches
+            if (Array.isArray(data.payload)) {
+                const results = await Promise.all(
+                    data.payload.map(op => processOperation(op))
+                );
+                return `Batch operations completed:\n${results.join('\n')}`;
             }
+            return processOperation(data.payload);
         },
-        schema: z
-            .object({
+        schema: z.union([
+            // Single operation
+            z.object({
                 operation: z.enum(["read", "write"]).describe("The type of operation to perform"),
-                contractAddress: z.string().describe("The address of the contract"),
-                abi: z.any().describe("The ABI of the contract"),
+                contractAddress: z.string().describe("The world contract address"),
                 functionName: z.string().describe("The function to call"),
                 args: z.array(z.any()).describe("The arguments for the function call"),
-                overrides: z.optional(z.object({
-                    gasLimit: z.number().describe("Optional gas limit for the transaction"),
-                })).describe("Optional transaction overrides"),
-            })
-            .describe("The payload for a blockchain operation"),
+            }),
+            // Batch operations
+            z.array(
+                z.object({
+                    operation: z.enum(["read", "write"]).describe("The type of operation to perform"),
+                    contractAddress: z.string().describe("The world contract address"),
+                    functionName: z.string().describe("The function to call"),
+                    args: z.array(z.any()).describe("The arguments for the function call"),
+                })
+            )
+        ]).describe("The payload for blockchain operations (single or batch)"),
     });
 
     // Set up event logging
@@ -243,10 +337,10 @@ async function main() {
     });
 
     // Memory management events
-    dreams.on("memory:experience_stored", ({ experience }) => {
+    dreams.on("memory:experience_stored", async ({ experience }) => {
         console.log(chalk.blue("\n💾 New experience stored:"), {
             action: experience.action,
-            outcome: experience.outcome,
+            outcome: await experience.outcome, // dev note: changed this, as experience.outcome is a promise
             importance: experience.importance,
             timestamp: experience.timestamp,
         });

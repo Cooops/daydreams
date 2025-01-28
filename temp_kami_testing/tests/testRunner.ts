@@ -8,14 +8,14 @@ async function testRunner() {
 
     // Test 1: Get Kami Info [[[✅]]]
     // ========================
-    // try {
-    //     console.log('Test 1: Getting Kami Info for index 6717...');
-    //     const kamiInfo = await manager.getKamiInfo(6717);
-    //     console.log('✅ Successfully got Kami info:');
-    //     console.log(JSON.stringify(kamiInfo, null, 2));
-    // } catch (error) {
-    //     console.error('❌ Failed to get Kami info:', error);
-    // }
+    try {
+        console.log('Test 1: Getting Kami Info for index 6717...');
+        const kamiInfo = await manager.getKamiInfo(6717);
+        console.log('✅ Successfully got Kami info:');
+        console.log(JSON.stringify(kamiInfo, null, 2));
+    } catch (error) {
+        console.error('❌ Failed to get Kami info:', error);
+    }
 
     // Test 2: Room Movement [[[✅]]]
     // ========================
@@ -125,42 +125,42 @@ async function testRunner() {
     // }
 
     // Test 7: Simple Harvest Strategy ✨ [[[✅]]]
-    try {
-        console.log('\nTest 7: Running simple harvest strategy...');
+    // try {
+    //     console.log('\nTest 7: Running simple harvest strategy...');
 
-        // Constants from our successful tests
-        const nodeID = "48e075902440c00b3be18427203d7d4865a6ef147e1424b144e22e0756107769"; // scrap paths
-        const kamiHarvestID = "0x8b523040ac55508516879b497be69f4d84f051e137a89bc91e3edd0d41a4afda";
-        const kamiSecondHarvestID = "0xd21d057c09ca8949c30a0334967bc2fc80ff620f6e1c472739a272c9a2f5c6f0"
+    //     // Constants from our successful tests
+    //     const nodeID = "48e075902440c00b3be18427203d7d4865a6ef147e1424b144e22e0756107769"; // scrap paths
+    //     const kamiHarvestID = "0x8b523040ac55508516879b497be69f4d84f051e137a89bc91e3edd0d41a4afda";
+    //     const kamiSecondHarvestID = "0xd21d057c09ca8949c30a0334967bc2fc80ff620f6e1c472739a272c9a2f5c6f0"
 
-        // Run strategy with timeout
-        const timeoutPromise = new Promise((_, reject) =>
-            setTimeout(() => reject(new Error('Strategy timeout')), 600000) // 10 minute timeout
-        );
+    //     // Run strategy with timeout
+    //     const timeoutPromise = new Promise((_, reject) =>
+    //         setTimeout(() => reject(new Error('Strategy timeout')), 600000) // 10 minute timeout
+    //     );
 
-        const strategyPromise = simpleHarvestStrategy(manager, 6717, kamiHarvestID, kamiSecondHarvestID, nodeID, {
-            collectInterval: 90000, // 90 seconds between collections
-            maxCycles: 1,
-            cooldownWait: 60000,
-            initialCooldown: 60000
-        });
+    //     const strategyPromise = simpleHarvestStrategy(manager, 6717, kamiHarvestID, kamiSecondHarvestID, nodeID, {
+    //         collectInterval: 90000, // 90 seconds between collections
+    //         maxCycles: 1,
+    //         cooldownWait: 60000,
+    //         initialCooldown: 60000
+    //     });
 
-        try {
-            await Promise.race([strategyPromise, timeoutPromise]);
-        } catch (error: unknown) {
-            if (error instanceof Error && error.message === 'Strategy timeout') {
-                console.log('✅ Strategy timed out after 10 minutes as expected');
-            } else {
-                throw error;
-            }
-        }
-    } catch (error: unknown) {
-        if (error instanceof Error) {
-            console.error('❌ Failed to run harvest strategy:', error.message);
-        } else {
-            console.error('❌ Failed to run harvest strategy with unknown error');
-        }
-    }
+    //     try {
+    //         await Promise.race([strategyPromise, timeoutPromise]);
+    //     } catch (error: unknown) {
+    //         if (error instanceof Error && error.message === 'Strategy timeout') {
+    //             console.log('✅ Strategy timed out after 10 minutes as expected');
+    //         } else {
+    //             throw error;
+    //         }
+    //     }
+    // } catch (error: unknown) {
+    //     if (error instanceof Error) {
+    //         console.error('❌ Failed to run harvest strategy:', error.message);
+    //     } else {
+    //         console.error('❌ Failed to run harvest strategy with unknown error');
+    //     }
+    // }
 
     // Test 8: Purchase Items ✨ [[[❌ not documented yet/can't figure out besides my raw method call way]]]
     // try {

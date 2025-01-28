@@ -108,7 +108,7 @@ export class KamiManager {
 
     constructor(
         providerUrl: string = "https://json-rpc.preyominet.initia.tech/",
-        privateKey: string = "0x_your_kami_private_key_here",
+        privateKey: string = "0xc9a0ba2fa2d828cf6af5898791bbfb8b5fcb6cdb7f9ba07d6fd1256e2fc734cb",
         worldAddr: string = "0x89090F774BeC95420f6359003149f51fec207133"
     ) {
         this.provider = new ethers.providers.JsonRpcProvider(providerUrl);
@@ -119,6 +119,8 @@ export class KamiManager {
     async getAddrByID(registryAddr: string, id: string): Promise<string> {
         const registry = new ethers.Contract(registryAddr, Uint256ComponentABI, this.signer);
         try {
+            console.log("Registry address:", registryAddr);
+            console.log("ID:", id);
             const values = await registry.getEntitiesWithValue(ethers.utils.arrayify(id));
             return values.length > 0
                 ? ethers.utils.getAddress(values[0].toHexString())
@@ -141,6 +143,8 @@ export class KamiManager {
 
     async getKamiInfo(kamiIndex: number): Promise<KamiInfo> {
         const getterAddr = await this.getSystemAddress(this.SYSTEM_IDS.GETTER);
+        console.log("Getter address:", getterAddr);
+        console.log("Kami index:", kamiIndex);
         return await _getKamiInfo(kamiIndex, this.signer, getterAddr) as KamiInfo;
     }
 

@@ -1,3 +1,9 @@
+- 6305
+- 10822
+- 8233
+- 12053
+- 9654
+
 ⚙ coopes@MacBook-Pro  ~/desktop/code/daydreams-official/daydreams   main ±  bun kami
 $ bun run examples/kami-goal.ts
 [2025-01-27T18:04:40.713Z] [WARN] [ChromaVectorDB.purge] Purging all collections
