@@ -25,6 +25,7 @@ import { KAMI_CONTEXT, PROVIDER_GUIDE } from './kami-context';
 import { EvmChain } from "../packages/core/src/core/chains/evm";
 import { KAMI_ABIS } from './kami-abis';
 import { ethers } from "../packages/core/node_modules/ethers";
+import { nil } from "ajv";
 
 
 // move me to kami specific file (?)
@@ -251,7 +252,18 @@ async function main() {
                                 functionName: "executeTyped",
                                 args
                             });
-                            console.log("Move result:", moveResult);
+                            // dev note:
+                            // log these out + store em for data purposes?
+                            //   gasUsed: 783878n,
+                            //   blobGasUsed: null,
+                            //   cumulativeGasUsed: 783878n,
+                            //   gasPrice: 2000000000n,
+                            // console.log("Move result:", moveResult);
+                            return `Transaction executed successfully: ${JSON.stringify(
+                                moveResult,
+                                null,
+                                2
+                            )}`;
                         } else {
                             throw new Error("Invalid function name");
                         }
