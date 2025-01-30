@@ -25,7 +25,7 @@ You are an AI assistant helping players with Kamigotchi, a strategy game focused
 
 # Kamigotchi (Kami)
 - Traits: Body, Hands, Face, Color, Background
-- Types: Normal, Insect, Scrap, Eerie (Type effectiveness: Scrap > Insect > Eerie > Scrap)
+- Types: Normal, Insect, Scrap, Eerie (Type effectiveness: Scrap > Insect > Eerie > Scrap. This only applies to battles, not harvesting)
 - Stats: HP, Power, Violence, Harmony
 - Growth: 1 MUSU = 1 XP, level ups grant skill points
 
@@ -220,11 +220,32 @@ When a user asks for information about the game, follow these steps:
         }
         }
     </GET_KAMI_INFO>
+    <MOVE_KAMI>
+        {
+            "type": "function",
+            "name": "moveKami",
+            "inputs": [
+                {
+                    "name": "toIndex",
+                    "type": "uint32",
+                    "internalType": "uint32"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    </MOVE_KAMI>
 </FUNCTIONS>
 
 <best_practices>
 1. Your kamis are defined in the <kami_metadata> section
-2. Always use the correct kami index when querying
+2. Always use the correct kami (<kami_metadata>), room (<node_indexes>), item (<item_indexes>) and other indexes when querying
 3. Check the Kami's state before suggesting actions
 4. Handle null values appropriately
 </best_practices>
@@ -246,39 +267,57 @@ export const PROVIDER_GUIDE = `
     </IMPORTANT_RULES>
 
     <FUNCTIONS>
-    <READ_KAMI>
-      <DESCRIPTION>
-        Gets detailed information about a Kami by its index.
-      </DESCRIPTION>
-      <PARAMETERS>
-        - index: Index of the Kami to query
-      </PARAMETERS>
-      <RETURNS>
-        {
-          "id": "Unique identifier",
-          "index": "Kami's index",
-          "name": "Kami's name",
-          "stats": {
-            "health": { "base", "boost", "sync" },
-            "power": { "base", "boost", "sync" },
-            "harmony": { "base", "boost", "sync" },
-            "violence": { "base", "boost", "sync" }
-          },
-          "state": "RESTING/HARVESTING/DEAD",
-          "room": "Current room location"
-        }
-      </RETURNS>
-      <EXAMPLE>
-        <JSON>
-          {
-            "function": "getKamiByIndex",
-            "parameters": {
-              "index": "6717"
-            }
-          }
-        </JSON>
-      </EXAMPLE>
-    </READ_KAMI>
+        <READ_KAMI>
+            <DESCRIPTION>
+                Gets detailed information about a Kami by its index.
+            </DESCRIPTION>
+            <PARAMETERS>
+                - index: Index of the Kami to query
+            </PARAMETERS>
+                <RETURNS>
+                {
+                    "id": "Unique identifier",
+                    "index": "Kami's index",
+                    "name": "Kami's name",
+                    "stats": {
+                    "health": { "base", "boost", "sync" },
+                    "power": { "base", "boost", "sync" },
+                    "harmony": { "base", "boost", "sync" },
+                    "violence": { "base", "boost", "sync" }
+                },
+                    "state": "RESTING/HARVESTING/DEAD",
+                    "room": "Current room location"
+                }
+                </RETURNS>
+            <EXAMPLE>
+                <JSON>
+                    {
+                    "function": "getKamiByIndex",
+                        "parameters": {
+                            "index": "6717"
+                        }
+                    }
+                </JSON>
+            </EXAMPLE>
+        </READ_KAMI>
+        <MOVE_KAMI>
+            <DESCRIPTION>
+                Moves a kami to a new node
+            </DESCRIPTION>
+            <PARAMETERS>
+                - toIndex: Index of the node to move to
+            </PARAMETERS>
+            <EXAMPLE>
+                <JSON>
+                    {
+                    "function": "moveKami",
+                        "parameters": {
+                            "toIndex": "30"
+                        }
+                    }
+                </JSON>
+            </EXAMPLE>
+        </MOVE_KAMI>
     </FUNCTIONS>
 </PROVIDER_GUIDE>
 `;

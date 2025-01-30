@@ -120,10 +120,27 @@ export const KAMI_ABIS = {
             "stateMutability": "view"
         }
     ],
-    // Group related operations
-    harvesting: {
-        start: { /* ... */ },
-        stop: { /* ... */ },
-        collect: { /* ... */ }
-    }
+
+    // Move system ABI
+    move: [
+        {
+            "type": "function",
+            "name": "executeTyped",
+            "inputs": [
+                {
+                    "name": "toIndex",
+                    "type": "uint32",
+                    "internalType": "uint32"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    ]
 };

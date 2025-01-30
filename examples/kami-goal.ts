@@ -26,6 +26,19 @@ import { EvmChain } from "../packages/core/src/core/chains/evm";
 import { KAMI_ABIS } from './kami-abis';
 import { ethers } from "../packages/core/node_modules/ethers";
 
+
+// move me to kami specific file (?)
+const SYSTEM_IDS = {
+    GETTER: "system.getter",
+    MOVE: "system.account.move",
+    USE_ITEM: "system.kami.use.item",
+    HARVEST_START: "system.harvest.start",
+    HARVEST_STOP: "system.harvest.stop",
+    HARVEST_COLLECT: "system.harvest.collect",
+    ITEM_PURCHASE: "system.item.purchase",
+    SCAVENGE_CLAIM: "system.scavenge.claim",
+};
+
 /**
  * Helper function to get user input from CLI
  */
@@ -72,6 +85,31 @@ async function main() {
         privateKey: env.KAMIGOTCHI_PRIVATE_KEY,
     });
 
+    // dev note: move to new place?
+    async function getSystemsAddress(worldAddress: string): Promise<string> {
+        // get the system address based off the function name (?)
+        // hard move for now
+        const systems = await yominetChain.read({
+            contractAddress: worldAddress,
+            abi: KAMI_ABIS.world,
+            functionName: "systems",
+            args: []
+        });
+        return systems;
+    }
+
+    async function getRegistryValues(systemRegistryAddr: string, systemId: string): Promise<string> {
+        console.log("Getting entities with ID:", systemId);
+
+        const values = await yominetChain.read({
+            contractAddress: systemRegistryAddr,
+            abi: KAMI_ABIS.registry,
+            functionName: "getEntitiesWithValue",
+            args: [ethers.toBeArray(ethers.id(systemId))]
+        });
+        return values;
+    }
+
     const memory = new ChromaVectorDB("agent_memory");
     await memory.purge(); // Clear previous session data
 
@@ -100,7 +138,7 @@ async function main() {
             worldState: KAMI_CONTEXT,
         },
         {
-            logLevel: LogLevel.DEBUG,
+            logLevel: LogLevel.WARN,
         }
     );
 
@@ -119,25 +157,12 @@ async function main() {
                         // 1. Get systems registry from world contract
                         console.log("\n=== Step 1: Getting Systems Registry ===");
                         console.log("World Address:", worldAddress);
-                        const systemRegistryAddr = await yominetChain.read({
-                            contractAddress: worldAddress,
-                            abi: KAMI_ABIS.world,
-                            functionName: "systems",
-                            args: []
-                        });
+                        const systemRegistryAddr = await getSystemsAddress(worldAddress);
                         console.log("Got system registry address:", systemRegistryAddr);
 
                         // 2. Get getter system address from registry
                         console.log("\n=== Step 2: Getting Getter System ===");
-                        const getterId = ethers.id("system.getter");
-                        console.log("Getting entities with ID:", getterId);
-
-                        const values = await yominetChain.read({
-                            contractAddress: systemRegistryAddr,
-                            abi: KAMI_ABIS.registry,
-                            functionName: "getEntitiesWithValue",
-                            args: [ethers.toBeArray(getterId)]
-                        });
+                        const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.GETTER);
                         console.log("Registry response values:", values);
 
                         // 3. Convert response to address
@@ -210,7 +235,26 @@ async function main() {
                             throw new Error("Invalid function name");
                         }
                     } else if (operation === "write") {
-                        throw new Error("Write operations not yet implemented");
+                        // get the system address based off the function name (?)
+                        if (functionName === "moveKami") {
+                            // use function name as identifier for now, and update to actual function call when calling write()
+                            const systemRegistryAddr = await getSystemsAddress(worldAddress);
+                            const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.MOVE);
+                            console.log("Registry response values:", values);
+                            const moveAddr = values.length > 0
+                                ? ethers.getAddress(ethers.toBeHex(values[0]))
+                                : ethers.ZeroAddress;
+                            console.log("Final move address:", moveAddr);
+                            const moveResult = await yominetChain.write({
+                                contractAddress: moveAddr,
+                                abi: KAMI_ABIS.move,
+                                functionName: "executeTyped",
+                                args
+                            });
+                            console.log("Move result:", moveResult);
+                        } else {
+                            throw new Error("Invalid function name");
+                        }
                     } else {
                         throw new Error("Invalid operation type");
                     }
@@ -338,9 +382,13 @@ async function main() {
 
     // Memory management events
     dreams.on("memory:experience_stored", async ({ experience }) => {
+        // Await the outcome promise before logging
+        const outcome = await experience.outcome;
+
         console.log(chalk.blue("\n💾 New experience stored:"), {
             action: experience.action,
-            outcome: await experience.outcome, // dev note: changed this, as experience.outcome is a promise
+            // Format the outcome if it's JSON
+            outcome: typeof outcome === 'string' ? outcome : JSON.stringify(outcome, null, 2),
             importance: experience.importance,
             timestamp: experience.timestamp,
         });
