@@ -238,6 +238,7 @@ async function main() {
                     } else if (operation === "write") {
                         // get the system address based off the function name (?)
                         if (functionName === "moveKami") {
+                            // dev note: blow all these into re-usable functions once its all working.
                             // use function name as identifier for now, and update to actual function call when calling write()
                             const systemRegistryAddr = await getSystemsAddress(worldAddress);
                             const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.MOVE);
@@ -261,6 +262,29 @@ async function main() {
                             // console.log("Move result:", moveResult);
                             return `Transaction executed successfully: ${JSON.stringify(
                                 moveResult,
+                                null,
+                                2
+                            )}`;
+                        } else if (functionName === "startHarvest") {
+                            // Log the current state before attempting to start harvest
+                            console.log("Attempting to start harvest for Kami:", args);
+
+                            const systemRegistryAddr = await getSystemsAddress(worldAddress);
+                            const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.HARVEST_START);
+                            console.log("Registry response values:", values);
+
+                            const harvestAddr = values.length > 0
+                                ? ethers.getAddress(ethers.toBeHex(values[0]))
+                                : ethers.ZeroAddress;
+                            console.log("Final harvest address:", harvestAddr);
+                            const harvestResult = await yominetChain.write({
+                                contractAddress: harvestAddr,
+                                abi: KAMI_ABIS.harvest,
+                                functionName: "executeTyped",
+                                args
+                            });
+                            return `Transaction executed successfully: ${JSON.stringify(
+                                harvestResult,
                                 null,
                                 2
                             )}`;

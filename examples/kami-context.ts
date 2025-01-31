@@ -55,6 +55,10 @@ Please familiarize yourself with the following game information:
 - kami-world: 0x89090F774BeC95420f6359003149f51fec207133
 </contract_addresses>
 
+<kami_harvest_ids>
+- 6717: 8b523040ac55508516879b497be69f4d84f051e137a89bc91e3edd0d41a4afda
+</kami_harvest_ids>
+
 <item_indexes>
     Gacha Ticket = 2
     MUSU = 1
@@ -104,39 +108,138 @@ Please familiarize yourself with the following game information:
 </items_on_shop>
 
 </node_indexes>
-    Misty Riverside = 1
-    Torii Gate = 3
-    Tunnel of Trees = 2
-    Labs Entrance = 6
-    Restricted Area = 5
-    Forest: Old Growth = 9
-    Forest: Insect Node = 10
-    Scrap Confluence = 12
-    Lost Skeleton = 25
-    Trash-Strewn Graves = 26
-    Misty Forest Path = 29
-    Scrapyard Entrance = 30
-    Scrapyard Exit = 31
-    Road To Labs = 32
-    Deeper Into Scrap = 34
-    Forest Road 2 = 36
-    Forest Road 1 = 35
-    Forest Entrance = 33
-    Forest Road 3 = 37
-    Scrap Paths = 47
-    Forest Road 4 = 48
-    Ancient Forest Entrance = 50
-    Clearing = 49
-    Scrap-Littered Undergrowth = 51
-    Airplane Crash = 52
-    Blooming Tree = 53
-    Shady Path = 55
-    Butterfly Forest = 56
-    River Crossing = 57
-    Vending Machine = 4
-    Temple by the Waterfall = 11
-    Convenience Store = 13
-    Plane Interior = 54
+    Misty Riverside = {
+        "index": 1,
+        "hex": "0x79722108fd12e5280b73896ac6585f8112d3df0b483a0c751aca2b5f7ae055fd"
+    }
+    Torii Gate = {
+        "index": 3,
+        "hex": "0x5258b4c3d546721a47ee7be76e70fda24b99c3d240d1ffd879f037745341ca92"
+    }
+    Tunnel of Trees = {
+        "index": 2,
+        "hex": "0x523b9f9d965a1e3c3b2fae1a7ccd8206130a7dcacfb946f3e43669ef9ad20589"
+    }
+    Labs Entrance = {
+        "index": 6,
+        "hex": "0xa48213383d7fce53aeb1c98e4a03725e932b3bae2547ecf52ea5173ab891a8"
+    }
+    Restricted Area = {
+        "index": 5,
+        "hex": "0x27faaf11d03c97b1a178ed95e80df22a989e93798806c3482efb0df21ff90468"
+    }
+    Forest: Old Growth = {
+        "index": 9,
+        "hex": "0x1a28599f2bcc25e18eaf01342f67ba80f38c1af6b63097767a7b68b000bc0cd4"
+    }
+    Forest: Insect Node = {
+        "index": 10,
+        "hex": "0x5e5f926d13b8549ccf5cb04938d215c49bc52f40274a7ac6818893b703db0957"
+    }
+    Scrap Confluence = {
+        "index": 12,
+        "hex": "0x5dd78a067c44dbb68696886214e09c4221c0b3884c42133a9a427d56fa15967a"
+    }
+    Lost Skeleton = {
+        "index": 25,
+        "hex": "0x29737ad3dda54cdf657db614c3dd383e743329a64cb9fc102dd0dd38874582a7"
+    }
+    Trash-Strewn Graves = {
+        "index": 26,
+        "hex": "0x2c8c1fdf59193aeeb3a5882d1aa9b5a8da1b57773a22b1f0c9399efabcbe72b1"
+    }
+    Misty Forest Path = {
+        "index": 29,
+        "hex": "0xe8e75c263bb5228777e6a4c6a67b25d715c4d11baa860844ad9b085bb7931838"
+    }
+    Scrapyard Entrance = {
+        "index": 30,
+        "hex": "0xeece427bdaf058e8ede94f274ed8b5c1836f35eaff836b17b27ee259f3b3a36c"
+    }
+    Scrapyard Exit = {
+        "index": 31,
+        "hex": "0x58507ed725cecb5d4699160c75034aa4489ae01a24890844a5c876baff3082bc"
+    }
+    Road To Labs = {
+        "index": 32,
+        "hex": "0xc18e309f3c23009e8a7a1b15bb549aa96ccaf761326e672e10b7288abdaf68d8"
+    }
+    Deeper Into Scrap = {
+        "index": 34,
+        "hex": "0x4a106442f6681adcbec42d56dc0d2b20f5ec7d79b270327606e12b966ab7c03f"
+    }
+    Forest Road 2 = {
+        "index": 36,
+        "hex": "0xb7cd9dc5875a3d2fdbb25eb3f91e2d70c3dcffa78cc80f443aa0412dfd845e0f"
+    }
+    Forest Road 1 = {
+        "index": 35,
+        "hex": "0x4889e805a4ff612d217c58b827524856a7793af97f809c40c263efbdad8335c2"
+    }
+    Forest Entrance = {
+        "index": 33,
+        "hex": "0x28ca6737fee1bf436df67c2259ebedd1a461c4c302e295f3a40decd82b7776ae"
+    }
+    Forest Road 3 = {
+        "index": 37,
+        "hex": "0x7b6dee4cce7b5388cbcf925a9c4903298f6f7c4de75dfb8cf7b600d7dfb444f9"
+    }
+    Scrap Paths = {
+        "index": 47,
+        "hex": "0x48e075902440c00b3be18427203d7d4865a6ef147e1424b144e22e0756107769"
+    }
+    Forest Road 4 = {
+        "index": 48,
+        "hex": "0xf382edd1f88d8dc766bc7a836272bc2cd07db8e8594db2f0441fd9006e1c5b4b"
+    }
+    Ancient Forest Entrance = {
+        "index": 50,
+        "hex": "0x28ca6737fee1bf436df67c2259ebedd1a461c4c302e295f3a40decd82b7776ae"
+    }
+    Clearing = {
+        "index": 49,
+        "hex": "0x14a7363196292ea6449554c38e34057b3281aacd06982ed2e253799a08007626"
+    }
+    Scrap-Littered Undergrowth = {
+        "index": 51,
+        "hex": "0x91d7e511ef29b2e472954744d0da90421d159d56db4173b72fc17d5abbc9d981"
+    }
+    Airplane Crash = {
+        "index": 52,
+        "hex": "0xc7f041f3e6ee9e6b27f7149d3bc5609c756ee70d46756bab59cb7d46e530cccc"
+    }
+    Blooming Tree = {
+        "index": 53,
+        "hex": "0x0972a93ea8572870aec961dfd50615ba0451789af353a352ca93dc12f9253058"
+    }
+    Shady Path = {
+        "index": 55,
+        "hex": "0x32ccb8c71ee5e4a0902a0abcbe160c516fa1ebb43f3fa97e1f525a01e287678b"
+    }
+    Butterfly Forest = {
+        "index": 56,
+        "hex": "0xf2c388875d420e8a2183b1002f429acfb24e389eb9ab4487cba9449e26a694bc"
+    }
+    River Crossing = {
+        "index": 57,
+        "hex": "0x858c0f8526933e6301be880394821623dd2591cda394fc05bd918ce07bbb8753"
+    }
+    Vending Machine = {
+        "index": 4,
+        "hex": "0x"
+    }
+    Temple by the Waterfall = {
+        "index": 11,
+        "hex": "0x"
+    }
+    Convenience Store = {
+        "index": 13,
+        "hex": "0x"
+    }
+    Plane Interior = {
+        "index": 54,
+        "hex": "0x"
+    }
 </node_indexes>
 
 When assisting players, follow these guidelines:
@@ -241,6 +344,32 @@ When a user asks for information about the game, follow these steps:
             "stateMutability": "nonpayable"
         }
     </MOVE_KAMI>
+    <START_HARVEST>
+        {
+            "type": "function",
+            "name": "startHarvest",
+            "inputs": [
+                {
+                    "name": "kamiID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                },
+                {
+                    "name": "nodeID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    </START_HARVEST>
 </FUNCTIONS>
 
 <best_practices>
@@ -318,6 +447,26 @@ export const PROVIDER_GUIDE = `
                 </JSON>
             </EXAMPLE>
         </MOVE_KAMI>
+        <START_HARVEST>
+            <DESCRIPTION>
+                Starts a kami's harvest session
+            </DESCRIPTION>
+            <PARAMETERS>
+                - kamiID: ID of the kami to start harvesting pulled from <kami_harvest_ids>
+                - nodeID: hex of the node to start harvesting on pulled from <node_indexes>
+            </PARAMETERS>
+            <EXAMPLE>
+                <JSON>
+                    {
+                    "function": "startHarvest",
+                        "parameters": {
+                            "kamiID": "6717",
+                            "nodeID": "48e075902440c00b3be18427203d7d4865a6ef147e1424b144e22e0756107769"
+                        }
+                    }
+                </JSON>
+            </EXAMPLE>
+        </START_HARVEST>
     </FUNCTIONS>
 </PROVIDER_GUIDE>
 `;
