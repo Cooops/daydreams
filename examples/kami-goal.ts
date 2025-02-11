@@ -288,6 +288,101 @@ async function main() {
                                 null,
                                 2
                             )}`;
+                        } else if (functionName === "feedKami") {
+                            console.log("Attempting to feed Kami:", args);
+
+                            const systemRegistryAddr = await getSystemsAddress(worldAddress);
+                            const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.USE_ITEM);
+                            console.log("Registry response values:", values);
+
+                            const useItemAddr = values.length > 0
+                                ? ethers.getAddress(ethers.toBeHex(values[0]))
+                                : ethers.ZeroAddress;
+                            console.log("Final use item address:", useItemAddr);
+
+                            const feedResult = await yominetChain.write({
+                                contractAddress: useItemAddr,
+                                abi: KAMI_ABIS.useItem,
+                                functionName: "executeTyped",
+                                args
+                            });
+                            return `Transaction executed successfully: ${JSON.stringify(
+                                feedResult,
+                                null,
+                                2
+                            )}`;
+                        } else if (functionName === "stopHarvest") {
+                            console.log("Attempting to stop harvest:", args);
+
+                            const systemRegistryAddr = await getSystemsAddress(worldAddress);
+                            const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.HARVEST_STOP);
+                            console.log("Registry response values:", values);
+
+                            const harvestStopAddr = values.length > 0
+                                ? ethers.getAddress(ethers.toBeHex(values[0]))
+                                : ethers.ZeroAddress;
+                            console.log("Final harvest stop address:", harvestStopAddr);
+
+                            const stopResult = await yominetChain.write({
+                                contractAddress: harvestStopAddr,
+                                abi: KAMI_ABIS.harvestStop,
+                                functionName: "executeTyped",
+                                args
+                            });
+                            return `Transaction executed successfully: ${JSON.stringify(
+                                stopResult,
+                                null,
+                                2
+                            )}`;
+                        } else if (functionName === "collectHarvest") {
+                            console.log("Attempting to collect harvest:", args);
+
+                            const systemRegistryAddr = await getSystemsAddress(worldAddress);
+                            const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.HARVEST_COLLECT);
+                            console.log("Registry response values:", values);
+
+                            const collectAddr = values.length > 0
+                                ? ethers.getAddress(ethers.toBeHex(values[0]))
+                                : ethers.ZeroAddress;
+                            console.log("Final collect address:", collectAddr);
+
+                            const collectResult = await yominetChain.write({
+                                contractAddress: collectAddr,
+                                abi: KAMI_ABIS.harvestCollect,
+                                functionName: "executeTyped",
+                                args
+                            });
+                            return `Transaction executed successfully: ${JSON.stringify(
+                                collectResult,
+                                null,
+                                2
+                            )}`;
+                        } else if (functionName === "purchaseItem") {
+                            console.log("Attempting to purchase item:", args);
+
+                            const systemRegistryAddr = await getSystemsAddress(worldAddress);
+                            const values = await getRegistryValues(systemRegistryAddr, SYSTEM_IDS.ITEM_PURCHASE);
+                            console.log("Registry response values:", values);
+
+                            const purchaseAddr = values.length > 0
+                                ? ethers.getAddress(ethers.toBeHex(values[0]))
+                                : ethers.ZeroAddress;
+                            console.log("Final purchase address:", purchaseAddr);
+
+                            // Format parameters for purchase
+                            const [numTypes, itemTypes, amounts, numItems] = args;
+
+                            const purchaseResult = await yominetChain.write({
+                                contractAddress: purchaseAddr,
+                                abi: KAMI_ABIS.purchase,
+                                functionName: "executeTyped",
+                                args: [numTypes, itemTypes, amounts, numItems]
+                            });
+                            return `Transaction executed successfully: ${JSON.stringify(
+                                purchaseResult,
+                                null,
+                                2
+                            )}`;
                         } else {
                             throw new Error("Invalid function name");
                         }
