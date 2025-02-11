@@ -170,5 +170,134 @@ export const KAMI_ABIS = {
             ],
             "stateMutability": "nonpayable"
         }
+    ],
+
+    // Feed/Use Item System ABI
+    useItem: [
+        {
+            "type": "function",
+            "name": "executeTyped",
+            "inputs": [
+                {
+                    "name": "kamiID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                },
+                {
+                    "name": "itemIndex",
+                    "type": "uint32",
+                    "internalType": "uint32"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    ],
+
+    // Item Purchase System ABI
+    purchase: [
+        {
+            "type": "function",
+            "name": "executeTyped",
+            "inputs": [
+                {
+                    "name": "numTypes",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                },
+                {
+                    "name": "itemTypes",
+                    "type": "uint256[]",
+                    "internalType": "uint256[]"
+                },
+                {
+                    "name": "amounts",
+                    "type": "uint256[]",
+                    "internalType": "uint256[]"
+                },
+                {
+                    "name": "numItems",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        }
+    ],
+
+    // Harvest Stop System ABI
+    harvestStop: [
+        {
+            "type": "function",
+            "name": "executeTyped",
+            "inputs": [
+                {
+                    "name": "harvestID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    ],
+
+    // Harvest Collect System ABI
+    harvestCollect: [
+        {
+            "type": "function",
+            "name": "executeTyped",
+            "inputs": [
+                {
+                    "name": "harvestID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    ],
+
+    // Scavenge Claim System ABI
+    scavengeClaim: [
+        {
+            "type": "function",
+            "name": "executeTyped",
+            "inputs": [
+                {
+                    "name": "scavBarID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
     ]
 };
