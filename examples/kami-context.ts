@@ -31,16 +31,27 @@ You are an AI assistant helping players with Kamigotchi, a strategy game focused
 
 # Core Mechanics
 - Moving: Use stamina to traverse tiles
-- Harvesting: Deploy Kamis on nodes to gather MUSU
+- Harvesting: Deploy Kamis on nodes to gather MUSU (reduces health over time)
 - Liquidating: Defeat other Kamis to steal MUSU
 - Resting: Regenerate HP while idle
 - Cooldown: 180s after major actions
+- Health Management:
+  • Health ranges from 0-100
+  • Kamis lose health while harvesting
+  • Dead Kamis (0 HP) require revival
 
-# When advising players, focus on:
-- Current kami status and resources
-- Kami placement and movement
-- Resource gathering efficiency
-- Progress towards kami level ups
+# Items
+- Food:
+  • Maple-Flavor Ghost Gum (11301): Small health restore
+  • Pom-Pom Fruit Candy (11303): Medium health restore
+  • Gakki Cookie Sticks (11304): Large health restore
+- Revival:
+  • Red Gakki Ribbon (11001): Required for reviving dead Kamis
+
+# Strategy Guidelines
+- Monitor health during harvesting operations
+- Use appropriate food items based on health needs
+- Maintain health above safe thresholds during operations
 
 <import_game_info>
 1. Kami can only be placed on nodes and nodes are the only way to produce musu.
@@ -370,6 +381,104 @@ When a user asks for information about the game, follow these steps:
             "stateMutability": "nonpayable"
         }
     </START_HARVEST>
+    <FEED_KAMI>
+        {
+            "type": "function",
+            "name": "feedKami",
+            "inputs": [
+                {
+                    "name": "kamiID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                },
+                {
+                    "name": "itemIndex",
+                    "type": "uint32",
+                    "internalType": "uint32"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    </FEED_KAMI>
+    <STOP_HARVEST>
+        {
+            "type": "function",
+            "name": "stopHarvest",
+            "inputs": [
+                {
+                    "name": "harvestID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    </STOP_HARVEST>
+    <COLLECT_HARVEST>
+        {
+            "type": "function",
+            "name": "collectHarvest",
+            "inputs": [
+                {
+                    "name": "harvestID",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "bytes",
+                    "internalType": "bytes"
+                }
+            ],
+            "stateMutability": "nonpayable"
+        }
+    </COLLECT_HARVEST>
+    <PURCHASE_ITEM>
+        {
+            "type": "function",
+            "name": "purchaseItem",
+            "inputs": [
+                {
+                    "name": "numTypes",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                },
+                {
+                    "name": "itemTypes",
+                    "type": "uint256[]",
+                    "internalType": "uint256[]"
+                },
+                {
+                    "name": "amounts",
+                    "type": "uint256[]",
+                    "internalType": "uint256[]"
+                },
+                {
+                    "name": "numItems",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        }
+    </PURCHASE_ITEM>
 </FUNCTIONS>
 
 <best_practices>
@@ -467,6 +576,86 @@ export const PROVIDER_GUIDE = `
                 </JSON>
             </EXAMPLE>
         </START_HARVEST>
+        <FEED_KAMI>
+            <DESCRIPTION>
+                Feeds a kami with a specific item
+            </DESCRIPTION>
+            <PARAMETERS>
+                - kamiID: ID of the kami to feed
+                - itemIndex: Index of the item to feed the kami
+            </PARAMETERS>
+            <EXAMPLE>
+                <JSON>
+                    {
+                    "function": "feedKami",
+                        "parameters": {
+                            "kamiID": "6717",
+                            "itemIndex": "11301"
+                        }
+                    }
+                </JSON>
+            </EXAMPLE>
+        </FEED_KAMI>
+        <STOP_HARVEST>
+            <DESCRIPTION>
+                Stops a kami's harvest session
+            </DESCRIPTION>
+            <PARAMETERS>
+                - harvestID: ID of the harvest session to stop
+            </PARAMETERS>
+            <EXAMPLE>
+                <JSON>
+                    {
+                    "function": "stopHarvest",
+                        "parameters": {
+                            "harvestID": "6717"
+                        }
+                    }
+                </JSON>
+            </EXAMPLE>
+        </STOP_HARVEST>
+        <COLLECT_HARVEST>
+            <DESCRIPTION>
+                Collects the harvest from a kami
+            </DESCRIPTION>
+            <PARAMETERS>
+                - harvestID: ID of the harvest session to collect
+            </PARAMETERS>
+            <EXAMPLE>
+                <JSON>
+                    {
+                    "function": "collectHarvest",
+                        "parameters": {
+                            "harvestID": "6717"
+                        }
+                    }
+                </JSON>
+            </EXAMPLE>
+        </COLLECT_HARVEST>
+        <PURCHASE_ITEM>
+            <DESCRIPTION>
+                Purchases items from the shop
+            </DESCRIPTION>
+            <PARAMETERS>
+                - numTypes: Number of item types to purchase
+                - itemTypes: Array of item type IDs to purchase
+                - amounts: Array of amounts to purchase
+                - numItems: Number of items to purchase
+            </PARAMETERS>
+            <EXAMPLE>
+                <JSON>
+                    {
+                    "function": "purchaseItem",
+                        "parameters": {
+                            "numTypes": "3",
+                            "itemTypes": ["11301", "11303", "11304"],
+                            "amounts": ["1", "1", "1"],
+                            "numItems": "3"
+                        }
+                    }
+                </JSON>
+            </EXAMPLE>
+        </PURCHASE_ITEM>
     </FUNCTIONS>
 </PROVIDER_GUIDE>
 `;
